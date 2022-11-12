@@ -1,0 +1,4 @@
+- Premium Features Unlocked
+- Ads Disabled Removed
+- CPU Armeabi-v7a Arm64-v8a
+- Full Multi language support
