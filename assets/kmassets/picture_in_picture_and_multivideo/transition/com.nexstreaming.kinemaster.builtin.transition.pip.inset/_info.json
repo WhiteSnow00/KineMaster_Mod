@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.pip.inset",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.pip.inset",
+  "label": {
+    "en": "Inset Video",
+    "ar": "إدخال فيديو",
+    "ko": "인셋 비디오",
+    "pt": "Vídeo inserido",
+    "ja": "インセットビデオ",
+    "fr": "Encadré vidéo",
+    "zh-CN": "内嵌视频",
+    "zh-TW": "插頁視頻",
+    "zh-HK": "插頁視頻",
+    "de": "Video Einschub",
+    "ru": "Видео-вставка",
+    "es": "Insertar vídeo",
+    "hi":"इनसेट वीडियो",
+    "id":"Video Inset",
+    "it":"Inserisci il Video",
+    "ms":"Video Inset",
+    "th":"ใส่วิดีโอ",
+    "tr":"Video İlave Et",
+    "vi":"Chèn video chú thích"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,7 @@
+{
+    "interaction": {
+      "type": "script",
+      "path": "libAlexaMods.so",
+      "on_load": "resume"
+    }
+  }

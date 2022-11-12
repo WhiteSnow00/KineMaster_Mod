@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_sun.svg",
+	"thumbnail":"sticker_sun.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_sun"
+}

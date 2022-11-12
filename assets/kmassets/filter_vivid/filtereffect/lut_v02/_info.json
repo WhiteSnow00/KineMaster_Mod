@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_v02.png",
+    "hidden": "False",
+    "filename": "lut_v02.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_v02.V02",
+    "label": {
+        "pt": "V02",
+        "ja": "V02",
+        "fr": "V02",
+        "zh-CN": "V02",
+        "ko": "V02",
+        "ar": "V02",
+        "zh-TW": "V02",
+        "en": "V02",
+        "zh-HK": "V02",
+        "de": "V02",
+        "ru": "V02",
+        "es": "V02",
+        "hi": "V02",
+        "id": "V02",
+        "it": "V02",
+        "ms": "V02",
+        "th": "V02",
+        "tr": "V02",
+        "vi": "V02"
+    }
+    }

@@ -1,0 +1,33 @@
+{
+  "assetLevel":"7",
+  "assetName": {
+    "en": "Classic Transitions",
+    "ar": "تحويلات كلاسيكية",
+    "ko": "대표 장면전환 효과",
+    "pt": "Transições clássicas",
+    "ja": "代表場面転換効果",
+    "fr": "Transitions classiques",
+    "zh-CN": "经典转场效果",
+    "zh-TW": "經典場景轉換特效",
+    "zh-HK": "經典場景轉換特效",
+    "de": "Klassische Übergänge",
+    "ru": "Классические переходы",
+    "es": "Transiciones clásicas",
+    "hi":"क्लासिक ट्रांसिशन्स",
+    "id":"Transisi Klasik",
+    "it":"Transizioni Classiche",
+    "ms":"Transasi Klasik",
+    "th":"เปลี่ยนแบบคลาสสิก",
+    "tr":"Klasik Geçişler",
+    "vi":"Chuyển đoạn Cổ điển"
+  },
+  "format": "com.kinemaster.assetpackage",
+  "itemRoots": [
+    "transition/com.nexstreaming.kinemaster.builtin.transition.zoomout",
+    "transition/com.nexstreaming.kinemaster.builtin.transition.fadethroughcolor",
+    "transition/com.nexstreaming.kinemaster.builtin.transition.crossfade"
+  ],
+  "minVersionCode": 2,
+  "packageContentVersion": 3,
+  "targetVersionCode": 4
+}

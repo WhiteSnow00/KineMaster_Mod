@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.pip.tiles",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.pip.tiles",
+  "label": {
+    "en": "Video Tiles",
+    "ar": "خلفية الفيديو",
+    "ko": "비디오 타일스",
+    "pt": "Azulejos de vídeo",
+    "ja": "ビデオタイルズ",
+    "fr": "Mosaïques vidéos",
+    "zh-CN": "视频标题",
+    "zh-TW": "視頻磚塊",
+    "zh-HK": "視頻磚塊",
+    "de": "Video Kacheln",
+    "ru": "Плитка с видео",
+    "es": "Cuadros de vídeo",
+    "hi":"वीडियो टाइल्स",
+    "id":"Video Terbagi",
+    "it":"Piastrelle Video",
+    "ms":"Tajuk Video",
+    "th":"กระเบื้องวิดีโอ",
+    "tr":"Video Döşemeleri",
+    "vi":"Ô Video"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "1:1"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.center",
+  "id": "com.nexstreaming.kinemaster.1v1.builtin.title.center",
+  "label": {
+    "en": "Center",
+    "ar": "مركز",
+    "ko": "가운데",
+    "pt": "Centro",
+    "ja": "真ん中",
+    "fr": "Au centre",
+    "zh-CN": "正中间",
+    "zh-TW": "中間",
+    "zh-HK": "中間",
+    "de": "Zentrierung",
+    "ru": "Центр",
+    "es": "Centro",
+    "hi":"मध्य",
+    "id":"Tengah",
+    "it":"Centrale",
+    "ms":"Tengah",
+    "th":"ตรงกลาง",
+    "tr":"Merkez",
+    "vi":"Chính giữa"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

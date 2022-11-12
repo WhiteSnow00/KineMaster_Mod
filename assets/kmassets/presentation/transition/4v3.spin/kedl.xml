@@ -1,0 +1,86 @@
+<effect categorytitle="@string/category_pres_trans" defaultduration="2000" effectoffset="100" icon="spin.60db1a9e301d822b2196a0b5000e845a536f07ac.png" id="com.nexstreaming.kinemaster.builtin4.4v3.spin" maxduration="5000" minduration="500" name="@string/trans_spin" type="transition" videooverlap="100">
+  
+<userfield default="2.5" id="f_inoutdir" type="selection">
+<option value="2.5">
+<fieldlabel locale="en" value="@string/userfld_direction_in" />
+</option>
+<option value="1.5">
+<fieldlabel locale="en" value="@string/userfld_direction_out" />
+</option>
+</userfield>
+
+<animatedvalue id="anim_1" timingfunction="linear">
+<keyframe time="0.0" value="600" />
+<keyframe time="0.9" timingfunction="ease" value="0" />
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<keyframe time="0.0" value="0.010" />
+<keyframe time="0.9" timingfunction="ease" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_3" timingfunction="linear">
+<keyframe time="0.0" value="0" />
+<keyframe time="0.073" value="1" />
+<keyframe time="0.9" timingfunction="ease" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_1b" timingfunction="linear">
+<keyframe time="0.0" value="0" />
+<keyframe time="0.9" timingfunction="ease" value="600" />
+</animatedvalue>
+<animatedvalue id="anim_2b" timingfunction="linear">
+<keyframe time="0.0" value="1" />
+<keyframe time="0.9" timingfunction="ease" value="0.010" />
+</animatedvalue>
+<animatedvalue id="anim_3b" timingfunction="linear">
+<keyframe time="0.0" value="1" />
+<keyframe time="0.827" value="1" />
+<keyframe time="0.9" value="0" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+  <projection
+    type="perspective"
+    fov="45"
+    aspect="1.333333"
+    near="0.01"
+    far="60000">
+    <scale y="-1">
+      <translate offset="-480 -360 -869.1168825">
+
+<visibility check="@f_inoutdir" end="1.9" start="1.0">
+    	
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" texture="@video1" />
+</translate>
+<translate offset="480 360">
+<rotate angle="@anim_1" axis="0 0 1">
+<scale uniform="@anim_2">
+<style alpha="@anim_3">
+<rect bounds="-480 -360 480 360" texture="@video2" />
+</style>
+</scale>
+</rotate>
+</translate>
+			
+</visibility>
+        
+<visibility check="@f_inoutdir" end="2.9" start="2.0">
+    	
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" texture="@video2" />
+</translate>
+<translate offset="480 360">
+<rotate angle="@anim_1b" axis="0 0 1">
+<scale uniform="@anim_2b">
+<style alpha="@anim_3b">
+<rect bounds="-480 -360 480 360" texture="@video1" />
+</style>
+</scale>
+</rotate>
+</translate>
+			
+</visibility>
+        
+</translate>
+</scale>
+</projection>
+</effect>

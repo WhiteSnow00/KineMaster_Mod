@@ -1,0 +1,59 @@
+{
+   "NexSound" : [
+	  {
+		"Title" : "Bass booster",
+		"Category" : "EQ Preset",
+		"File Name" : "Bass_booster.json",
+		"Data" : {
+			"Processor::Equalizer" : {
+				"C00_VCConnection::Serial" : [
+				   {
+					  "E00_VCEffect::Equalizer" : {
+						 "A____Enable (0/1)" : 1,
+						 "Band[1]_BandIndex(1-9)-----" : 1,
+						 "Band[1]_Center_Freq(Hz)" : 89,
+						 "Band[1]_Gain(-12~12)" : 3,
+						 "Band[1]_Q_Factor(1-20)" : 7,
+						 "Band[1]_Type(0:SV/1:PK)" : 0,
+						 "Band[2]_BandIndex(1-9)-----" : 2,
+						 "Band[2]_Center_Freq(Hz)" : 125,
+						 "Band[2]_Gain(-12~12)" : 3,
+						 "Band[2]_Q_Factor(1-20)" : 13,
+						 "Band[3]_BandIndex(1-9)-----" : 3,
+						 "Band[3]_Center_Freq(Hz)" : 250,
+						 "Band[3]_Gain(-12~12)" : 4,
+						 "Band[3]_Q_Factor(1-20)" : 13,
+						 "Band[4]_BandIndex(1-9)-----" : 4,
+						 "Band[4]_Center_Freq(Hz)" : 500,
+						 "Band[4]_Gain(-12~12)" : 4,
+						 "Band[4]_Q_Factor(1-20)" : 13,
+						 "Band[5]_BandIndex(1-9)-----" : 5,
+						 "Band[5]_Center_Freq(Hz)" : 1000,
+						 "Band[5]_Gain(-12~12)" : 0,
+						 "Band[5]_Q_Factor(1-20)" : 13,
+						 "Band[6]_BandIndex(1-9)-----" : 6,
+						 "Band[6]_Center_Freq(Hz)" : 2000,
+						 "Band[6]_Gain(-12~12)" : 0,
+						 "Band[6]_Q_Factor(1-20)" : 13,
+						 "Band[7]_BandIndex(1-9)-----" : 7,
+						 "Band[7]_Center_Freq(Hz)" : 4000,
+						 "Band[7]_Gain(-12~12)" : 0,
+						 "Band[7]_Q_Factor(1-20)" : 12,
+						 "Band[8]_BandIndex(1-9)-----" : 8,
+						 "Band[8]_Center_Freq(Hz)" : 8000,
+						 "Band[8]_Gain(-12~12)" : 0,
+						 "Band[8]_Q_Factor(1-20)" : 7,
+						 "Band[9]_BandIndex(1-9)-----" : 9,
+						 "Band[9]_Center_Freq(Hz)" : 11220,
+						 "Band[9]_Gain(-12~12)" : 0,
+						 "Band[9]_Q_Factor(1-20)" : 7,
+						 "Band[9]_Type(0:SV/1:PK)" : 0
+					  }
+				   }
+				]
+			 }
+		 }
+      }
+   ]
+}
+

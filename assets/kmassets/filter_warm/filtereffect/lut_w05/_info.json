@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_w05.png",
+    "hidden": "False",
+    "filename": "lut_w05.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_w05.W05",
+    "label": {
+        "pt": "W05",
+        "ja": "W05",
+        "fr": "W05",
+        "zh-CN": "W05",
+        "ko": "W05",
+        "ar": "W05",
+        "zh-TW": "W05",
+        "en": "W05",
+        "zh-HK": "W05",
+        "de": "W05",
+        "ru": "W05",
+        "es": "W05",
+        "hi": "W05",
+        "id": "W05",
+        "it": "W05",
+        "ms": "W05",
+        "th": "W05",
+        "tr": "W05",
+        "vi": "W05"
+    }
+    }

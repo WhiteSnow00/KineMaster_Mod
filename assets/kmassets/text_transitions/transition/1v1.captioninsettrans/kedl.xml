@@ -1,0 +1,85 @@
+<effect categorytitle="@string/category_text_transitions" defaultduration="4000" effectoffset="100" icon="transition_captioned_inset.90607a5d184174b7aa5db836e16b0bdf45a3d07a.png" id="com.nexstreaming.kinemaster.builtin3.1v1.captioninsettrans" maxduration="8000" minduration="500" name="@string/trans_captioned_inset" type="transition" videooverlap="100">
+  
+<userfield id="f_text" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+  
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<userfield default="#000000" id="f_color_bg" type="color">
+<fieldlabel locale="en" value="@string/userfld_bg_color" />
+</userfield>
+  
+<animatedvalue id="anim_1" timingfunction="linear">
+<keyframe time="0.0" value="0" />
+<keyframe time="1.0" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<keyframe time="0.0" value="360 110" />
+<keyframe time="0.22" timingfunction="default" value="360 270.792" />
+<keyframe time="0.66" value="360 270" />
+<keyframe time="1.0" value="360 360" />
+</animatedvalue>
+<animatedvalue id="anim_3" timingfunction="linear">
+<keyframe time="0.0" value="0.010" />
+<keyframe time="0.22" timingfunction="default" value="0.300" />
+<keyframe time="0.66" value="0.300" />
+<keyframe time="1.0" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_4" timingfunction="linear">
+<keyframe time="0.0" value="0" />
+<keyframe time="0.22" timingfunction="default" value="1" />
+<keyframe time="1.0" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_5" timingfunction="linear">
+<keyframe time="0.66" value="360 419" />
+<keyframe time="0.93" value="360 695" />
+</animatedvalue>
+<animatedvalue id="anim_6" timingfunction="linear">
+<keyframe time="0.18" value="0.500" />
+<keyframe time="0.33" timingfunction="default" value="1" />
+<keyframe time="0.66" value="1" />
+<keyframe time="0.93" value="2" />
+</animatedvalue>
+<animatedvalue id="anim_7" timingfunction="linear">
+<keyframe time="0.18" value="0" />
+<keyframe time="0.33" timingfunction="default" value="1" />
+<keyframe time="0.66" value="1" />
+<keyframe time="0.93" value="0" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text" height="67" id="text1" srcfield="@f_text" text="%1" textalign="center" textsize="50" textvalign="center" typeface="asset:lato-bold.ttf" width="582" />
+
+<projection type="perspective" fov="45" aspect="1.0" near="0.01" far="60000">
+  <scale y="-1">
+    <translate offset="-360 -360 -869.1168825">
+
+<translate offset="360 360">
+<rect bounds="-360 -360 360 360" texture="@video1" />
+</translate>
+<translate offset="360 360">
+<style alpha="@anim_1">
+<rect bounds="-360 -360 360 360" color="@f_color_bg" />
+</style>
+</translate>
+<translate offset="@anim_2">
+<scale uniform="@anim_3">
+<style alpha="@anim_4">
+<rect bounds="-360 -360 360 360" texture="@video2" />
+</style>
+</scale>
+</translate>
+<translate offset="@anim_5">
+<scale uniform="@anim_6">
+<style alpha="@anim_7">
+<rect bounds="-291 -33.500 291 33.500" texture="@text1" />
+</style>
+</scale>
+</translate>
+</translate>
+</scale>
+</projection>
+</effect>

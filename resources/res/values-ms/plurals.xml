@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d track</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="other">Duplicate %s Item?</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">Kata laluan tidak cukup kuat. Gunakan sekurang-kurangnya %1$d watak dan gabungan huruf dan angka</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Mundar laju %d saat</item>
+        <item quantity="other">Mundar laju %d saat</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Mandir %d saat</item>
+        <item quantity="other">Mandir %d saat</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Kata laluan tidak kukuh. Gunakan sekuang-kurangnya %1$d aksara dan gabungkan huruf dengan nombor</item>
+        <item quantity="other">Kata laluan tidak kukuh. Gunakan sekuang-kurangnya %1$d aksara dan gabungkan huruf dengan nombor</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">Fail audio hilang dari projek ini pada %s.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">Fail Gambar tiada dari projek ini pada %s.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">Sebaiknya ganti fail media yang hilang sebelum menyimpan.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">Fail video hilang dari projek ini pada %s.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d pemberitahuan baharu</item>
+        <item quantity="other">%d pemberitahuan baharu</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="other">%d komen</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="other">%d projek-projek akan dipadam.</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="other">%d Projek-projek Terpilih</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">Pengguna Premium KineMaster (%d day remaining)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="other">%s/ bulan bagi %d bulan</item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="other">%s/ tahun bagi %d tahun</item>
+    </plurals>
+</resources>

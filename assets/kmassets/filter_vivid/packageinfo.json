@@ -1,0 +1,37 @@
+{
+    "thumbnail":"thumb_lut_v02.png",
+    "packageContentVersion": 1,
+    "itemRoots": [
+        "filtereffect/lut_v01",
+        "filtereffect/lut_v02",
+        "filtereffect/lut_v03",
+        "filtereffect/lut_v04",
+        "filtereffect/lut_v05",
+        "filtereffect/lut_v06"
+    ],
+    "targetVersionCode": 2,
+    "format": "com.kinemaster.assetpackage",
+    "minVersionCode": 2,
+    "assetName": {
+        "pt": "Vívido",
+        "ja": "ビビット",
+        "fr": "Vivid",
+        "zh-CN": "鲜明",
+        "ko": "선명한",
+        "ar": "زاهي",
+        "zh-TW": "鮮明",
+        "en": "Vivid",
+        "zh-HK": "鮮明",
+        "de": "Lebendig",
+        "ru": "Яркий",
+        "es": "Brillante",
+        "hi": "विविद",
+        "id": "Jelas",
+        "it": "Vivido",
+        "ms": "Jelas",
+        "th": "สดใส",
+        "tr": "Canlı",
+        "vi": "Sống động"
+    },
+    "assetLevel": 7
+}

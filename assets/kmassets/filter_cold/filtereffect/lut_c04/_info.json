@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_c04.png",
+    "hidden": "False",
+    "filename": "lut_c04.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_c04.C04",
+    "label": {
+        "pt": "C04",
+        "ja": "C04",
+        "fr": "C04",
+        "zh-CN": "C04",
+        "ko": "C04",
+        "ar": "C04",
+        "zh-TW": "C04",
+        "en": "C04",
+        "zh-HK": "C04",
+        "de": "C04",
+        "ru": "C04",
+        "es": "C04",
+        "hi": "C04",
+        "id": "C04",
+        "it": "C04",
+        "ms": "C04",
+        "th": "C04",
+        "tr": "C04",
+        "vi": "C04"
+    }
+    }

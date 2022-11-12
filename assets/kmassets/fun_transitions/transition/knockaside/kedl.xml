@@ -1,0 +1,40 @@
+<effect categorytitle="@string/category_fun_trans" defaultduration="2000" effectoffset="100" icon="transition_knock_aside.eebaec3e61ac9382aeb1acf6f8686ed283a00436.png" id="com.nexstreaming.kinemaster.builtin3.knockaside" maxduration="5000" minduration="500" name="@string/trans_knock_aside" type="transition" videooverlap="100">
+  
+<animatedvalue id="v1slide" timingfunction="linear">
+<keyframe time="0.45" value="640 360" />
+<keyframe time="0.50" timingfunction="ease-in" value="-210.989 360" />
+</animatedvalue>
+<animatedvalue id="v1scale" timingfunction="linear">
+<keyframe time="0.0" value="1" />
+<keyframe time="0.4" timingfunction="ease-in-out" value="0.300" />
+</animatedvalue>
+<animatedvalue id="v2slide" timingfunction="linear">
+<keyframe time="0.33" value="1486.161 360" />
+<keyframe time="0.45" timingfunction="ease-in" value="1025 360" />
+<keyframe time="0.50" timingfunction="ease-out" value="1050 360" />
+<keyframe time="0.60" timingfunction="ease-in-out" value="1050 360" />
+<keyframe time="0.78" timingfunction="ease-in-out" value="640 360" />
+</animatedvalue>
+<animatedvalue id="v2scale" timingfunction="linear">
+<keyframe time="0.74" value="0.300" />
+<keyframe time="1.0" timingfunction="ease-in-out" value="1" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<scale y="-1">
+<translate offset="-640 -360 -870">
+<translate offset="@v1slide">
+<scale uniform="@v1scale">
+<rect bounds="-640 -360 640 360" texture="@video1" />
+</scale>
+</translate>
+<translate offset="@v2slide">
+<scale uniform="@v2scale">
+<rect bounds="-640 -360 640 360" texture="@video2" />
+</scale>
+</translate>
+</translate>
+</scale>
+</projection>
+</effect>

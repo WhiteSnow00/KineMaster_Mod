@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b30.png",
+    "hidden": "False",
+    "filename": "lut_b30.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b30.B30",
+    "label": {
+        "pt": "B30",
+        "ja": "B30",
+        "fr": "B30",
+        "zh-CN": "B30",
+        "ko-KR": "B30",
+        "ar": "B30",
+        "zh-TW": "B30",
+        "en": "B30",
+        "zh-HK": "B30",
+        "de-DE": "B30",
+        "ru": "B30",
+        "es": "B30",
+        "hi": "B30",
+        "id": "B30",
+        "it": "B30",
+        "ms": "B30",
+        "th": "B30",
+        "tr-TR": "B30",
+        "vi-VN": "B30"
+    }
+}

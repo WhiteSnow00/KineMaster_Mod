@@ -1,0 +1,27 @@
+{
+   "NexSound" : [
+      {
+         "Processor::VoiceChanger" : {
+            "C00_VCConnection::Serial" : [
+               {
+                  "E00_VCEffect::Headroom" : {
+                     "P01_Headroom(dB)" : -3
+                  },
+                  "E01_VCEffect::Reverb" : {
+                     "P01_Strength(0/6)" : 6,
+                     "P02_Bass(0/6)" : 0,
+                     "P03_Output_Volume(dB)" : 0
+                  }
+               },
+               {
+                  "E00_VCEffect::VoiceChanger" : {
+                     "Enable(0/1)" : 1,
+                     "Voice Type(0-4)" : 4
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
+

@@ -1,0 +1,20 @@
+<effect cycletime="4000" id="com.nexstreaming.kinemaster.9v16.travel.accent" intime="0" intimefirst="0" outtime="0" outtimelast="0" repeat="yes" theme="true" type="title">
+	
+<texture id="video1" video="1" />
+<texture id="img_plane_png" src="r3" />
+<animatedvalue id="img_2_pos" timingfunction="linear">
+<keyframe value="-204 640.5" />
+<keyframe value="1556 640.5" />
+</animatedvalue>
+
+<projection type="perspective" fov="45" aspect="0.5625" near="0.01" far="60000">
+<translate offset="-360 -640 -1545.09668">
+
+<rect bounds="0 1280 720 0" texture="@video1" />
+<translate offset="@img_2_pos">
+<rect bounds="-204 67.5 204 -67.5" texture="@img_plane_png" />
+</translate>
+</translate>
+</projection>
+
+</effect>

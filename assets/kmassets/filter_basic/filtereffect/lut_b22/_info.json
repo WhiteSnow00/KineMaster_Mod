@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b22.png",
+    "hidden": "False",
+    "filename": "lut_b22.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b22.B22",
+    "label": {
+        "pt": "B22",
+        "ja": "B22",
+        "fr": "B22",
+        "zh-CN": "B22",
+        "ko-KR": "B22",
+        "ar": "B22",
+        "zh-TW": "B22",
+        "en": "B22",
+        "zh-HK": "B022",
+        "de-DE": "B22",
+        "ru": "B22",
+        "es": "B22",
+        "hi": "B22",
+        "id": "B22",
+        "it": "B22",
+        "ms": "B22",
+        "th": "B22",
+        "tr-TR": "B22",
+        "vi-VN": "B22"
+    }
+}

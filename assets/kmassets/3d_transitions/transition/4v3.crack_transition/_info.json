@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+    "kmcategory" : ["kmc.transition"],
+  "filename": "renderitem.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.3d.crack_transition",
+  "id": "com.nexstreaming.csd.4v3.crack_transition",
+  "label": {
+    "en": "Cracked Glass",
+    "ar": "زجاج مخدوش",
+    "ko": "유리 파편",
+    "pt": "Vidro Rachado",
+    "ja": "砕けたグラス",
+    "fr": "Verre Fissuré",
+    "zh-CN": "玻璃碎片",
+    "zh-TW": "玻璃碎片",
+    "zh-HK": "玻璃碎片",
+    "de": "Zerbrochenes Glass",
+    "ru": "Треснувшее стекло",
+    "es": "Cristal Roto",
+    "hi":"टूटा काच",
+    "id":"Kaca Pecah",
+    "it":"Vetro Incrinato",
+    "ms":"Kaca Pecah",
+    "th":"กระจกแตก",
+    "tr":"Çatlamış Cam",
+    "vi":"Kính vỡ"
+  },
+  "type": "nex.renderitem",
+  "hidden": false
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="frag_account_info_free_btn_holder_marginTop">2dp</dimen>
+    <dimen name="frag_account_info_marginLeftAndRight">33dp</dimen>
+    <dimen name="product_view_title_text_size">12dp</dimen>
+</resources>

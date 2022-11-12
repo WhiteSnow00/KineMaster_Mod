@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:5"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.travel.transition",
+  "id": "com.nexstreaming.kinemaster.travel.4v5.transition",
+  "label": {
+    "en": "Travel",
+    "ar": "سفر",
+    "ko": "여행",
+    "pt": "Viagem",
+    "ja": "旅行",
+    "fr": "Voyage",
+    "zh-CN": "旅行",
+    "zh-TW": "旅行",
+    "zh-HK": "旅行",
+    "de": "Reisen",
+    "ru": "Путешествие",
+    "es": "Viajes",
+    "hi":"यात्रा",
+    "id":"Perjalanan",
+    "it":"Viaggio",
+    "ms":"Perjalanan",
+    "th":"การเดินทาง",
+    "tr":"Gezi",
+    "vi":"Du lịch"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

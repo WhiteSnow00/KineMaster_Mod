@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.stylishsub",
+  "id": "com.nexstreaming.kinemaster.4v3.builtin.title.stylishsub",
+  "label": {
+    "en": "Stylish Subtitle",
+    "ar": "عنوان فرعي أنيق",
+    "ko": "스타일리시(서브 타이틀)",
+    "pt": "Legenda elegante",
+    "ja": "スタイリッシュ（字幕）",
+    "fr": "Sous-titre élégant",
+    "zh-CN": "时尚(字幕)",
+    "zh-TW": "時尚(字幕)",
+    "zh-HK": "時尚(字幕)",
+    "de": "Stilvolle Untertitel",
+    "ru": "Стильный подзаголовок",
+    "es": "Subtítulo elegante",
+    "hi":"स्टाइलिश सबटाइटल",
+    "id":"Judul Tambahan Bergaya",
+    "it":"Sottotitolo Elegante",
+    "ms":"Tajuk Tambahan Bergaya",
+    "th":"คำบรรยายแบบทันสมัย",
+    "tr":"Şık Altyazı",
+    "vi":"Phụ đề (Nghệ thuật)"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

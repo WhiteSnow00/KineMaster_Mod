@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:5"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.onstage.middle",
+  "id": "com.nexstreaming.kinemaster.4v5.onstage.middle",
+  "label": {
+    "en": "On-Stage - Middle",
+    "ar": "على المسرح - وسط",
+    "ko": "스테이지 - 중간",
+    "pt": "No palco - Meio",
+    "ja": "ステージ - 中間",
+    "fr": "Sur scène - Milieu",
+    "zh-CN": "舞台 - 中间",
+    "zh-TW": "舞臺 - 中間",
+    "zh-HK": "舞臺 - 中間",
+    "de": "Auf der Bühne - Mitte",
+    "ru": "На сцене - Середина",
+    "es": "En escena - Intermedio",
+    "hi":"ओन- स्टेज - मध्य",
+    "id":"Di Atas Panggung - Tengah",
+    "it":"In-Scena - Intermedio",
+    "ms":"Pada Pertengahan Pentas",
+    "th":"บนเวที - ตอนกลาง",
+    "tr":"Sahnede - Orta",
+    "vi":"On-Stage - Phần giữa"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

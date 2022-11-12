@@ -1,0 +1,70 @@
+<effect categorytitle="@string/category_basic_title" icon="fx_text_modern.4d93de07bd523eafee64affe26bb28154761fc3b.png" id="com.nexstreaming.kinemaster.4v3.builtin.title.modern" intime="2000" intimefirst="2000" name="@string/fx_modern" outtime="2000" outtimelast="2000" repeat="no" type="title">
+
+<texture id="video1" video="1" />
+<userfield id="f_text" maxlines="2" type="text">
+<fieldlabel locale="en" value="@string/userfld_first_line" />
+</userfield>
+    
+<userfield id="f_text2" maxlines="2" type="text">
+<fieldlabel locale="en" value="@string/userfld_second_line" />
+</userfield>
+    
+<userfield default="#FFFFFF" id="f_color_line" type="color">
+<fieldlabel locale="en" value="@string/userfld_light_color" />
+</userfield>
+
+<userfield default="#000000" id="f_color_line2" type="color">
+<fieldlabel locale="en" value="@string/userfld_dark_color" />
+</userfield>
+    
+<texture autosize="false" bgcolor="@f_color_line" cutout="true" fill="true" fillcolor="#00000000" height="272" id="text_3" shadow="false" shadowcolor="0 0 0 0.75" shadowoffset="5 5" shadowradius="8" srcfield="@f_text" text="%1" textalign="center" textmargin="0" textsize="200" textvalign="center" typeface="asset:leaguegothic.ttf" width="1922" />
+    	
+<texture autosize="false" fillcolor="@f_color_line" height="272" id="text_4" shadow="false" shadowcolor="0 0 0 0.75" shadowoffset="5 5" shadowradius="8" srcfield="@f_text2" text="%1" textalign="center" textmargin="0" textsize="200" textvalign="center" typeface="asset:leaguegothic.ttf" width="1922" />
+    	
+<animatedvalue id="slide_top" scope="whole" timingfunction="linear">
+<keyframe value="0 0" />
+<keyframe value="-0.5 0" />
+</animatedvalue>
+    	
+<animatedvalue id="slide_bottom" scope="whole" timingfunction="linear">
+<keyframe value="0 0" />
+<keyframe value="0.5 0" />
+</animatedvalue>
+    	
+<animatedvalue id="fade">
+<part type="in">
+<keyframe value="0" />
+<keyframe value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+</part>
+<part type="out">
+<keyframe value="1" />
+<keyframe value="0" />
+</part>
+</animatedvalue>
+    	
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+    
+<style alpha="@fade">
+
+<scale x="1" y="0.5" >
+
+<rect bounds="-1 0.52222 1 -0.48519" color="@f_color_line2.r*0.5 @f_color_line2.g*0.5 @f_color_line2.b*0.5 0.5" />
+    
+<translate offset="@slide_top">
+<rect bounds="-1.00208 0.52222 1.00000 0.01852" texture="@text_3" />
+<rect bounds="1 0.52222 2.00000 0.01852" color="@f_color_line" />
+</translate>
+		
+<translate offset="@slide_bottom">
+<rect bounds="-1.00208 0.01852 1.00000 -0.48519" texture="@text_4" />
+</translate>
+
+</scale>
+
+</style>
+
+	
+</effect>

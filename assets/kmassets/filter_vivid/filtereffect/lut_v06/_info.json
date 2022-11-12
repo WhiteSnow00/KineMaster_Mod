@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_v06.png",
+    "hidden": "False",
+    "filename": "lut_v06.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_v06.V06",
+    "label": {
+        "pt": "V06",
+        "ja": "V06",
+        "fr": "V06",
+        "zh-CN": "V06",
+        "ko": "V06",
+        "ar": "V06",
+        "zh-TW": "V06",
+        "en": "V06",
+        "zh-HK": "V06",
+        "de": "V06",
+        "ru": "V06",
+        "es": "V06",
+        "hi": "V06",
+        "id": "V06",
+        "it": "V06",
+        "ms": "V06",
+        "th": "V06",
+        "tr": "V06",
+        "vi": "V06"
+    }
+    }

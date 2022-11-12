@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.boxtexttrans",
+  "id": "com.nexstreaming.kinemaster.builtin3.4v3.boxtexttrans",
+  "label": {
+    "en": "Square Title",
+    "ar": "عنوان المربع",
+    "ko": "사각형 타이틀",
+    "pt": "Título quadrado",
+    "ja": "長方形の字幕",
+    "fr": "Titre carré",
+    "zh-CN": "广场标题",
+    "zh-TW": "正方形標題",
+    "zh-HK": "正方形標題",
+    "de": "Quadratischer Titel",
+    "ru": "Название квадратом",
+    "es": "Título cuadrado",
+    "hi":"स्क्वायर टाइटल",
+    "id":"Judul Warna",
+    "it":"Titolo Quadrato",
+    "ms":"Tajuk Berkotak",
+    "th":"ชื่อสแควร์",
+    "tr":"Kare Başlığı",
+    "vi":"Ô Hình vuông"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

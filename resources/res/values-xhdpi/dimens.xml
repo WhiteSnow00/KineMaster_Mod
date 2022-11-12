@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="product_view_buy_button_height">31dp</dimen>
+    <dimen name="product_view_price_text_height">47dp</dimen>
+    <dimen name="product_view_price_text_width">119dp</dimen>
+    <dimen name="product_view_title_text_size">14dp</dimen>
+</resources>

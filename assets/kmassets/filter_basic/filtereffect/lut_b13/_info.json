@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b13.png",
+    "hidden": "False",
+    "filename": "lut_dbright.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b13.B13",
+    "label": {
+        "pt": "B13",
+        "ja": "B13",
+        "fr": "B13",
+        "zh-CN": "B13",
+        "ko": "B13",
+        "ar": "B13",
+        "zh-TW": "B13",
+        "en": "B13",
+        "zh-HK": "B13",
+        "de": "B13",
+        "ru": "B13",
+        "es": "B13",
+        "hi": "B13",
+        "id": "B13",
+        "it": "B13",
+        "ms": "B13",
+        "th": "B13",
+        "tr": "B13",
+        "vi": "B13"
+    }
+    }

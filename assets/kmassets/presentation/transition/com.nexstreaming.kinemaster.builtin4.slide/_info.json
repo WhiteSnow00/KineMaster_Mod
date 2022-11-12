@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.slide",
+  "id": "com.nexstreaming.kinemaster.builtin4.slide",
+  "label": {
+    "en": "Slide",
+    "ar": "انزلاق",
+    "ko": "슬라이드",
+    "pt": "Deslizar",
+    "ja": "スライド",
+    "fr": "Glissement",
+    "zh-CN": "滑入",
+    "zh-TW": "推入",
+    "zh-HK": "推入",
+    "de": "Gleiten",
+    "ru": "Скольжение",
+    "es": "Deslizar",
+    "hi":"स्लाइड",
+    "id":"Geser",
+    "it":"Diapositiva",
+    "ms":"Luncurkan",
+    "th":"เลื่อน",
+    "tr":"Kaydır",
+    "vi":"Trượt"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

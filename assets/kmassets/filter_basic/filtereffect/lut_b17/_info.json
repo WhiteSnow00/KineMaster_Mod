@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b17.png",
+    "hidden": "False",
+    "filename": "lut_daisy.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b17.B17",
+    "label": {
+        "pt": "B17",
+        "ja": "B17",
+        "fr": "B17",
+        "zh-CN": "B17",
+        "ko": "B17",
+        "ar": "B17",
+        "zh-TW": "B17",
+        "en": "B17",
+        "zh-HK": "B17",
+        "de": "B17",
+        "ru": "B17",
+        "es": "B17",
+        "hi": "B17",
+        "id": "B17",
+        "it": "B17",
+        "ms": "B17",
+        "th": "B17",
+        "tr": "B17",
+        "vi": "B17"
+    }
+    }

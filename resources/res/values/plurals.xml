@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="one">%d track</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="one">This beta version will expire in %d day</item>
+        <item quantity="other">This beta version will expire in %d days</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="one">Duplicate %s Item?</item>
+        <item quantity="other">Duplicate %s Items?</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="one">An audio file is missing from this project at %s.</item>
+        <item quantity="other">Audio files are missing from this project.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="one">An Image file is missing from this project at %s.</item>
+        <item quantity="other">Image files are missing from this project.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="one">It is recommended that you replace the missing media file before saving.</item>
+        <item quantity="other">It is recommended that you replace the missing media files before saving.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="one">A Video file is missing from this project at %s.</item>
+        <item quantity="other">Video files are missing from this project.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="one">%d Comment</item>
+        <item quantity="other">%d Comments</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="one">%d project will be deleted.</item>
+        <item quantity="other">%d projects will be deleted.</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="one">%d Project Selected</item>
+        <item quantity="other">%d Projects Selected</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="one">KineMaster Premium User (%d day remaining)</item>
+        <item quantity="other">KineMaster Premium User (%d days remaining)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="one">%s for %d month!</item>
+        <item quantity="other">%s / month for %d months! </item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="one">%s for %d year!</item>
+        <item quantity="other">%s / year for %d years!</item>
+    </plurals>
+</resources>

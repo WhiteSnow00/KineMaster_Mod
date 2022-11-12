@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b16.png",
+    "hidden": "False",
+    "filename": "lut_ludwig.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b16.B16",
+    "label": {
+        "pt": "B16",
+        "ja": "B16",
+        "fr": "B16",
+        "zh-CN": "B16",
+        "ko": "B16",
+        "ar": "B16",
+        "zh-TW": "B16",
+        "en": "B16",
+        "zh-HK": "B16",
+        "de": "B16",
+        "ru": "B16",
+        "es": "B16",
+        "hi": "B16",
+        "id": "B16",
+        "it": "B16",
+        "ms": "B16",
+        "th": "B16",
+        "tr": "B16",
+        "vi": "B16"
+    }
+    }

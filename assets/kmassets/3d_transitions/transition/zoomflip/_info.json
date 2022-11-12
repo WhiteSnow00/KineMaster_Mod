@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "kmcategory" : ["kmc.transition"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.3d.zoomflip",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.zoomflip",
+  "label": {
+    "en": "3D Zoom Flip",
+    "ar": "عكس زوم ثلاثي الأبعاد",
+    "ko": "3D 줌 회전",
+    "pt": "Virar zoom 3D",
+    "ja": "３Ｄズーム回転",
+    "fr": "Basculement zoom 3D",
+    "zh-CN": "3D 放大 旋转",
+    "zh-TW": "3D 放大 旋轉",
+    "zh-HK": "3D 放大 旋轉",
+    "de": "3D Zoom Flip",
+    "ru": "3D-вращение с зумом",
+    "es": "Voltear 3D con acercamiento",
+    "hi":"3D ज़ूम फ्लिप",
+    "id" :"Pembalik Zoom 3D",
+    "it":"Vibrazione Zoom 3D",
+    "ms":"Pembalik Zum 3D",
+    "th":"พลิกซูม 3D",
+    "tr":"3D Yakın Çevirme",
+    "vi":"Zoom lật 3D"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,31 @@
+{
+  "ratios":["9:16"],
+  "kmcategory" : ["kmc.transition"],
+  "filename": "renderitem.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.3d.bouncebox",
+  "id": "om.nexstreaming.kinemaster.9v16.builtin3.bouncebox",
+  "label": {
+    "en": "Bouncy Box",
+    "ar": "صندوق نطاط",
+    "ko": "튕기는 상자",
+    "pt": "Caixa Saltitante",
+    "ja": "はじかれるファイル",
+    "fr": "Boîte Surprise",
+    "zh-CN": "弹跳箱",
+    "zh-TW": "跳躍箱",
+    "zh-HK": "跳躍箱",
+    "de": "Bouncy Box",
+    "ru": "Прягающая коробка",
+    "es": "Caja Saltarina",
+    "hi":"बाउंसी बॉक्स",
+    "id":"Box Bergoyang",
+    "it":"Scatola Rimbalzante",
+    "ms":"Kotak Bergoyang",
+    "th":"กล่องเด้ง",
+    "tr":"Şişme Kutu",
+    "vi":"Hộp nảy"
+  },
+  "type": "nex.renderitem",
+  "hidden": "false"
+}

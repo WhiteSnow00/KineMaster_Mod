@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "kmcategory" : ["kmc.transition"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.zoomout",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.zoomout",
+  "label": {
+    "en": "Zoom out",
+    "ar": "تصغير",
+    "ko": "줌 아웃",
+    "pt": "Diminuir zoom",
+    "ja": "ズームアウト",
+    "fr": "Dézoomer",
+    "zh-CN": "放大退出",
+    "zh-TW": "漸淡退出",
+    "zh-HK": "漸淡退出",
+    "de": "Herauszoomen",
+    "ru": "Уменьшение",
+    "es": "Alejar",
+    "hi":"ज़ूम ऑउट",
+    "id":"Memperkecil",
+    "it":"Rimpicciolire",
+    "ms":"Mengecilkan",
+    "th":"ซูมออก",
+    "tr":"Uzaklaştır",
+    "vi":"Zoom ra xa"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

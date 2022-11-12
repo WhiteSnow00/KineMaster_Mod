@@ -1,0 +1,31 @@
+{
+  "ratios":["9:16"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.captioninsettrans",
+  "id": "com.nexstreaming.kinemaster.builtin3.9v16.captioninsettrans",
+  "label": {
+    "en": "Captioned Inset",
+    "ar": "إدخال تسمية",
+    "ko": "삽화 타이틀",
+    "pt": "Inserir Legenda",
+    "ja": "挿入字幕",
+    "fr": "Encart sous-titré",
+    "zh-CN": "字幕插图",
+    "zh-TW": "插圖式字幕",
+    "zh-HK": "插圖式字幕",
+    "de": "Untertitel-Einschub",
+    "ru": "Вставка с надписью",
+    "es": "Inserción de subtítulos",
+    "hi":"चित्रण शीर्षक",
+    "id":"Inset Keterangan",
+    "it":"Inserzione con Didascalia",
+    "ms":"Inset Keterangan",
+    "th":"ใส่คำบรรยาย",
+    "tr":"Yazılı Ek",
+    "vi":"Phụ đề Chú thích"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,53 @@
+<effect categorytitle="@string/category_basic_title" icon="fx_text_center.114f6215283704ceb7b8e88d981ca4bfca2a96ac.png" id="com.nexstreaming.kinemaster.9v16.builtin.title.center" intime="1500" intimefirst="1500" maxtitleduration="8000" name="@string/fx_center" outtime="1500" outtimelast="1500" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="2" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<texture id="video1" video="1" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text" height="300" id="text_2" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="5 5" shadowradius="8" srcfield="@f_text" text="%1" textalign="center" textmargin="0" textsize="65" textvalign="center" typeface="asset:lato-bold.ttf" width="750" />
+<animatedvalue id="text_2_alpha">
+<part type="in">
+<keyframe value="0" />
+<keyframe value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+</part>
+<part type="out">
+<keyframe value="1" />
+<keyframe value="0" />
+</part>
+</animatedvalue>
+<animatedvalue id="text_2_pos">
+<part type="in">
+<keyframe value="360 650" />
+<keyframe value="360 650" />
+</part>
+<part type="mid">
+<keyframe value="360 650" />
+<keyframe value="360 650" />
+</part>
+<part type="out">
+<keyframe value="360 650" />
+<keyframe value="360 650" />
+</part>
+</animatedvalue>
+
+<projection type="perspective" fov="45" aspect="0.5625" near="0.01" far="60000">
+<translate offset="-360 -640 -1545.09668">
+
+<rect bounds="0 1280 720 0" texture="@video1" />
+<translate offset="@text_2_pos">
+<style alpha="@text_2_alpha">
+<rect bounds="-333.5 133 333.5 -133" texture="@text_2" />
+</style>
+</translate>
+</translate>
+</projection>
+	
+</effect>

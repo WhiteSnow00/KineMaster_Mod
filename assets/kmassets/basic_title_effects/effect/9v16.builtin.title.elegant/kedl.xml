@@ -1,0 +1,33 @@
+<effect categorytitle="@string/category_basic_title" icon="fx_text_elegant.3638b83ccb8bf1f92f01fca07919df7e02974023.png" id="com.nexstreaming.kinemaster.9v16.builtin.title.elegant" intime="1000" intimefirst="0" maxtitleduration="8000" name="@string/fx_elegant" outtime="1000" outtimelast="1000" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="4" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<texture id="videoframe" video="1" />
+	
+<texture fill="true" fillcolor="@f_color_text" height="400" id="title_text" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" text="%1" textalign="center" textmargin="12" textsize="150" typeface="asset:goudy_stm_italic.ttf" width="600" />
+	
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+	
+<animatedvalue id="fade">
+<part type="in"><keyframe value="0" /><keyframe value="1" /></part>
+<part type="mid"><keyframe value="1" /></part>
+<part type="out"><keyframe value="1" /><keyframe value="0" /></part>
+</animatedvalue>
+	
+<projection type="perspective" fov="45" aspect="0.5625" near="0.01" far="60000">
+<translate offset="0 0 -10.885">
+<scale uniform="0.025">
+<style alpha="@fade">
+<rect anchor="center" height="100" location="0 0" scalemode="fit" texture="@title_text" width="150" />
+</style>
+</scale>
+</translate>
+</projection>
+	
+</effect>

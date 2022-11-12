@@ -1,0 +1,34 @@
+{
+    "ratios": [
+        "3:4"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.serene.middle",
+  "id": "com.nexstreaming.kinemaster.3v4.serene.middle",
+  "label": {
+    "en": "Serene - Middle",
+    "ar": "هادئ - وسط",
+    "ko": "고요한 - 중간",
+    "pt": "Sereno - Meio",
+    "ja": "静かな - 中間",
+    "fr": "Serein - Milieu",
+    "zh-CN": "沉静 - 中间",
+    "zh-TW": "寧靜 - 中間",
+    "zh-HK": "寧靜 - 中間",
+    "de": "Heiter - Mitte",
+    "ru": "Безмятежность - Середина",
+    "es": "Sereno - Intermedio",
+    "hi":"सेरीन - मध्य ",
+    "id":"Hening - Tengah",
+    "it":"Sereno - Intermedio",
+    "ms":"Serene - Permulaan",
+    "th":"Serene - ตอนกลาง",
+    "tr":"Sakin - Orta",
+    "vi":"Êm đềm - Phần giữa"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}
+

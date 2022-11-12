@@ -1,0 +1,31 @@
+{
+  "ratios": ["2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.serene.ending",
+  "id": "com.nexstreaming.kinemaster.2.35v1.serene.ending",
+  "label": {
+    "en": "Serene - Ending",
+    "ar": "هادئ - إنهاء",
+    "ko": "고요한 - 마지막",
+    "pt": "Sereno - Final",
+    "ja": "静かな - 終わり",
+    "fr": "Serein - Fin",
+    "zh-CN": "沉静 - 结尾",
+    "zh-TW": "寧靜 - 最後",
+    "zh-HK": "寧靜 - 最後",
+    "de": "Heiter - Ende",
+    "ru": "Безмятежность - Завершение",
+    "es": "Sereno - Final",
+    "hi":"सेरीन - अंत",
+    "id":"Hening - Akhir",
+    "it":"Sereno - Finale",
+    "ms":"Serene - Pengakhiran",
+    "th":"Serene - ตอนจบ",
+    "tr":"Sakin - Bitiş",
+    "vi":"Êm đềm - Kết thúc"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

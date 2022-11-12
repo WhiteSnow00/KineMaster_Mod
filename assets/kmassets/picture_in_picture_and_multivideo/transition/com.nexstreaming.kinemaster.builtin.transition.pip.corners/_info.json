@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.pip.corners",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.pip.corners",
+  "label": {
+    "en": "Corners",
+    "ar": "الجوانب",
+    "ko": "코너스",
+    "pt": "Bordas",
+    "ja": "コナス",
+    "fr": "Coins",
+    "zh-CN": "角落",
+    "zh-TW": "對角切換",
+    "zh-HK": "對角切換",
+    "de": "Ecken",
+    "ru": "Уголки",
+    "es": "Esquinas",
+    "hi":"कोने",
+    "id":"Sudut",
+    "it":"Angoli",
+    "ms":"Sudut tepi",
+    "th":"มุม",
+    "tr":"Köşeler",
+    "vi":"Góc"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

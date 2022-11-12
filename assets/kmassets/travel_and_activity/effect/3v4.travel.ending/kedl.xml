@@ -1,0 +1,96 @@
+<effect id="com.nexstreaming.kinemaster.3v4.travel.ending" intime="1800" intimefirst="1500" outtime="2000" outtimelast="0" theme="true" type="title">
+
+<texture id="videoframe" video="1" />
+<texture id="case" src="r4" />
+
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+
+<userfield id="f_text" maxlines="1" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+<texture fill="true" fillcolor="#FFFFFF" height="200" id="title_text" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" text="%1" textalign="right" textmargin="12" textsize="150" typeface="asset:goudy_stm_italic.ttf" width="680" />
+		
+<animatedvalue id="baseslide">
+<part type="in">
+<keyframe value="-65" />
+<keyframe value="0" />
+</part>
+<keyframe value="0" />
+</animatedvalue>
+	
+<animatedvalue id="caseslide">
+<part type="in">
+<keyframe value="-258" />
+<keyframe time="0.8" value="0" />
+</part>
+<keyframe value="0" />
+</animatedvalue>
+	
+<animatedvalue id="textslide">
+<part type="in">
+<keyframe value="-80" />
+<keyframe value="0" />
+</part>
+<keyframe value="0" />
+</animatedvalue>
+	
+<animatedvalue id="textfade">
+<part type="in">
+<keyframe value="0" />
+<keyframe value="1" />
+</part>
+<keyframe value="1" />
+</animatedvalue>
+	
+<animatedvalue id="allfade">
+<part type="out">
+<keyframe value="1" />
+<keyframe value="0" />
+</part>
+<keyframe value="1" />
+</animatedvalue>
+
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.75"
+    near="0.01"
+    far="60000">
+<translate offset="0 0 -10.885">
+<translate offset="-3.2 -4.5">
+<scale uniform="0.01">
+						
+<style alpha="@allfade">
+<style alpha="@textfade">
+<translate offset="0 @baseslide">
+<rect bounds="-1300 58 600 65" color="#FFFFFF" />
+<trianglestrip>
+<point color="0 0 0 0" location="-300 0" />
+<point color="0 0 0 0" location="950 0" />
+<point color="0.8 0.8 0.8 0.8" location="-300 58" />
+<point color="0.8 0.8 0.8 0.8" location="950 58" />
+</trianglestrip>
+</translate>
+</style>
+						
+<translate offset="0 @caseslide">
+<translate offset="480 40">
+<scale uniform="0.6">
+<rect bounds="0 183 246 0" texture="@case" />
+</scale>
+</translate>
+</translate>
+	
+<style alpha="@textfade">
+<translate offset="@textslide 0">
+<rect anchor="right bottom" height="80" location="480 60" scalemode="fit" texture="@title_text" width="680" />
+</translate>
+</style>
+</style>
+
+</scale>
+</translate>
+</translate>
+</projection>
+	
+</effect>

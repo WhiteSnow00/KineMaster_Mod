@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.manycircles",
+  "id": "com.nexstreaming.kinemaster.builtin2.4v3.manycircles",
+  "label": {
+    "en": "Many Circles",
+    "ar": "دوائر كثيرة",
+    "ko": "물방울",
+    "pt": "Vários círculos",
+    "ja": "複数の円",
+    "fr": "Nombreux Cercles",
+    "zh-CN": "小圈圈",
+    "zh-TW": "小圈圈",
+    "zh-HK": "小圈圈",
+    "de": "Viele Kreise",
+    "ru": "Круги",
+    "es": "Muchos círculos",
+    "hi":"अनेक सर्कल्स",
+    "id":"Banyak Lingkaran",
+    "it":"Molti Cerchi",
+    "ms":"Banyak Bulatan",
+    "th":"วงกลมหลายวง",
+    "tr":"Daireler",
+    "vi":"Nhiều Hình tròn"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

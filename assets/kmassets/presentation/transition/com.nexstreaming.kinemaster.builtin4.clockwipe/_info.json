@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.clockwipe",
+  "id": "com.nexstreaming.kinemaster.builtin4.clockwipe",
+  "label": {
+    "en": "Clock Wipe",
+    "ar": "مسح الساعة",
+    "ko": "시계회전",
+    "pt": "Limpar relógio",
+    "ja": "クロックワイプ",
+    "fr": "Balayage horloge",
+    "zh-CN": "时钟擦除",
+    "zh-TW": "時鐘抺去",
+    "zh-HK": "時鐘抺去",
+    "de": "Uhr-Wischeffekt",
+    "ru": "Шторка \u0027Часы\u0027",
+    "es": "Limpiar como reloj",
+    "hi":"क्लॉक वाइप",
+    "id":"Seka Searah Jarum Jam",
+    "it":"Ripulire come Orologio",
+    "ms":"Mengeset Jarum Jam",
+    "th":"ตามเข็มนาฬิกา",
+    "tr":"Saat Silme",
+    "vi":"Xoá chiều kim đồng hồ"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

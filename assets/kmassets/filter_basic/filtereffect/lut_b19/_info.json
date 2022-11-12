@@ -1,0 +1,31 @@
+{
+    "thumbnail":"thumb_lut_b19.png",
+    "hidden": "False",
+    "filename": "lut_almond_blossom.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b19.B19",
+    "label": {
+        "pt": "B19",
+        "ja": "B19",
+        "fr": "B19",
+        "zh-CN": "B19",
+        "ko": "B19",
+        "ar": "B19",
+        "zh-TW": "B19",
+        "en": "B19",
+        "zh-HK": "B19",
+        "de": "B19",
+        "ru": "B19",
+        "es": "B19",
+        "hi": "B19",
+        "id": "B19",
+        "it": "B19",
+        "ms": "B19",
+        "th": "B19",
+        "tr": "B19",
+        "vi": "B19"
+    }
+    
+    }

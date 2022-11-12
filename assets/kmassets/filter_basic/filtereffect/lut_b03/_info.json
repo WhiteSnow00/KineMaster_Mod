@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b03.png",
+    "hidden": "False",
+    "filename": "lut_afternoon.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b03.B03",
+    "label": {
+        "pt": "B03",
+        "ja": "B03",
+        "fr": "B03",
+        "zh-CN": "B03",
+        "ko": "B03",
+        "ar": "B03",
+        "zh-TW": "B03",
+        "en": "B03",
+        "zh-HK": "B03",
+        "de": "B03",
+        "ru": "B03",
+        "es": "B03",
+        "hi": "B03",
+        "id": "B03",
+        "it": "B03",
+        "ms": "B03",
+        "th": "B03",
+        "tr": "B03",
+        "vi": "B03"
+    }
+    }

@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b29.png",
+    "hidden": "False",
+    "filename": "lut_b29.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b29.B29",
+    "label": {
+        "pt": "B29",
+        "ja": "B29",
+        "fr": "B29",
+        "zh-CN": "B29",
+        "ko-KR": "B29",
+        "ar": "B29",
+        "zh-TW": "B29",
+        "en": "B29",
+        "zh-HK": "B29",
+        "de-DE": "B29",
+        "ru": "B29",
+        "es": "B29",
+        "hi": "B29",
+        "id": "B29",
+        "it": "B29",
+        "ms": "B29",
+        "th": "B29",
+        "tr-TR": "B29",
+        "vi-VN": "B29"
+    }
+}

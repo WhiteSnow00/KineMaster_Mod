@@ -1,0 +1,58 @@
+{
+  "assetLevel":"7",
+  "assetName": {
+    "en": "Sentimental",
+    "ar": "عاطفي",
+    "ko": "감상적",
+    "pt": "Sentimental",
+    "ja": "感傷的",
+    "fr": "Sentimental",
+    "zh-CN": "感伤",
+    "zh-TW": "感傷",
+    "zh-HK": "感傷",
+    "de": "Sentimental",
+    "ru": "Чувствительный",
+    "es": "Sentimental",
+    "hi":"भावुक",
+    "id":"Sentimentil",
+    "it":"Sentimentale",
+    "ms":"Sentimentale",
+    "th":"ซาบซึ้ง",
+    "tr":"Duygusal",
+    "vi":"Nhẹ nhàng"
+  },
+  "format": "com.kinemaster.assetpackage",
+  "itemRoots": [
+    "effect/1v1.serene.ending",
+    "effect/1v1.serene.middle",
+    "effect/1v1.serene.opening",
+    "effect/9v16.serene.ending",
+    "effect/9v16.serene.middle",
+    "effect/9v16.serene.opening",
+    "effect/16v9.serene.accent",
+    "effect/16v9.serene.ending",
+    "effect/16v9.serene.middle",
+    "effect/16v9.serene.opening",
+
+    "transition/com.nexstreaming.kinemaster.serene.transition",
+
+    "effect/3v4.serene.ending",
+    "effect/3v4.serene.middle",
+    "effect/3v4.serene.opening",
+
+    "effect/4v3.serene.ending",
+    "effect/4v3.serene.middle",
+    "effect/4v3.serene.opening",
+
+    "effect/4v5.serene.ending",
+    "effect/4v5.serene.middle",
+    "effect/4v5.serene.opening",
+
+    "effect/2.35v1.serene.ending",
+    "effect/2.35v1.serene.middle",
+    "effect/2.35v1.serene.opening"
+  ],
+  "minVersionCode": 2,
+  "packageContentVersion": 2,
+  "targetVersionCode": 4
+}

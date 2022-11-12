@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.zoominout",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.zoominout",
+  "label": {
+    "en": "Zoom out, then in",
+    "ar": "تصغير ثم تكبير",
+    "ko": "줌 인/아웃",
+    "pt": "Diminuir zoom, depois aumentar",
+    "ja": "ズームイン/アウト",
+    "fr": "Dézoomer, puis zoomer",
+    "zh-CN": "缩小/放大",
+    "zh-TW": "縮小/放大",
+    "zh-HK": "縮小/放大",
+    "de": "Herauszoomen, dann heranzoomen",
+    "ru": "Уменьшение, а затем увеличение",
+    "es": "Alejar y luego acercar",
+    "hi":"ज़ूम आउट फिर इन",
+    "id":"Perkecil, lalu masuk",
+    "it":"Rimpicciolire, quindi in",
+    "ms":"Mengecilkan, lalu besarkan",
+    "th":"ซูมออกแล้วเข้า",
+    "tr":"Uzaklaştır ve Sonra Yakınlaştır",
+    "vi":"Zoom ra xa, rồi cận cảnh"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

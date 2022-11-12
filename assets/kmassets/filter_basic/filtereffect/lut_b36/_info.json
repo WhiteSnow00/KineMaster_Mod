@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b36.png",
+    "hidden": "False",
+    "filename": "lut_b36.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b36.B36",
+    "label": {
+        "pt": "B36",
+        "ja": "B36",
+        "fr": "B36",
+        "zh-CN": "B36",
+        "ko-KR": "B36",
+        "ar": "B36",
+        "zh-TW": "B36",
+        "en": "B36",
+        "zh-HK": "B36",
+        "de-DE": "B36",
+        "ru": "B36",
+        "es": "B36",
+        "hi": "B36",
+        "id": "B36",
+        "it": "B36",
+        "ms": "B36",
+        "th": "B36",
+        "tr-TR": "B36",
+        "vi-VN": "B36"
+    }
+}

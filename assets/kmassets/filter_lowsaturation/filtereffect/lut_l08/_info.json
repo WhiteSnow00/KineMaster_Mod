@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_l08.png",
+    "hidden": "False",
+    "filename": "lut_l08.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_l08.L08",
+    "label": {
+        "pt": "L08",
+        "ja": "L08",
+        "fr": "L08",
+        "zh-CN": "L08",
+        "ko": "L08",
+        "ar": "L08",
+        "zh-TW": "L08",
+        "en": "L08",
+        "zh-HK": "L08",
+        "de": "L08",
+        "ru": "L08",
+        "es": "L08",
+        "hi": "L08",
+        "id": "L08",
+        "it": "L08",
+        "ms": "L08",
+        "th": "L08",
+        "tr": "L08",
+        "vi": "L08"
+    }
+    }

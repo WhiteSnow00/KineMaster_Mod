@@ -1,0 +1,35 @@
+{
+  "assetLevel":"7",
+  "assetName": {
+    "en": "Picture-in-Picture and Multivideo",
+    "ar": "صورة في صورة وفيديو متعدد",
+    "ko": "다중화면 효과",
+    "pt": "Picture-in-Picture e Multivídeo",
+    "ja": "多重画面効果",
+    "fr": "Picture-in-Picture et Multivideo",
+    "zh-CN": "多屏幕效果",
+    "zh-TW": "多螢幕特效",
+    "zh-HK": "多螢幕特效",
+    "de": "Bild-im-Bild und Multivideo",
+    "ru": "Картинка в картинке и мультивидео",
+    "es": "Multivídeo",
+    "hi":"तस्वीर -में -तस्वीर और मल्टीवीडियो ",
+    "id":"Gambar di dalam Gambar dan Multivideo",
+    "it":"Foto-in-Foto e Multi video ",
+    "ms":"Gambar di dalam Gambar dan Multivideo",
+    "th":"ภาพในภาพ และ Multivideo",
+    "tr":"Fotoğraf İçinde Fotoğraf ve Çoklu Video",
+    "vi":"Lồng ảnh và Đa video"
+  },
+  "format": "com.kinemaster.assetpackage",
+  "itemRoots": [
+    "transition/com.nexstreaming.kinemaster.builtin.transition.pip.colortiles",
+    "transition/com.nexstreaming.kinemaster.builtin.transition.pip.splitscn",
+    "transition/com.nexstreaming.kinemaster.builtin.transition.pip.tiles",
+    "transition/com.nexstreaming.kinemaster.builtin.transition.pip.corners",
+    "transition/com.nexstreaming.kinemaster.builtin.transition.pip.inset"
+  ],
+  "minVersionCode": 2,
+  "packageContentVersion": 2,
+  "targetVersionCode": 4
+}

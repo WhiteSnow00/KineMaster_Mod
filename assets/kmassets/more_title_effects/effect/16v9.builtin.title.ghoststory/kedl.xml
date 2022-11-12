@@ -1,0 +1,49 @@
+<effect categorytitle="@string/category_more_title" icon="fx_ghost_story.7e1ad65c46537352c56ea7ed7cfccb5cf038ac9e.png" id="com.nexstreaming.kinemaster.builtin.title.ghoststory" intime="700" intimefirst="700" name="@string/fx_ghost_story" outtime="500" outtimelast="500" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="4" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<texture id="videoframe" video="1" />
+	
+<texture fill="true" fillcolor="#F0F0F0" height="400" id="title_text" shadow="true" shadowcolor="0 0 0 1" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" stroke="true" strokecolor="#FFFFFF" text="%1" textalign="center" textmargin="12" textsize="200" textstrokewidth="5" typeface="asset:creepster-regular.ttf" width="900" />
+	
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+	
+<animatedvalue id="fade">
+<part type="in"><keyframe value="0" /><keyframe value="1" /></part>
+<part type="mid"><keyframe value="1" /></part>
+<part type="out"><keyframe value="1" /><keyframe value="0" /></part>
+</animatedvalue>
+	
+<animatedvalue id="spin">
+<part type="in"><keyframe value="-100" /><keyframe value="16" /></part>
+<part type="mid"><keyframe value="16" /></part>
+<part type="out"><keyframe value="16" /><keyframe value="16" /></part>
+</animatedvalue>
+	
+<animatedvalue id="zoom" timingfunction="linear">
+<part type="in">
+<keyframe value="0.1" />
+<keyframe time="0.8" timingfunction="ease-in" value="1.2" />
+<keyframe timingfunction="ease-out" value="1" />
+</part>
+<part type="mid"><keyframe value="1" /></part>
+<part type="out"><keyframe value="1" /><keyframe timingfunction="ease" value="1.4" /></part>
+</animatedvalue>
+	
+<projection aspect="1.77777" far="40" fov="45" near="1" top="1" type="perspective">
+<translate offset="0 0 -21.69">
+<scale uniform="0.025">
+<style alpha="@fade">
+<scale uniform="@zoom">
+<rotate angle="@spin">
+<rect anchor="center" height="450" location="0 0" scalemode="fit" texture="@title_text" width="950" />
+</rotate>
+</scale>
+</style>
+</scale>
+</translate>
+</projection>
+	
+</effect>

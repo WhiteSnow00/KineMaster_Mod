@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KMAppDialog" parent="@style/KMAppDialogCommon">
+        <item name="ad_contentsMaxHeight">@dimen/size400</item>
+        <item name="ad_width">80%</item>
+    </style>
+    <style name="KineMasterTheme.SubscriptionAlertDialogFragment" parent="@style/KineMasterTheme">
+        <item name="android:backgroundDimAmount">0.75</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+</resources>

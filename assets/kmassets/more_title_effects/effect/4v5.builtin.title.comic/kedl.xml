@@ -1,0 +1,62 @@
+<effect categorytitle="@string/category_more_title" icon="fx_text_comic_book.69a4829d68496e7ce61a659ed8eb2069fa6fcec1.png" id="com.nexstreaming.kinemaster.4v5.builtin.title.comic" intime="900" intimefirst="900" name="@string/fx_comic_title" outtime="800" outtimelast="800" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="4" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<texture id="videoframe" video="1" />
+<texture id="dots" src="r0" wrap="mirror" />
+	
+<texture fill="true" fillcolor="#FFFF00" height="400" id="title_text" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" strokecolor="#FF0000" text="%1" textalign="center" textmargin="12" textsize="150" textstrokewidth="5" typeface="asset:knewave.ttf" width="900" />
+	
+<texture fill="true" fillcolor="#FFFFFF" height="400" id="title_text_mask" srcfield="@f_text" strokecolor="#FF0000" text="%1" textalign="center" textmargin="12" textsize="150" textstrokewidth="5" typeface="asset:knewave.ttf" width="900" />
+		
+<texture fill="false" fillcolor="#FFFF00" height="400" id="title_text_stroke" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" stroke="true" strokecolor="#FF0000" text="%1" textalign="center" textmargin="12" textsize="150" textstrokewidth="5" typeface="asset:knewave.ttf" width="900" />
+		
+	
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+	
+<animatedvalue id="fade">
+<part type="in"><keyframe value="0" /><keyframe value="1" /></part>
+<part type="mid"><keyframe value="1" /></part>
+<part type="out"><keyframe value="1" /><keyframe value="0" /></part>
+</animatedvalue>
+	
+<animatedvalue id="slide" timingfunction="linear">
+<part type="in"><keyframe value="400" /><keyframe timingfunction="ease-out" value="0" /></part>
+<part type="mid"><keyframe value="0" /></part>
+<part type="out"><keyframe value="0" /><keyframe timingfunction="ease-in" value="-400" /></part>
+</animatedvalue>
+	
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.80000"
+    near="0.01"
+    far="60000">
+<translate offset="0 0 -10.885">
+<scale uniform="0.006">
+<translate offset="@slide 0">
+<style dest="stencil">
+<rect anchor="center" height="400" location="0 0" scalemode="fit" texture="@title_text_mask" width="900" />
+</style>
+<style alpha="@fade">
+<rect anchor="center" height="400" location="0 0" scalemode="fit" texture="@title_text" width="900" />
+
+<rotate angle="-32" type="texture">
+<scale type="texture" uniform="1.5">
+<scale type="texture" x="8" y="4.5">
+<style rendertest="stencil"><style alpha="0.8">
+<rect bounds="-640 -360 640 360" texture="@dots" />
+</style></style>
+</scale>
+</scale>
+</rotate>
+<rect anchor="center" height="400" location="0 0" scalemode="fit" texture="@title_text_stroke" width="900" />
+</style>
+</translate>
+</scale>
+</translate>
+</projection>
+	
+</effect>

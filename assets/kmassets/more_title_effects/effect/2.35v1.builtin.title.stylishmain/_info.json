@@ -1,0 +1,31 @@
+{
+  "ratios": ["2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.stylishmain",
+  "id": "com.nexstreaming.kinemaster.2.35v1.builtin.title.stylishmain",
+  "label": {
+    "en": "Stylish Main Title",
+    "ar": "عنوان رئيسي أنيق",
+    "ko": "스타일리시(메인 타이틀)",
+    "pt": "Título principal elegante",
+    "ja": "スタイリッシュ（メイン）",
+    "fr": "Titre principal élégant",
+    "zh-CN": "时尚(主标题)",
+    "zh-TW": "時尚(主要標題)",
+    "zh-HK": "時尚(主要標題)",
+    "de": "Stilvoller Haupttitel",
+    "ru": "Стильный титульный кадр",
+    "es": "Título principal elegante",
+    "hi":"स्टाइलिश मुख्य टाइटल",
+    "id":"Judul Utama Bergaya",
+    "it":"Titolo Principale Elegante",
+    "ms":"Tajuk Utama Bergaya",
+    "th":"หัวข้อหลักแบบทันสมัย",
+    "tr":"Şık Ana Başlık",
+    "vi":"Tiêu đề chính (Nghệ thuật)"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,72 @@
+<effect categorytitle="@string/category_more_title" icon="fx_text_manuscript.8ac9fb6a5958ba63bb1782bdbb1779d2b05bc75b.png" id="com.nexstreaming.kinemaster.3v4.builtin.title.manuscript" intime="2000" intimefirst="2000" maxtitleduration="10000" name="@string/fx_manuscript" outtime="2000" outtimelast="2000" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="4" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<texture id="videoframe" video="1" />
+	
+<texture fill="true" fillcolor="#000000" height="400" id="title_text" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" text="%1" textalign="center" textmargin="8" textsize="200" typeface="asset:leaguescript.ttf" width="900" />
+	
+<texture fill="true" fillcolor="#FFFFFF" height="127" id="title_text_f" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" text="%f1" textalign="center" textmargin="8" textsize="110" typeface="asset:leaguescript.ttf" width="512" />
+	
+<texture fill="true" fillcolor="#FFFFFF" height="127" id="title_text_b" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" text="%f1" textalign="center" textmargin="8" textsize="110" typeface="asset:leaguescript.ttf" width="512" />
+	
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+	
+<animatedvalue id="fade">
+<part type="in"><keyframe value="0" /><keyframe value="1" /></part>
+<part type="mid"><keyframe value="1" /></part>
+<part type="out"><keyframe value="1" /><keyframe value="0" /></part>
+</animatedvalue>
+	
+<animatedvalue id="t" scope="whole" timingfunction="linear">
+<keyframe value="0.2" />
+<keyframe value="0.4" />
+</animatedvalue>
+	
+<function id="driftfunc" outputscale="550" type="simplexpure" />
+	
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.75"
+    near="0.01"
+    far="60000">
+<translate offset="0 0 -10.885">
+
+<scale uniform="0.008">
+<style alpha="@fade">
+<rect bounds="-640 -200 640 200" color="0.3 0.3 0.3 0.3" />
+					
+<style dest="stencil">
+<rect bounds="-640 -200 640 200" color="#FFFFFF" />
+</style>
+					
+<style rendertest="stencil">
+<sequence count="15" end="660 250 2.5 0.7" id="r" seed="725098" start="-660 -250 0.6 0.3" type="randmix">
+<translate offset="@driftfunc(@r.z @r.w @t) 0">
+<style alpha="@r.w">
+<rect anchor="center" height="@r.z*120" location="@r.x @r.y" scalemode="fit" texture="@title_text_f" width="@r.z*330" />
+</style>
+</translate>
+</sequence>
+<sequence count="18" end="660 250 2.5 0.7" id="r" seed="656342" start="-660 -250 0.6 0.3" type="randmix">
+<translate offset="@driftfunc(@r.z @r.w @t) 0">
+<style alpha="@r.w">
+<rect anchor="center" height="@r.z*100" location="@r.x @r.y" scalemode="fit" texture="@title_text_b" width="@r.z*300" />
+</style>
+</translate>
+</sequence>
+</style>
+					
+<rect anchor="center" height="300" location="0 0" scalemode="fit" texture="@title_text" width="1100" />
+<rect anchor="center" height="300" location="2 0" scalemode="fit" texture="@title_text" width="1100" />
+<rect anchor="center" height="300" location="0 2" scalemode="fit" texture="@title_text" width="1100" />
+<rect anchor="center" height="300" location="2 2" scalemode="fit" texture="@title_text" width="1100" />
+</style>
+</scale>
+</translate>
+</projection>
+	
+</effect>

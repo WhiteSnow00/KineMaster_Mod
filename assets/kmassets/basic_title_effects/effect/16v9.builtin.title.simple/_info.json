@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.simple",
+  "id": "com.nexstreaming.kinemaster.builtin.title.simple",
+  "label": {
+    "en": "Subtitle",
+    "ar": "عنوان فرعي",
+    "ko": "타이틀",
+    "pt": "Subtítulo",
+    "ja": "字幕",
+    "fr": "Sous-titre",
+    "zh-CN": "字幕",
+    "zh-TW": "字幕",
+    "zh-HK": "字幕",
+    "de": "Untertitel",
+    "ru": "Подзаголовок",
+    "es": "Subtítulo",
+    "hi":"सबटाइटल",
+    "id":"Judul Tambahan",
+    "it":"Sottotitolo",
+    "ms":"Sari Kata",
+    "th":"คำบรรยาย",
+    "tr":"Altyazı",
+    "vi":"Phụ đề"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

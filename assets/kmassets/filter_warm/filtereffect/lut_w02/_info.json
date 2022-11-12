@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_w02.png",
+    "hidden": "False",
+    "filename": "lut_w02.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_w02.W02",
+    "label": {
+        "pt": "W02",
+        "ja": "W02",
+        "fr": "W02",
+        "zh-CN": "W02",
+        "ko": "W02",
+        "ar": "W02",
+        "zh-TW": "W02",
+        "en": "W02",
+        "zh-HK": "W02",
+        "de": "W02",
+        "ru": "W02",
+        "es": "W02",
+        "hi": "W02",
+        "id": "W02",
+        "it": "W02",
+        "ms": "W02",
+        "th": "W02",
+        "tr": "W02",
+        "vi": "W02"
+    }
+    }

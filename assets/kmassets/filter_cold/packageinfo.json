@@ -1,0 +1,42 @@
+{
+    "thumbnail":"thumb_lut_c02.png",
+    "packageContentVersion": 1,
+    "itemRoots": [
+        "filtereffect/lut_c01",
+        "filtereffect/lut_c02",
+        "filtereffect/lut_c03",
+        "filtereffect/lut_c04",
+        "filtereffect/lut_c05",
+        "filtereffect/lut_c06",
+        "filtereffect/lut_c07",
+        "filtereffect/lut_c08",
+        "filtereffect/lut_c09",
+        "filtereffect/lut_c10",
+        "filtereffect/lut_c11"
+    ],
+    "targetVersionCode": 2,
+    "format": "com.kinemaster.assetpackage",
+    "minVersionCode": 2,
+    "assetName": {
+        "pt": "Frio",
+        "ja": "冷たさ",
+        "fr": "Froid",
+        "zh-CN": "冷色",
+        "ko": "차가운",
+        "ar": "بارد",
+        "zh-TW": "冷色",
+        "en": "Cold",
+        "zh-HK": "冷色",
+        "de": "Kalt",
+        "ru": "Холодный",
+        "es": "Frío",
+        "hi": "कोल्ड",
+        "id": "Dingin",
+        "it": "Freddo",
+        "ms": "Dingin",
+        "th": "โทนเย็น",
+        "tr": "Soğuk",
+        "vi": "Màu lạnh"
+    },
+    "assetLevel": 7
+}

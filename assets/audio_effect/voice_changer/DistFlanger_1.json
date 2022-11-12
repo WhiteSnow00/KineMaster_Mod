@@ -1,0 +1,50 @@
+{
+   "NexSound" : [
+      {
+         "Processor::VoiceChanger" : {
+            "C00_VCConnection::Serial" : [
+               {
+                  "E00_VCEffect::Headroom" : {
+                     "P01_Headroom(dB)" : 0
+                  },
+                  "E01_VCEffect::Distortion" : {
+                     "P01_Threshold(dB)" : -28,
+                     "P02_AttackTime(ms)" : 0.10000000149011612,
+                     "P03_ReleaseTime(ms)" : 1,
+                     "P04_LowPass_Enable" : 1,
+                     "P05_LowPass_Freq(Hz)" : 1000,
+                     "P06_HighPass_Enable" : 1,
+                     "P07_HighPass_Freq(Hz)" : 1000,
+                     "P08_Output_Volume(dB)" : 24
+                  },
+                  "E02_VCEffect::PitchControl" : {
+                     "P01_Index(-12/12)" : -6,
+                     "P02_Output_Volume(dB)" : 0
+                  },
+                  "E03_VCEffect::Flanger" : {
+                     "P01_Trigger_Enable(1/0)" : 1,
+                     "P02_LFO_Type(Sine/Sq/Tri/miss)" : 0,
+                     "P03_LFO_Freq(Hz)" : 0.80000000000000004,
+                     "P04_Max_Delay(ms)" : 2.2000000476837158,
+                     "P05_Depth(%)" : 100,
+                     "P05_Org_Gain(dB)" : 0,
+                     "P07_Flanger_Gain(dB)" : 0,
+                     "P08_LPF_Enable(1/0)" : 0,
+                     "P09_LPF_Freq(Hz)" : 16000,
+                     "P10_HPF_Enable(1/0)" : 0,
+                     "P11_HPF_Freq(Hz)" : 500,
+                     "P12_Output_Volume(dB)" : 0
+                  }
+               },
+               {
+                  "E00_VCEffect::VoiceChanger" : {
+                     "Enable(0/1)" : 1,
+                     "Voice Type(0-4)" : 4
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
+

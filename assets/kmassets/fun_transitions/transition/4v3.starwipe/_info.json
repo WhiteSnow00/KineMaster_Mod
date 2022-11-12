@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.starwipe",
+  "id": "com.nexstreaming.kinemaster.builtin4.4v3.starwipe",
+  "label": {
+    "en": "Star Wipe",
+    "ar": "مسح النجمة",
+    "ko": "별",
+    "pt": "Limpar estrela",
+    "ja": "スター　ワイプ",
+    "fr": "Balayage étoile",
+    "zh-CN": "小星星擦除",
+    "zh-TW": "星形抹去",
+    "zh-HK": "星形抹去",
+    "de": "Stern-Wischeffekt",
+    "ru": "Шторка \u0027Звезда\u0027",
+    "es": "Limpiar estrella",
+    "hi":"स्टार वाइप",
+    "id":"Sekaan Bintang",
+    "it":"Ripulire Stella",
+    "ms":"Mengesat Bintang",
+    "th":"ดาว",
+    "tr":"Yıldız Silme",
+    "vi":"Xoá hình sao"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

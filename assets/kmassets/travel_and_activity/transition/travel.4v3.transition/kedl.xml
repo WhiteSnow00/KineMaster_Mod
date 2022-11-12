@@ -1,0 +1,60 @@
+<effect effectoffset="100" effectoverlap="100" id="com.nexstreaming.kinemaster.travel.4v3.transition" maxduration="3000" minduration="500" theme="true" type="transition">
+	
+<texture id="video_out" video="1" />
+<texture id="video_in" video="2" />
+<texture id="cloudmask" src="r2" />
+<texture id="cloudoverlay" src="r5" />
+
+<animatedvalue basis="clipindexshuffle" id="angle">
+<keyframe value="90" />
+<keyframe value="0" />
+<keyframe value="360" />
+</animatedvalue>
+	
+<animatedvalue id="slide" timingfunction="ease-in">
+<keyframe value="-0.958" />
+<keyframe value="0.958" />
+</animatedvalue>
+
+<projection
+    type="perspective"
+    fov="45"
+    aspect="1.333333"
+    near="0.01"
+    far="60000">
+<translate offset="0 0 -10.885">
+
+
+<rect bounds="-6.05 4.5 6.05 -4.5" texture="@video_out" />
+				
+<rotate angle="@angle">
+<translate offset="@slide*11">
+<scale x="0.1745" y="0.3333">
+<style dest="stencil">
+<rect bounds="-19.5 -35.5 19.5 -12.5" texture="@cloudmask" />
+<rect bounds="-19.5 12.5 19.5 -12.5" texture="@cloudmask" />
+<rect bounds="-19.5 12.5 19.5 35.5" texture="@cloudmask" />
+<rect bounds="-103.5 35.5 -19.5 -35.5" color="1 1 1" />
+</style>
+</scale>
+</translate>
+</rotate>
+				
+<style rendertest="stencil">
+<rect bounds="-6.05 4.5 6.05 -4.5" texture="@video_in" />
+</style>
+				
+<rotate angle="@angle">
+<translate offset="@slide*11">
+<scale x="0.1745" y="0.3333">
+<rect bounds="-19.5 -35.5 19.5 -12.5" texture="@cloudoverlay" />
+<rect bounds="-19.5 12.5 19.5 -12.5" texture="@cloudoverlay" />
+<rect bounds="-19.5 12.5 19.5 35.5" texture="@cloudoverlay" />
+</scale>
+</translate>
+</rotate>
+				
+</translate>
+</projection>
+	
+</effect>

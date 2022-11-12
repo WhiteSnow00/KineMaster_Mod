@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b01.png",
+    "hidden": "False",
+    "filename": "lut_sunset.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b01.B01",
+    "label": {
+        "pt": "B01",
+        "ja": "B01",
+        "fr": "B01",
+        "zh-CN": "B01",
+        "ko": "B01",
+        "ar": "B01",
+        "zh-TW": "B01",
+        "en": "B01",
+        "zh-HK": "B01",
+        "de": "B01",
+        "ru": "B01",
+        "es": "B01",
+        "hi": "B01",
+        "id": "B01",
+        "it": "B01",
+        "ms": "B01",
+        "th": "B01",
+        "tr": "B01",
+        "vi": "B01"
+    }
+    }

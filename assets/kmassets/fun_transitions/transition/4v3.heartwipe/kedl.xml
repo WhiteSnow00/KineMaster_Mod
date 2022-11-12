@@ -1,0 +1,60 @@
+<effect categorytitle="@string/category_fun_trans" defaultduration="2000" effectoffset="100" icon="heartwipe.707b8a01a4341d2980c1614a918d12b4186dce35.png" id="com.nexstreaming.kinemaster.builtin4.4v3.heartwipe" maxduration="5000" minduration="500" name="@string/trans_heartwipe" type="transition" videooverlap="100">
+<animatedvalue id="anim_1">
+<keyframe time="0.0" value="0.010" />
+<keyframe time="1.0" value="4.500" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<projection
+    type="perspective"
+    fov="45"
+    aspect="1.333333"
+    near="0.01"
+    far="60000">
+<scale y="-1">
+<translate offset="-480 -360 -869.1168825">
+
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" texture="@video1" />
+</translate>
+<translate offset="480 360">
+<scale uniform="@anim_1">
+<translate offset="0 0">
+<scale x="0.999" y="0.998">
+                
+<style dest="stencil">
+<translate offset="-212.378 -91.614">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-50 53.564" />
+<point location="476.667 53.564" />
+<point location="213.333 380.099" />
+</trianglestrip>
+</translate>
+<translate offset="-147.246 -136.485">
+<circle center="0 0" color="0.392 0.588 0.784" radius="152" />
+</translate>
+<translate offset="147.246 -136.485">
+<circle center="0 0" color="0.392 0.588 0.784" radius="152" />
+</translate>
+<translate offset="-212.378 -130.822">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="140.158 122.475" />
+<point location="286.509 122.475" />
+<point location="213.333 -10.792" />
+</trianglestrip>
+</translate>
+                
+</style>
+</scale>
+</translate>
+</scale>
+</translate>
+<style rendertest="stencil">
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" texture="@video2" />
+</translate>
+</style>
+</translate>
+</scale>
+</projection>
+</effect>

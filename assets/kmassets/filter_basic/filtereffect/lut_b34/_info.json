@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b34.png",
+    "hidden": "False",
+    "filename": "lut_b34.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b34.B34",
+    "label": {
+        "pt": "B34",
+        "ja": "B34",
+        "fr": "B34",
+        "zh-CN": "B34",
+        "ko-KR": "B34",
+        "ar": "B34",
+        "zh-TW": "B34",
+        "en": "B34",
+        "zh-HK": "B34",
+        "de-DE": "B34",
+        "ru": "B34",
+        "es": "B34",
+        "hi": "B34",
+        "id": "B34",
+        "it": "B34",
+        "ms": "B34",
+        "th": "B34",
+        "tr-TR": "B34",
+        "vi-VN": "B34"
+    }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renderitem xmlns="http://schemas.kinemaster.com/km/renderitem" main="mainScript"
+            id="com.nexstreaming.editor.blend_22"
+            type="title"
+            intime="1500"
+            outtime="0"
+            intimefirst="1500"
+            outtimelast="0"
+            repeat="no"
+            name="blend_22">
+
+	<script name="default" language="lua" src="nexstreaming.lua"/>
+
+	<shader name="vertex" language="glsl" src="glsl/blend0_vertex.glsl"/>
+	<shader name="fragment" language="glsl" src="glsl/blend0_fragment.glsl"/>
+
+  
+  <program name="fx" language="glsl" fragmentShader="fragment" vertexShader="vertex" />
+
+	<script name="mainScript" language="lua">
+        <![CDATA[
+
+		function main()
+      		video_src = kmInitVideoSrcForDirect()
+			src_tex_id = system.video_left.id
+			fx.setSTexture0(src_tex_id) 
+      		fx.setSTexture1(system.video_right.id)
+			fx.setAlpha(effect.alpha)
+
+			fx.setColorMatrix(system.video_left.colorconv)
+			fx.setTexMatrix(system.video_left.texmat)
+			fx.setMvpMatrix(effect.matrix)
+
+			fx.drawScreenDirect(video_src)
+      		kmReleaseTexture(video_src)
+		end
+
+		]]>
+	</script>
+</renderitem>

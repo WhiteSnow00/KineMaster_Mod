@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="one">%d track</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="one">डुप्लीकेट %s आईटम?</item>
+        <item quantity="other">डुप्लीकेट %s आइटम्स?</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+        <item quantity="other">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">वीडियो को %d सेकंड पीछे ले जाएं</item>
+        <item quantity="other">वीडियो को %d सेकंड पीछे ले जाएं</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">पासवर्ड काफ़ी रूप से मजबूत नहीं है. कम से कम %1$d वर्णों का उपयोग करें जो अक्षरों और नंबरों दोनों को मिलाकर बना हो</item>
+        <item quantity="other">पासवर्ड काफ़ी रूप से मजबूत नहीं है. कम से कम %1$d वर्णों का उपयोग करें जो अक्षरों और नंबरों दोनों को मिलाकर बना हो</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="one">इस प्रोजेक्ट से %s पर एक ऑडियो फ़ाइल गायब है।</item>
+        <item quantity="other">इस प्रोजेक्ट से ऑडियो फाइल गायब है। </item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="one">इस प्रोजेक्ट से %s पर एक इमेज फ़ाइल गायब है।</item>
+        <item quantity="other">इस प्रोजेक्ट से इमेज फाइल गायब है। </item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="one">यह अनुशंसा की जाती है कि आप सेव करने से पहले अनुपस्थित मीडिया फ़ाइल को बदल दें।</item>
+        <item quantity="other">यह अनुशंसा की जाती है कि आप सेव करने से पहले अनुपस्थित मीडिया फ़ाइल को बदल दें।</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="one">इस प्रोजेक्ट से %s पर एक वीडियो फ़ाइल गायब है।</item>
+        <item quantity="other">इस प्रोजेक्ट से वीडियो फाइल गायब है। </item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d नई सूचनाएं</item>
+        <item quantity="other">%d नई सूचनाएं</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="one">%d कमेंट</item>
+        <item quantity="other">%d कमेंट</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="one">%d प्रोजेक्ट डिलीट हो जाएगी.</item>
+        <item quantity="other">%d प्रोजेक्ट्स डिलीट हो जाएगी.</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="one">%d प्रोजेक्ट सिलेक्ट हुआ है</item>
+        <item quantity="other">%d प्रोजेक्टस सिलेक्ट हुआ है</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="one">(%d day remaining)</item>
+        <item quantity="other">(%d days remaining)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="one">%s /महीने के लिए %d महीने!</item>
+        <item quantity="other">%s /महीने के लिए %d महीने!</item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="one">%s / वर्ष के लिए %d वर्ष!</item>
+        <item quantity="other">%s / वर्ष के लिए %d वर्ष!</item>
+    </plurals>
+</resources>

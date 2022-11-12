@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_usage_mobile">通过移动网络或WLAN</string>
+    <string name="data_usage_none">取消(从不检查更新)</string>
+    <string name="data_usage_wifi">仅通过WLAN</string>
+    <string name="pref_mobile_update_off">KineMaster仅用WLAN检测新版本，可用的更新将会在您的许可下进行下载。</string>
+    <string name="pref_mobile_update_on">KineMaster用WLAN或者移动网络检测新版本， 可用的更新将会在您的许可下进行下载。</string>
+    <string name="use_mobile_network">KineMaster自动检查更新，但只会依您的要求下载该更新。移动网络和WLAN的使用可能会收取额外费用。</string>
+    <string name="use_mobile_network_no">仅通过WLAN</string>
+    <string name="use_mobile_network_yes">通过移动网络或WLAN</string>
+</resources>

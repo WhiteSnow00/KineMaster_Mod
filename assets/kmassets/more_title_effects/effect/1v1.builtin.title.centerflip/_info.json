@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "1:1"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.centerflip",
+  "id": "com.nexstreaming.kinemaster.1v1.builtin.title.centerflip",
+  "label": {
+    "en": "Flip Title",
+    "ar": "عنوان قلاب",
+    "ko": "회전 타이틀",
+    "pt": "Virar título",
+    "ja": "回転タイトル",
+    "fr": "Retourner Titre",
+    "zh-CN": "旋转标题",
+    "zh-TW": "旋轉標題",
+    "zh-HK": "旋轉標題",
+    "de": "Flip Titel",
+    "ru": "Вращение названия",
+    "es": "Voltear título",
+    "hi":"टाइटल को फ्लिप करे",
+    "id":"Judul Membalik",
+    "it":"Capovolgere il Titolo",
+    "ms":"Tajuk Membalik",
+    "th":"พลิกชื่อ",
+    "tr":"Başlığı Çevir",
+    "vi":"Lật Tiêu đề"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

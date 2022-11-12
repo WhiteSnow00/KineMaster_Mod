@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b20.png",
+    "hidden": "False",
+    "filename": "lut_boring.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b20.B20",
+    "label": {
+        "pt": "B20",
+        "ja": "B20",
+        "fr": "B20",
+        "zh-CN": "B20",
+        "ko": "B20",
+        "ar": "B20",
+        "zh-TW": "B20",
+        "en": "B20",
+        "zh-HK": "B20",
+        "de": "B20",
+        "ru": "B20",
+        "es": "B20",
+        "hi": "B20",
+        "id": "B20",
+        "it": "B20",
+        "ms": "B20",
+        "th": "B20",
+        "tr": "B20",
+        "vi": "B20"
+    }
+    }

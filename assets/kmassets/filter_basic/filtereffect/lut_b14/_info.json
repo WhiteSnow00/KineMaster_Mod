@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b14.png",
+    "hidden": "False",
+    "filename": "lut_blue.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b14.B14",
+    "label": {
+        "pt": "B14",
+        "ja": "B14",
+        "fr": "B14",
+        "zh-CN": "B14",
+        "ko": "B14",
+        "ar": "B14",
+        "zh-TW": "B14",
+        "en": "B14",
+        "zh-HK": "B14",
+        "de": "B14",
+        "ru": "B14",
+        "es": "B14",
+        "hi": "B14",
+        "id": "B14",
+        "it": "B14",
+        "ms": "B14",
+        "th": "B14",
+        "tr": "B14",
+        "vi": "B14"
+    }
+    }

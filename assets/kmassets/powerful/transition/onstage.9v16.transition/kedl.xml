@@ -1,0 +1,97 @@
+<effect effectoffset="100" effectoverlap="100" id="com.nexstreaming.kinemaster.onstage.9v16.transition" maxduration="3000" minduration="500" theme="true" type="transition">
+	
+<clear color="0 0 0" />
+		
+<texture id="video_out" video="1" />
+<texture id="video_in" video="2" />
+<texture id="star" src="r3" />
+<texture id="starglow" src="r0" />
+<texture id="curtain" src="r1" wraps="repeat" />
+	
+<animatedvalue id="rotate">
+<keyframe value="0" />
+<keyframe value="180" />
+</animatedvalue>
+	
+<animatedvalue id="zoom" timingfunction="linear">
+<keyframe value="-10.885" />
+<keyframe timingfunction="ease-in-out" value="-26" />
+<keyframe timingfunction="ease-in-out" value="-10.885" />
+</animatedvalue>
+	
+<function id="glowfunc" octaves="4" outputbias="0.5" outputscale="0.5" type="simplexfractal" />
+<function id="swingfunc" inputbias="30 20 10" inputscale="1 1 0.2" outputscale="0.5" type="simplexpure" />
+<function id="swingfuncb" inputbias="20 50 44" inputscale="1 1 0.18" outputscale="30" type="simplexpure" />
+	
+<projection type="perspective" fov="45" aspect="0.5625" near="0.01" far="60000">
+<translate offset="0 0 @zoom">
+					
+<scale type="texture" x="4" y="1">
+<translate offset="0 0 -45">
+<style alpha="0.6">
+<rect bounds="-30 30 30 0" texture="@curtain" />
+</style>
+<style alpha="0.2">
+<rect bounds="-30 -30 30 0" texture="@curtain" />
+</style>
+</translate>
+</scale>
+
+<translate offset="0 -4.5">
+<sequence count="2" end="-1 0.3" id="s" start="1 1" type="linear"><scale x="1" y="@s.x"><style alpha="@s.y">
+				
+<sequence count="18" end="15 15 -43 2.5" id="r" seed="3472" start="-15 1.5 -9 1.8" type="randmix">
+<rotate angle="@r.x" axis="0 1 0">
+<translate offset="0 @r.y @r.z">
+							
+<translate offset="0 100 0">
+<rotate angle="@swingfunc(@r.x @r.y @t)" axis="0 0 1">
+<translate offset="0 -100 0">
+									
+<rotate angle="@swingfuncb(@r.x @r.y @t)" axis="0 1 0">
+									
+<style alpha="@glowfunc(@r.x @r.y @t)">
+<rect bounds="@r.w*-1 @r.w @r.w @r.w*-1" texture="@starglow" />
+</style>
+									
+</rotate>
+								
+</translate>
+</rotate>
+</translate>
+								
+</translate>
+</rotate>
+</sequence>
+
+</style></scale></sequence>
+</translate>
+			
+<rotate angle="@rotate" axis="0 1 0">
+<rect bounds="-2.53125 -13.5 2.53125 -4.5" color="0 0 0 1" />
+				
+<cull face="front">
+<rect bounds="-2.53125 4.5 2.53125 -4.5" texture="@video_out" />
+</cull>
+<cull face="back">
+<style alpha="0.2">
+<rect bounds="-2.53125 -13.5 2.53125 -4.5" texture="@video_out" />
+</style>
+</cull>
+				
+<scale type="texture" x="-1" y="1"><translate textureoffset="-1 0">
+<cull face="back">
+<rect bounds="-2.53125 4.5 2.53125 -4.5" texture="@video_in" />
+</cull>
+<cull face="front">
+<style alpha="0.2">
+<rect bounds="-2.53125 -13.5 2.53125 -4.5" texture="@video_in" />
+</style>
+</cull>
+</translate></scale>
+</rotate>
+			
+</translate>
+</projection>
+		
+</effect>

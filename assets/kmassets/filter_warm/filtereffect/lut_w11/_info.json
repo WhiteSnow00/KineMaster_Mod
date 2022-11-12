@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_w11.png",
+    "hidden": "False",
+    "filename": "lut_w11.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_w11.W11",
+    "label": {
+        "pt": "W11",
+        "ja": "W11",
+        "fr": "W11",
+        "zh-CN": "W11",
+        "ko": "W11",
+        "ar": "W11",
+        "zh-TW": "W11",
+        "en": "W11",
+        "zh-HK": "W11",
+        "de": "W11",
+        "ru": "W11",
+        "es": "W11",
+        "hi": "W11",
+        "id": "W11",
+        "it": "W11",
+        "ms": "W11",
+        "th": "W11",
+        "tr": "W11",
+        "vi": "W11"
+    }
+    }

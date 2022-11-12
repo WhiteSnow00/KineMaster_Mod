@@ -1,0 +1,110 @@
+<effect categorytitle="@string/category_fun_trans" effectoffset="100" effectoverlap="100" icon="trans_circlewipe.e35240146741049873e96d38cd7f1fa140447271.png" id="com.nexstreaming.kinemaster.builtin2.4v3.circlewipe" maxduration="5000" minduration="500" name="@string/trans_circlewipe" type="transition">
+
+
+<userfield default="1.5" id="f_dir" type="selection">
+<option value="1.5">
+<fieldlabel locale="en" value="@string/userfld_wipe_in_out" />
+</option>
+<option value="2.5">
+<fieldlabel locale="en" value="@string/userfld_wipe_in" />
+</option>
+<option value="3.5">
+<fieldlabel locale="en" value="@string/userfld_wipe_out" />
+</option>
+</userfield>
+
+
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+    
+    
+<animatedvalue id="in">
+<keyframe value="960" />
+<keyframe value="0" />
+</animatedvalue>
+
+<animatedvalue id="out">
+<keyframe value="0" />
+<keyframe value="960" />
+</animatedvalue>
+
+<animatedvalue id="r">
+<keyframe value="960" />
+<keyframe value="0" />
+<keyframe value="960" />
+</animatedvalue>
+<animatedvalue id="t">
+<keyframe value="0" />
+<keyframe value="1" />
+</animatedvalue>
+
+    
+<visibility check="@f_dir" end="1.9" start="1.0">
+    
+<projection
+    type="perspective"
+    fov="45"
+    aspect="1.333333"
+    near="0.01"
+    far="60000">
+<translate offset="-480 -360 -869.1168825">
+<style dest="stencil">
+<circle center="480 360" radius="@r" />
+</style>
+<style rendertest="stencil">
+<visibility check="@t" end="0.5" start="0">
+<rect bounds="0 720 960 0" texture="@video1" />
+</visibility>
+<visibility check="@t" end="1.0" start="0.5">
+<rect bounds="0 720 960 0" texture="@video2" />
+</visibility>
+</style>
+</translate>
+</projection>
+		
+</visibility>
+	
+<visibility check="@f_dir" end="2.9" start="2.0">
+    
+<projection
+    type="perspective"
+    fov="45"
+    aspect="1.333333"
+    near="0.01"
+    far="60000">
+<translate offset="-480 -360 -869.1168825">
+<style dest="stencil">
+<circle center="480 360" radius="@in" />
+</style>
+<rect bounds="0 720 960 0" texture="@video2" />
+<style rendertest="stencil">
+<rect bounds="0 720 960 0" texture="@video1" />
+</style>
+</translate>
+</projection>
+		
+</visibility>
+	
+<visibility check="@f_dir" end="3.9" start="3.0">
+    
+<projection
+    type="perspective"
+    fov="45"
+    aspect="1.333333"
+    near="0.01"
+    far="60000">
+<translate offset="-480 -360 -869.1168825">
+<style dest="stencil">
+<circle center="480 360" radius="@out" />
+</style>
+<rect bounds="0 720 960 0" texture="@video1" />
+<style rendertest="stencil">
+<rect bounds="0 720 960 0" texture="@video2" />
+</style>
+</translate>
+</projection>
+		
+</visibility>
+
+
+</effect>

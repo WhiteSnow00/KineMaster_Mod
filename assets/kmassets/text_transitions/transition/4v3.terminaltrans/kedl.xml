@@ -1,0 +1,106 @@
+<effect categorytitle="@string/category_text_transitions" defaultduration="2000" effectoffset="100" icon="transition_retro_title.cb6ce153d348f58f212d69a6973fa32c2f4d1165.png" id="com.nexstreaming.kinemaster.builtin3.4v3.terminaltrans" maxduration="10000" minduration="500" name="@string/trans_retro_terminal" type="transition" videooverlap="100">
+  
+  
+<userfield id="f_text" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+  
+<animatedvalue id="cslide" timingfunction="linear">
+<keyframe time="0.15" value="1100 360" />
+<keyframe time="0.25" timingfunction="default" value="402.998 360" />
+<keyframe time="0.75" timingfunction="linear" value="402.998 360" />
+<keyframe time="0.85" timingfunction="default" value="-220 360" />
+</animatedvalue>
+<animatedvalue id="leftscale">
+<keyframe time="0.0" value="7" />
+<keyframe time="0.1" value="1" />
+</animatedvalue>
+<animatedvalue id="rightscale">
+<keyframe time="0.9" value="1" />
+<keyframe time="1.0" value="7" />
+</animatedvalue>
+<animatedvalue id="textslide" timingfunction="linear">
+<keyframe time="0.24" value="1072.385 320.119" />
+<keyframe time="0.31" timingfunction="default" value="480.451 320.119" />
+<keyframe time="0.69" timingfunction="linear" value="480.451 320.119" />
+<keyframe time="0.76" timingfunction="default" value="-356.861 320.119" />
+</animatedvalue>
+<texture id="video2" video="2" />
+<texture id="video1" video="1" />
+
+<texture autosize="false" fill="true" fillcolor="#00FF00" height="150" id="text1" shadow="true" shadowcolor="#00FF00" shadowoffset="0 0" shadowradius="6" srcfield="@f_text" text="%1" textalign="center" textsize="70" textvalign="center" typeface="asset:orbitron-bold.ttf" width="700" />
+<projection
+    type="perspective"
+    fov="45"
+    aspect="1.333333"
+    near="0.01"
+    far="60000">
+<scale y="-1">
+<translate offset="-480 -360 -869.1168825">
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" color="0.18 0.18 0.18" />
+</translate>
+<translate offset="@cslide">
+<translate offset="0 0">
+            
+<translate offset="21.500 0">
+<rect bounds="-550 -10 700 10" color="0 1 0" />
+</translate>
+<translate offset="-620.500 0">
+<scale uniform="@leftscale">
+<translate offset="0 0">
+                    
+<circle center="0 0" color="0 1 0" radius="130.500" />
+<style dest="stencil">
+<circle center="0 0" color="0 0 0" radius="115.467" />
+</style>
+                    
+</translate>
+</scale>
+</translate>
+<translate offset="700 0">
+<scale uniform="@rightscale">
+<translate offset="0 0">
+                    
+<circle center="0 0" color="0 1 0" radius="130.500" />
+<style dest="stencil">
+<circle center="0 0" color="0 0 0" radius="115.467" />
+</style>
+                    
+</translate>
+</scale>
+</translate>
+            
+</translate>
+</translate>
+<translate offset="@textslide">
+<translate offset="0 -25">
+            
+<translate offset="-1.549 -1.881">
+<rect bounds="-350 -75 350 75" texture="@text1" />
+</translate>
+            
+</translate>
+</translate>
+
+<sequence count="180" end="720" id="sl" start="0">
+<rect bounds="0 @sl 960 @sl+2" color="0 0 0 0.25" />
+</sequence>
+
+        
+<style rendertest="stencil">
+<visibility end="0.5" start="0">
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" texture="@video1" />
+</translate>
+</visibility>
+<visibility end="1" start="0.5">
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" texture="@video2" />
+</translate>
+</visibility>
+</style>
+</translate>
+</scale>
+</projection>
+</effect>

@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b09.png",
+    "hidden": "False",
+    "filename": "lut_sweet.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b09.B09",
+    "label": {
+        "pt": "B09",
+        "ja": "B09",
+        "fr": "B09",
+        "zh-CN": "B09",
+        "ko": "B09",
+        "ar": "B09",
+        "zh-TW": "B09",
+        "en": "B09",
+        "zh-HK": "B09",
+        "de": "B09",
+        "ru": "B09",
+        "es": "B09",
+        "hi": "B09",
+        "id": "B09",
+        "it": "B09",
+        "ms": "B09",
+        "th": "B09",
+        "tr": "B09",
+        "vi": "B09"
+    }
+    }

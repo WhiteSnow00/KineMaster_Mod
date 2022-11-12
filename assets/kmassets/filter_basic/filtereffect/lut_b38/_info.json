@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b38.png",
+    "hidden": "False",
+    "filename": "lut_b38.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b38.B38",
+    "label": {
+        "pt": "B38",
+        "ja": "B38",
+        "fr": "B38",
+        "zh-CN": "B38",
+        "ko-KR": "B38",
+        "ar": "B38",
+        "zh-TW": "B38",
+        "en": "B38",
+        "zh-HK": "B38",
+        "de-DE": "B38",
+        "ru": "B38",
+        "es": "B38",
+        "hi": "B38",
+        "id": "B38",
+        "it": "B38",
+        "ms": "B38",
+        "th": "B38",
+        "tr-TR": "B38",
+        "vi-VN": "B38"
+    }
+}

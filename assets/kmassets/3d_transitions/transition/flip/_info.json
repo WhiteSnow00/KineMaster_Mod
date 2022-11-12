@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "kmcategory" : ["kmc.transition"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.3d.flip",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.flip",
+  "label": {
+    "en": "3D Flip",
+    "ar": "عكس ثلاثي الأبعاد",
+    "ko": "3D 회전",
+    "pt": "Virar 3D",
+    "ja": "３Ｄ回転",
+    "fr": "Basculement 3D",
+    "zh-CN": "3D 旋转",
+    "zh-TW": "3D 轉換",
+    "zh-HK": "3D 轉換",
+    "de": "3D Flip",
+    "ru": "3D-вращение",
+    "es": "Voltear 3D",
+    "hi": "3Dफ्लिप",
+    "id" :"Pembalik 3D",
+    "it":"Vibrazione 3D",
+    "ms":"Pembalik 3D",
+    "th":"พลิก 3D",
+    "tr":"3D Çevirme",
+    "vi":"Lật 3D"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

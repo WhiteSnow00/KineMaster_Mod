@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.bam",
+  "id": "com.nexstreaming.kinemaster.4v3.builtin.title.bam",
+  "label": {
+    "en": "Bam!",
+    "ar": "بام!",
+    "ko": "폭탄",
+    "pt": "Bam!",
+    "ja": "爆弾！",
+    "fr": "Bingo !",
+    "zh-CN": "爆炸!",
+    "zh-TW": "爆炸",
+    "zh-HK": "爆炸",
+    "de": "Bam!",
+    "ru": "Бам!",
+    "es": "¡Bam!",
+    "hi":"बेम!",
+    "id":"Bum!",
+    "it":"Bam!",
+    "ms":"Bam!",
+    "th":"ปัง!",
+    "tr":"Bam!",
+    "vi":"Bam!"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

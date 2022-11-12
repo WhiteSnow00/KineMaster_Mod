@@ -1,0 +1,10 @@
+{
+  "filename": "renderitem.xml",
+  "icon": "asset_icon.png",
+  "id": "com.nexstreaming.editor.blend_07",
+  "label": {
+    "en": "blend_07"
+  },
+  "type": "nex.renderitem",
+  "hidden": true
+}

@@ -1,0 +1,114 @@
+[
+  {"category": "edit", "keys": ["escape"], "description":"move to previous", "command": "backPressed"},
+  {"category": "edit", "keys": ["space"], "description":"play/stop", "command": "play/stop"},
+
+  {"category": "edit", "keys": ["ctrl+plus"], "description":"open setting", "command": "open", "param": "setting"},
+  {"category": "edit", "keys": ["ctrl+enter"], "description":"open export", "command": "open", "param": "export"},
+  {"category": "edit", "keys": ["shift+3"], "description":"open asset store", "command": "open", "param": "asset"},
+
+  {"category": "edit", "keys": ["alt+m"], "description":"open media browser", "command": "open", "param": "mediaPrimary"},
+  {"category": "edit", "keys": ["alt+l"], "description":"open media browser", "command": "open", "param": "mediaLayer"},
+
+  {"category": "edit", "keys": ["alt+e"], "description":"add effect", "command": "add", "param": "effect"},
+  {"category": "edit", "keys": ["alt+s"], "description":"add sticker", "command": "add", "param": "sticker"},
+  {"category": "edit", "keys": ["alt+t"], "description":"add text", "command": "add", "param": "text"},
+  {"category": "edit", "keys": ["alt+h"], "description":"add handwriting", "command": "add", "param": "handwriting"},
+  {"category": "edit", "keys": ["alt+a"], "description":"add audio", "command": "add", "param": "audio"},
+
+  {"category": "edit", "keys": ["alt+r"], "description":"voice record", "command": "prepare", "param": "voice record"},
+
+  {"category": "edit", "keys": ["alt+p"], "description":"capture image", "command": "open", "param": "camera"},
+  {"category": "edit", "keys": ["alt+v"], "description":"capture video", "command": "open", "param": "camcorder"},
+
+  {"category": "edit", "keys": ["ctrl+z"], "description":"Undo", "command": "undo"},
+  {"category": "edit", "keys": ["ctrl+shift+z", "ctrl+y"], "description":"Redo", "command": "undo"},
+
+  {"category": "edit", "keys": ["g"], "description":"full screen mode", "command": "fullscreen"},
+  {"category": "edit", "keys": ["x"], "description":"expand timeline", "command": "expandTimeline"},
+  {"category": "edit", "keys": ["v"], "description":"zoom in timeline", "command": "zoomInTimeline"},
+  {"category": "edit", "keys": ["c"], "description":"zoom out timeline", "command": "zoomOutTimeline"},
+
+  {"category": "edit", "keys": ["b"], "description":"add bookmark", "command": "bookmark", "param": "add"},
+  {"category": "edit", "keys": ["alt+b"], "description":"remove bookmark", "command": "bookmark", "param": "remove"},
+
+  {"category": "edit", "keys": ["ctrl+left"], "description":"move timeline", "command": "moveTimeline", "param": "5"},
+  {"category": "edit", "keys": ["ctrl+right"], "description":"move timeline", "command": "moveTimeline", "param": "0.1"},
+  {"category": "edit", "keys": ["shift+left"], "description":"move timeline", "command": "moveTimeline", "param": "-5"},
+  {"category": "edit", "keys": ["shift+left"], "description":"move timeline", "command": "moveTimeline", "param": "-0.1"},
+
+  {"category": "edit", "keys": ["home"], "description":"move timeline", "command": "moveTimeline", "param": "start"},
+  {"category": "edit", "keys": ["end"], "description":"move timeline", "command": "moveTimeline", "param": "end"},
+
+  {"category": "edit", "keys": ["ctrl+>"], "description":"move to timeline", "command": "moveEditPoint", "param": "next"},
+  {"category": "edit", "keys": ["ctrl+<"], "description":"move to timeline", "command": "moveEditPoint", "param": "previous"},
+
+  {"category": "edit", "keys": ["shift+>"], "description":"move to bookmark", "command": "moveBookmark", "param": "next"},
+  {"category": "edit", "keys": ["shift+<"], "description":"move to bookmark", "command": "moveBookmark", "param": "previous"},
+
+
+  {"category": "edit", "keys": ["home"], "description":"move timeline", "command": "moveTimeline", "param": "start"},
+  {"category": "edit", "keys": ["end"], "description":"move timeline", "command": "moveTimeline", "param": "end"},
+
+  {"category": "option", "keys": ["i"], "description":"information", "command": "information"},
+  {"category": "option", "keys": ["a"], "description":"replace", "command": "replace"},
+  {"category": "option", "keys": ["delete", "backspace"], "description":"delete", "command": "delete"},
+
+
+  {"category": "option", "keys": ["ctrl+d"], "description":"duplicate", "command": "duplicate", "param": "primary"},
+  {"category": "option", "keys": ["ctrl+shift+d"], "description":"duplicate", "command": "duplicate", "param": "layer"},
+
+  {"category": "option", "keys": ["<"], "description":"move to start of item", "command": "moveTimeline","param": "start"},
+  {"category": "option", "keys": [">"], "description":"move to end of item", "command": "moveTimeline","param": "end"},
+
+  {"category": "option", "keys": ["ctrl+up"], "description":"bring front", "command": "order","param": "front"},
+  {"category": "option", "keys": ["ctrl+shift+up"], "description":"bring to front", "command": "order","param": "top"},
+  {"category": "option", "keys": ["ctrl+down"], "description":"send backward", "command": "order","param": "backward"},
+  {"category": "option", "keys": ["ctrl+shift+down"], "description":"send to backward", "command": "order","param": "bottom"},
+
+  {"category": "option", "keys": ["left"], "description":"move left", "command": "moveH","param": "-1"},
+  {"category": "option", "keys": ["right"], "description":"move right", "command": "moveH","param": "1"},
+  {"category": "option", "keys": ["up"], "description":"move up", "command": "moveV","param": "1"},
+  {"category": "option", "keys": ["down"], "description":"move down", "command": "moveV","param": "-1"},
+
+  {"category": "option", "keys": ["shift+left"], "description":"move left", "command": "moveH","param": "-10"},
+  {"category": "option", "keys": ["shift+right"], "description":"move right", "command": "moveH","param": "10"},
+  {"category": "option", "keys": ["shift+up"], "description":"move up", "command": "moveV","param": "10"},
+  {"category": "option", "keys": ["shift+down"], "description":"move down", "command": "moveV","param": "-10"},
+
+  {"category": "option", "keys": ["("], "description":"rotate cw", "command": "rotate","param": "5"},
+  {"category": "option", "keys": ["ctrl+("], "description":"rotate cw", "command": "rotate","param": "45"},
+  {"category": "option", "keys": [")"], "description":"rotate ccw", "command": "rotate","param": "-5"},
+  {"category": "option", "keys": ["ctrl+)"], "description":"rotate ccw", "command": "rotate","param": "-45"},
+
+  {"category": "option", "keys": ["plus"], "description":"zoom in", "command": "zoom","param": "0.1"},
+  {"category": "option", "keys": ["minus"], "description":"zoom out", "command": "zoom","param": "-0.1"},
+
+  {"category": "rotate", "keys": ["ctrl+f"], "description":"flip horizontal", "command": "flip","param": "horizontal"},
+  {"category": "rotate", "keys": ["ctrl+alt+f"], "description":"flip vertical", "command": "flip","param": "vertical"},
+  {"category": "rotate", "keys": ["ctrl+alt+)"], "description":"rotate", "command": "rotate","param": "90"},
+  {"category": "rotate", "keys": ["ctrl+alt+("], "description":"rotate", "command": "rotate","param": "-90"},
+
+  {"category": "opacity", "keys": ["alt+0"], "description":"opacity", "command": "opacity","param": "100"},
+  {"category": "opacity", "keys": ["alt+1"], "description":"opacity", "command": "opacity","param": "10"},
+  {"category": "opacity", "keys": ["alt+2"], "description":"opacity", "command": "opacity","param": "20"},
+  {"category": "opacity", "keys": ["alt+3"], "description":"opacity", "command": "opacity","param": "30"},
+  {"category": "opacity", "keys": ["alt+4"], "description":"opacity", "command": "opacity","param": "40"},
+  {"category": "opacity", "keys": ["alt+5"], "description":"opacity", "command": "opacity","param": "50"},
+  {"category": "opacity", "keys": ["alt+6"], "description":"opacity", "command": "opacity","param": "60"},
+  {"category": "opacity", "keys": ["alt+7"], "description":"opacity", "command": "opacity","param": "70"},
+  {"category": "opacity", "keys": ["alt+8"], "description":"opacity", "command": "opacity","param": "80"},
+  {"category": "opacity", "keys": ["alt+9"], "description":"opacity", "command": "opacity","param": "90"},
+
+  {"category": "trim", "keys": ["d"], "description":"split", "command": "trim", "param": "center"},
+  {"category": "trim", "keys": ["s"], "description":"left trim", "command": "trim", "param": "left"},
+  {"category": "trim", "keys": ["f"], "description":"right trim", "command": "trim", "param": "right"},
+
+
+  {"category": "keyframe", "keys": ["ctrl+k"], "description":"add/remove keyframe", "command": "keyframe", "param": "add or remove"},
+
+  {"category": "keyframe", "keys": ["("], "description":"rotate", "command": "rotate", "param": "5"},
+  {"category": "keyframe", "keys": ["ctrl+("], "description":"rotate", "command": "rotate", "param": "45"},
+  {"category": "keyframe", "keys": [")"], "description":"rotate", "command": "rotate", "param": "5"},
+  {"category": "keyframe", "keys": ["ctrl+)"], "description":"rotate", "command": "rotate", "param": "45"}
+
+]

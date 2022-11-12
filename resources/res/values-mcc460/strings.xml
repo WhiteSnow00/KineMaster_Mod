@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_usage_mobile">Via Mobile Networks and WLAN</string>
+    <string name="data_usage_none">Never</string>
+    <string name="data_usage_wifi">Via WLAN Only</string>
+    <string name="pref_data_usage">How would you like KineMaster to check for updates?</string>
+    <string name="pref_data_usage_title">Automatic Updates</string>
+    <string name="pref_mobile_update_off">KineMaster will only check for updates using WLAN. Available updates are only downloaded upon user request.</string>
+    <string name="pref_mobile_update_on">KineMaster will check for updates using WLAN or mobile networks. Available updates are only downloaded upon user request.</string>
+    <string name="use_mobile_network_no">Via WLAN Only</string>
+    <string name="use_mobile_network_yes">Via Mobile Networks and WLAN</string>
+</resources>

@@ -1,0 +1,43 @@
+{
+    "thumbnail":"thumb_lut_w03.png",
+    "packageContentVersion": 1,
+    "itemRoots": [
+        "filtereffect/lut_w01",
+        "filtereffect/lut_w02",
+        "filtereffect/lut_w03",
+        "filtereffect/lut_w04",
+        "filtereffect/lut_w05",
+        "filtereffect/lut_w06",
+        "filtereffect/lut_w07",
+        "filtereffect/lut_w08",
+        "filtereffect/lut_w09",
+        "filtereffect/lut_w10",
+        "filtereffect/lut_w11",
+        "filtereffect/lut_w12"
+    ],
+    "targetVersionCode": 2,
+    "format": "com.kinemaster.assetpackage",
+    "minVersionCode": 2,
+    "assetName": {
+        "pt": "Quente",
+        "ja": "暖かみ",
+        "fr": "Chaud",
+        "zh-CN": "暖色",
+        "ko": "따뜻한",
+        "ar": "دافئ",
+        "zh-TW": "暖色",
+        "en": "Warm",
+        "zh-HK": "暖色",
+        "de": "Warm",
+        "ru": "Теплый",
+        "es": "Cálido",
+        "hi": "वार्म",
+        "id": "Hangat",
+        "it": "Caldo",
+        "ms": "Hangat",
+        "th": "โทนอบอุ่น",
+        "tr": "Sıcak",
+        "vi": "Màu ấm"
+    },
+    "assetLevel": 7
+}

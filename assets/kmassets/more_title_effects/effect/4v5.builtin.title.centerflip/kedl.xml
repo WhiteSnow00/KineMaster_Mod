@@ -1,0 +1,86 @@
+<effect categorytitle="@string/category_more_title" icon="fx_text_flip.6b80e3c01e9d894c25ce6d03e7b083ec438421cb.png" id="com.nexstreaming.kinemaster.4v5.builtin.title.centerflip" intime="1500" intimefirst="1500" maxtitleduration="8000" name="@string/fx_flip_title" outtime="1500" outtimelast="1500" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="2" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<userfield id="f_text2" maxlines="2" type="text">
+<fieldlabel locale="en" value="@string/userfld_reverse_text" />
+</userfield>
+
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<userfield default="#FFFFFF" id="f_color_text2" type="color">
+<fieldlabel locale="en" value="@string/userfld_reverse_color" />
+</userfield>
+
+<texture id="video1" video="1" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text" height="534" id="text_1" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="5 5" shadowradius="8" srcfield="@f_text" text="%1" textalign="center" textmargin="0" textsize="120" textvalign="center" typeface="asset:lato-bold.ttf" width="1335" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text2" height="534" id="text_2" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="5 5" shadowradius="8" srcfield="@f_text2" text="%1" textalign="center" textmargin="0" textsize="100" textvalign="center" typeface="asset:lato-bold.ttf" width="1335" />
+<animatedvalue id="text_2_alpha">
+<part type="in">
+<keyframe value="0" />
+<keyframe value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+</part>
+<part type="out">
+<keyframe value="1" />
+<keyframe value="0" />
+</part>
+</animatedvalue>
+<animatedvalue id="text_angle">
+<part type="in">
+<keyframe value="0" />
+<keyframe value="0" />
+</part>
+<part type="mid">
+<keyframe time="0.25" value="0" />
+<keyframe time="0.75" value="180" />
+</part>
+<part type="out">
+<keyframe value="180" />
+<keyframe value="180" />
+</part>
+</animatedvalue>
+<animatedvalue id="text_2_pos">
+<part type="in">
+<keyframe value="485.5 605.5" />
+<keyframe value="485.5 605.5" />
+</part>
+<part type="mid">
+<keyframe value="485.5 605.5" />
+<keyframe value="485.5 605.5" />
+</part>
+<part type="out">
+<keyframe value="485.5 605.5" />
+<keyframe value="485.5 605.5" />
+</part>
+</animatedvalue>
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.80000"
+    near="0.01"
+    far="60000">
+<translate offset="-480 -600 -1448.52814">
+<rect bounds="0 1200 960 0" texture="@video1" />
+<translate offset="@text_2_pos">
+<style alpha="@text_2_alpha">
+<cull face="front">
+<rotate angle="@text_angle" axis="0 1 0">
+<scale uniform="0.5">
+<rect bounds="-593.5 237.5 593.5 -237.5" texture="@text_1" />
+<rect bounds="593.5 237.5 -593.5 -237.5" texture="@text_2" />
+</scale>
+</rotate>
+</cull>
+</style>
+</translate>
+</translate>
+</projection>
+	
+</effect>

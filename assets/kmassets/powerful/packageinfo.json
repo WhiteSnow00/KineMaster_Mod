@@ -1,0 +1,73 @@
+{
+  "assetLevel":"7",
+  "assetName": {
+    "en": "Powerful",
+    "ar": "قوي",
+    "ko": "강력함",
+    "pt": "Poderoso",
+    "ja": "パワフル",
+    "fr": "Puissant",
+    "zh-CN": "强大",
+    "zh-TW": "強大",
+    "zh-HK": "強大",
+    "de": "Leistung",
+    "ru": "Мощный",
+    "es": "Potente",
+    "hi":"शक्तिशाली",
+    "id":"Kuat",
+    "it":"Potente",
+    "ms":"Kuat",
+    "th":"Powerful",
+    "tr":"Güçlü",
+    "vi":"Mạnh mẽ"
+  },
+  "format": "com.kinemaster.assetpackage",
+  "itemRoots": [
+    "effect/1v1.onstage.accent",
+    "effect/1v1.onstage.ending",
+    "effect/1v1.onstage.middle",
+    "effect/1v1.onstage.opening",
+    "effect/9v16.onstage.accent",
+    "effect/9v16.onstage.ending",
+    "effect/9v16.onstage.middle",
+    "effect/9v16.onstage.opening",
+    "effect/16v9.onstage.accent",
+    "effect/16v9.onstage.ending",
+    "effect/16v9.onstage.middle",
+    "effect/16v9.onstage.opening",
+    "transition/onstage.1v1.transition",
+    "transition/onstage.9v16.transition",
+    "transition/onstage.16v9.transition",
+
+    "effect/3v4.onstage.accent",
+    "effect/3v4.onstage.ending",
+    "effect/3v4.onstage.middle",
+    "effect/3v4.onstage.opening",
+
+    "effect/4v3.onstage.accent",
+    "effect/4v3.onstage.ending",
+    "effect/4v3.onstage.middle",
+    "effect/4v3.onstage.opening",
+
+    "effect/4v5.onstage.accent",
+    "effect/4v5.onstage.ending",
+    "effect/4v5.onstage.middle",
+    "effect/4v5.onstage.opening",
+
+    "effect/2.35v1.onstage.accent",
+    "effect/2.35v1.onstage.ending",
+    "effect/2.35v1.onstage.middle",
+    "effect/2.35v1.onstage.opening",
+    
+    "transition/onstage.3v4.transition",
+    
+    "transition/onstage.4v3.transition",
+
+    "transition/onstage.4v5.transition",
+
+    "transition/onstage.2.35v1.transition"
+  ],
+  "minVersionCode": 2,
+  "packageContentVersion": 2,
+  "targetVersionCode": 4
+}

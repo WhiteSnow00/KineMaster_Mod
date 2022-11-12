@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.doublesplit",
+  "id": "com.nexstreaming.kinemaster.builtin4.doublesplit",
+  "label": {
+    "en": "Double Split",
+    "ar": "تقسيم مزدوج",
+    "ko": "이중 분할",
+    "pt": "Divisão dupla",
+    "ja": "二分割",
+    "fr": "Double scission",
+    "zh-CN": "双重分割",
+    "zh-TW": "雙重分割",
+    "zh-HK": "雙重分割",
+    "de": "Doppel-Teilen",
+    "ru": "Двойное разделение",
+    "es": "Dividir doble",
+    "hi":"डबल स्पलिट ",
+    "id":"Pembagi Double",
+    "it":"Doppia Divisione",
+    "ms":"Pembahagi Dua kali",
+    "th":"แยกคู่",
+    "tr":"Çift Bölünmüş",
+    "vi":"Chia hai lần"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

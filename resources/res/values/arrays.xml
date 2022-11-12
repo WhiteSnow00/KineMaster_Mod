@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="annual_product_benefits">
+        <item>@string/remove_watermark_and_ads</item>
+        <item>@string/full_access_to_premium_assets</item>
+        <item>@string/new_music_and_assets_every_month</item>
+        <item>@string/Pro_feature_support</item>
+    </array>
+    <array name="asms_edition_items">
+        <item>@string/pref_asms_standard</item>
+        <item>@string/pref_asms_android</item>
+        <item>@string/pref_asms_china</item>
+    </array>
+    <array name="asms_edition_values">
+        <item>Standard</item>
+        <item>Android</item>
+        <item>China</item>
+    </array>
+    <array name="asms_server_items">
+        <item>@string/pref_asms_test_server</item>
+        <item>@string/pref_asms_product_server</item>
+    </array>
+    <array name="asms_server_values">
+        <item>@string/key_pref_asset_test_server</item>
+        <item>https://api-kinemaster-assetstore.kinemasters.com</item>
+    </array>
+    <array name="asset_env_items">
+        <item>@string/key_pref_asset_env_draft</item>
+        <item>@string/key_pref_asset_env_staging</item>
+        <item>@string/key_pref_asset_env_prod</item>
+    </array>
+    <array name="asset_env_values">
+        <item>draft</item>
+        <item>staging</item>
+        <item>production</item>
+    </array>
+    <array name="asset_mode_items">
+        <item>ad</item>
+        <item>sub</item>
+        <item>pre_use</item>
+        <item>free</item>
+        <item>none</item>
+    </array>
+    <array name="asset_mode_values">
+        <item>ad</item>
+        <item>sub</item>
+        <item>pre_use</item>
+        <item>free</item>
+        <item>none</item>
+    </array>
+    <array name="audio_rec_src_items">
+        <item>@string/audio_rec_src_auto</item>
+        <item>@string/audio_rec_src_voice</item>
+        <item>@string/audio_rec_src_camcorder</item>
+    </array>
+    <array name="audio_rec_src_values">
+        <item>auto</item>
+        <item>mic</item>
+        <item>cam</item>
+    </array>
+    <array name="category_media_browser">
+        <item>@string/mediabrowser_catagory_all</item>
+        <item>@string/mediabrowser_catagory_image</item>
+        <item>@string/mediabrowser_catagory_video</item>
+    </array>
+    <array name="data_usage_items">
+        <item>@string/data_usage_mobile</item>
+        <item>@string/data_usage_wifi</item>
+        <item>@string/data_usage_none</item>
+    </array>
+    <array name="data_usage_values">
+        <item>mobile</item>
+        <item>wifi</item>
+        <item>none</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="exporting_frame_rate_list_items">
+        <item>@string/pref_exporting_frame_rate_30</item>
+        <item>@string/pref_exporting_frame_rate_25</item>
+        <item>@string/pref_exporting_frame_rate_24</item>
+        <item>@string/pref_exporting_frame_rate_15</item>
+        <item>@string/pref_exporting_frame_rate_12</item>
+    </array>
+    <array name="exporting_frame_rate_list_items60">
+        <item>@string/pref_exporting_frame_rate_60</item>
+        <item>@string/pref_exporting_frame_rate_50</item>
+        <item>@string/pref_exporting_frame_rate_48</item>
+        <item>@string/pref_exporting_frame_rate_30</item>
+        <item>@string/pref_exporting_frame_rate_25</item>
+        <item>@string/pref_exporting_frame_rate_24</item>
+        <item>@string/pref_exporting_frame_rate_15</item>
+        <item>@string/pref_exporting_frame_rate_12</item>
+    </array>
+    <array name="exporting_frame_rate_list_items_gif">
+        <item>@string/pref_exporting_frame_rate_15</item>
+        <item>@string/pref_exporting_frame_rate_12</item>
+        <item>@string/pref_exporting_frame_rate_6</item>
+    </array>
+    <array name="frame_rate_list_value">
+        <item>30</item>
+        <item>25</item>
+        <item>24</item>
+        <item>15</item>
+        <item>12</item>
+    </array>
+    <array name="frame_rate_list_value60">
+        <item>60</item>
+        <item>50</item>
+        <item>48</item>
+        <item>30</item>
+        <item>25</item>
+        <item>24</item>
+        <item>15</item>
+        <item>12</item>
+    </array>
+    <array name="frame_rate_list_value_gif">
+        <item>15</item>
+        <item>12</item>
+        <item>6</item>
+    </array>
+    <array name="img_crop_items">
+        <item>@string/img_crop_none</item>
+        <item>@string/img_crop_fill</item>
+        <item>@string/img_crop_panrand</item>
+        <item>@string/new_project_crop_random</item>
+    </array>
+    <array name="monthly_product_benefits">
+        <item>@string/remove_watermark_and_ads</item>
+        <item>@string/full_access_to_premium_assets</item>
+        <item>@string/new_music_and_assets_every_month</item>
+        <item>@string/Pro_feature_support</item>
+    </array>
+    <array name="save_as_reward_type">
+        <item>none</item>
+        <item>just</item>
+        <item>watermark</item>
+    </array>
+    <array name="savefiles_loc_items">
+        <item>@string/savefiles_loc_default</item>
+        <item>@string/savefiles_loc_km</item>
+        <item>@string/savefiles_loc_proj</item>
+    </array>
+    <array name="savefiles_loc_value">
+        <item>def</item>
+        <item>km</item>
+        <item>proj</item>
+    </array>
+    <array name="setting_list">
+        <item>@string/setting_frame_rate</item>
+        <item>@string/setting_aspect_ratio</item>
+        <item>@string/setting_resolution</item>
+        <item>@string/setting_max_duration</item>
+    </array>
+    <array name="sorting_project_list_items">
+        <item>@string/pref_sorting_value_date_edit</item>
+        <item>@string/pref_sorting_value_date_create</item>
+        <item>@string/pref_sorting_value_name</item>
+    </array>
+    <array name="sorting_project_list_value">
+        <item>edit</item>
+        <item>make</item>
+        <item>name</item>
+    </array>
+    <array name="text_apply_to_all">
+        <item>Font</item>
+        <item>Fill (Text Color)</item>
+        <item>Outline</item>
+        <item>Shadow</item>
+        <item>Glow</item>
+        <item>Background</item>
+        <item>Text Option</item>
+        <item>Position</item>
+        <item>Angle(Rotation)</item>
+        <item>Size(Scale)</item>
+        <item>Alpha (Opacity)</item>
+    </array>
+    <array name="webview_feature">
+        <item>FAQ</item>
+        <item>Notice</item>
+        <item>PDS</item>
+    </array>
+    <array name="youtube_privacy">
+        <item>@string/sns_public</item>
+        <item>@string/sns_unlisted</item>
+        <item>@string/sns_private</item>
+    </array>
+</resources>

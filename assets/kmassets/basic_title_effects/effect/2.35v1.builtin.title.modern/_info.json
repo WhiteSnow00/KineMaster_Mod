@@ -1,0 +1,31 @@
+{
+  "ratios":["2.35:1"],
+  "kmcategory" : ["kmc.clipgraphics"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.modern",
+  "id": "com.nexstreaming.kinemaster.2.35v1.builtin.title.modern",
+  "label": {
+    "en": "Modern",
+    "ar": "عصريå",
+    "ko": "모던",
+    "pt": "Moderno",
+    "ja": "モダン",
+    "fr": "Moderne",
+    "zh-CN": "现代",
+    "zh-TW": "現代",
+    "zh-HK": "現代",
+    "de": "Modern",
+    "ru": "Модерн",
+    "es": "Moderno",
+    "hi":"आधुनिक",
+    "id":"Modern",
+    "it":"Moderno",
+    "ms":"Moden",
+    "th":"โมเดิร์น",
+    "tr":"Modern",
+    "vi":"Hiện đại"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

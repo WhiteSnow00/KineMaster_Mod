@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.onstage.opening",
+  "id": "com.nexstreaming.kinemaster.4v3.onstage.opening",
+  "label": {
+    "en": "On-Stage - Opening",
+    "ar": "على المسرح - فتح",
+    "ko": "스테이지 - 시작",
+    "pt": "No palco - Abertura",
+    "ja": "ステージ - 始まり",
+    "fr": "Sur scène - Ouverture",
+    "zh-CN": "舞台 - 开始",
+    "zh-TW": "舞臺 - 開始",
+    "zh-HK": "舞臺 - 開始",
+    "de": "Auf der Bühne - Beginn",
+    "ru": "На сцене - Открытие",
+    "es": "En escena - Apertura",
+    "hi":"ओन- स्टेज - शुरु",
+    "id":"Di atas Panggung - Pembukaan",
+    "it":"In-Scena - Apertura",
+    "ms":"Pada Permulaan Pentas",
+    "th":"บนเวที - ตอนเปิด",
+    "tr":"Sahnede - Açılış",
+    "vi":"On-Stage - Mở đầu"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

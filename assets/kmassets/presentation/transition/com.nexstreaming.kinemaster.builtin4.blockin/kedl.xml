@@ -1,0 +1,76 @@
+<effect categorytitle="@string/category_pres_trans" defaultduration="2000" effectoffset="100" icon="blockin.0baee2bc8d2090a2d8261c9c13111bce7708ce51.png" id="com.nexstreaming.kinemaster.builtin4.blockin" maxduration="5000" minduration="500" name="@string/trans_block_in" type="transition" videooverlap="100">
+<animatedvalue id="anim_1" timingfunction="linear">
+<keyframe time="0.0" value="-165 180" />
+<keyframe time="0.112" value="160 180" />
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<keyframe time="0.225" value="480 -185" />
+<keyframe time="0.337" timingfunction="ease" value="480 180" />
+</animatedvalue>
+<animatedvalue id="anim_3" timingfunction="linear">
+<keyframe time="0.787" value="800 -185" />
+<keyframe time="0.9" timingfunction="ease" value="800 180" />
+</animatedvalue>
+<animatedvalue id="anim_4" timingfunction="linear">
+<keyframe time="0.45" value="1445 180" />
+<keyframe time="0.562" timingfunction="ease" value="1120 180" />
+</animatedvalue>
+<animatedvalue id="anim_5" timingfunction="linear">
+<keyframe time="0.112" value="1445 540" />
+<keyframe time="0.225" timingfunction="ease" value="1120 540" />
+</animatedvalue>
+<animatedvalue id="anim_6" timingfunction="linear">
+<keyframe time="0.337" value="800 905" />
+<keyframe time="0.45" timingfunction="ease" value="800 540" />
+</animatedvalue>
+<animatedvalue id="anim_7" timingfunction="linear">
+<keyframe time="0.562" value="480 905" />
+<keyframe time="0.675" timingfunction="ease" value="480 540" />
+</animatedvalue>
+<animatedvalue id="anim_8" timingfunction="linear">
+<keyframe time="0.675" value="-165 540" />
+<keyframe time="0.787" timingfunction="ease" value="160 540" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<scale y="-1">
+<translate offset="-640 -360 -870">
+<translate offset="640 360">
+<rect bounds="-640 -360 640 360" texture="@video1" />
+</translate>
+<style dest="stencil">
+<translate offset="@anim_1">
+<rect bounds="-161 -181 161 181" color="1 0.392 0.196" />
+</translate>
+<translate offset="@anim_2">
+<rect bounds="-161 -181 161 181" color="1 0.392 0.196" />
+</translate>
+<translate offset="@anim_3">
+<rect bounds="-161 -181 161 181" color="1 0.392 0.196" />
+</translate>
+<translate offset="@anim_4">
+<rect bounds="-161 -181 161 181" color="1 0.392 0.196" />
+</translate>
+<translate offset="@anim_5">
+<rect bounds="-161 -181 161 181" color="1 0.392 0.196" />
+</translate>
+<translate offset="@anim_6">
+<rect bounds="-161 -181 161 181" color="1 0.392 0.196" />
+</translate>
+<translate offset="@anim_7">
+<rect bounds="-161 -181 161 181" color="1 0.392 0.196" />
+</translate>
+<translate offset="@anim_8">
+<rect bounds="-161 -181 161 181" color="1 0.392 0.196" />
+</translate>
+</style>
+<style rendertest="stencil">
+<translate offset="640 360">
+<rect bounds="-640 -360 640 360" texture="@video2" />
+</translate>
+</style>
+</translate>
+</scale>
+</projection>
+</effect>

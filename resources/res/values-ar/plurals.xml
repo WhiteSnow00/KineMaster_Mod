@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="zero">%d مسار</item>
+        <item quantity="one">%d مسار</item>
+        <item quantity="two">%d مسار</item>
+        <item quantity="few">%d مسارات</item>
+        <item quantity="many">%d مسارات</item>
+        <item quantity="other">%d مسارات</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="zero">عنصر%s مكرر؟</item>
+        <item quantity="one">%s عناصر مكررة؟</item>
+        <item quantity="two">%s عناصر مكررة؟</item>
+        <item quantity="few">%s عناصر مكررة؟</item>
+        <item quantity="many">%s عناصر مكررة؟</item>
+        <item quantity="other">%s عناصر مكررة؟</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="zero">كلمة المرور ليست قوية بما يكفي. استخدم على الأقل%1$d حرفًا ومزيجًا من الأحرف والأرقام</item>
+        <item quantity="one">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="two">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="few">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d أحرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="many">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="other">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="zero">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام %1$d رقم على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="one">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام رقم واحد (%1$d) على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="two">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام رقمين (%1$d) على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="few">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام %1$d أرقام على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="many">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام %1$d رقمًا على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="other">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام %1$d رقم على الأقل ومزيج من الأحرف والأرقام</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="zero">ملف صوتي مفقود من هذا المشروع في%s.</item>
+        <item quantity="one">الملفات الصوتية مفقودة من هذا المشروع.</item>
+        <item quantity="two">ملفات سمعية مفقودة من هذا المشروع.</item>
+        <item quantity="few">ملفات سمعية مفقودة من هذا المشروع.</item>
+        <item quantity="many">ملفات سمعية مفقودة من هذا المشروع.</item>
+        <item quantity="other">ملفات سمعية مفقودة من هذا المشروع.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="zero">ملف صورة مفقود من هذا المشروع في%s.</item>
+        <item quantity="one">ملفات الصور مفقودة من هذا المشروع.</item>
+        <item quantity="two">ملفات الصور مفقودة من هذا المشروع.</item>
+        <item quantity="few">ملفات الصور مفقودة من هذا المشروع.</item>
+        <item quantity="many">ملفات الصور مفقودة من هذا المشروع.</item>
+        <item quantity="other">ملفات الصور مفقودة من هذا المشروع.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="zero">يوصى باستبدال ملف الوسائط المفقود قبل الحفظ.</item>
+        <item quantity="one">يوصى باستبدال ملفات الوسائط المفقودة قبل الحفظ.</item>
+        <item quantity="two">يوصى أن يتم استبدالهم قبل التصدير.</item>
+        <item quantity="few">يوصى أن يتم استبدالهم قبل التصدير.</item>
+        <item quantity="many">يوصى أن يتم استبدالهم قبل التصدير.</item>
+        <item quantity="other">يوصى أن يتم استبدالهم قبل التصدير.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="zero">ملف فيديو مفقود من هذا المشروع في%s.</item>
+        <item quantity="one">ملفات الفيديو مفقودة من هذا المشروع.</item>
+        <item quantity="two">ملفات الفيديو مفقودة من هذا المشروع.</item>
+        <item quantity="few">ملفات الفيديو مفقودة من هذا المشروع.</item>
+        <item quantity="many">ملفات الفيديو مفقودة من هذا المشروع.</item>
+        <item quantity="other">ملفات الفيديو مفقودة من هذا المشروع.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="zero">%d تعليق</item>
+        <item quantity="one">%d تعليق</item>
+        <item quantity="two">%d تعليقان</item>
+        <item quantity="few">%d تعليقات</item>
+        <item quantity="many">%d تعليق</item>
+        <item quantity="other">%d تعليق</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="zero">سيتم حذف %d مشروع.</item>
+        <item quantity="one">سيتم حذف %d مشروع.</item>
+        <item quantity="two">سيتم حذف %d مشاريع.</item>
+        <item quantity="few">سيتم حذف %d مشاريع.</item>
+        <item quantity="many">سيتم حذف %d مشاريع.</item>
+        <item quantity="other">سيتم حذف %d مشاريع.</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="zero">تم تحديد%d مشروع</item>
+        <item quantity="one">تم تحديد%d مشروع</item>
+        <item quantity="two">تم تحديد%d من المشاريع</item>
+        <item quantity="few">تم تحديد%d من المشاريع</item>
+        <item quantity="many">تم تحديد%d من المشاريع</item>
+        <item quantity="other">تم تحديد%d من المشاريع</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="zero">مستخدم بريميوم KineMaster (%d days remaining)</item>
+        <item quantity="one">مستخدم بريميوم KineMaster(%d day remaining)</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">مستخدم بريميوم KineMaster(%d days remaining)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="zero">%s لمدة %d شهر!</item>
+        <item quantity="one">%s / شهر لمدة %d شهر!</item>
+        <item quantity="two">%s / شهر لمدة %d شهر!</item>
+        <item quantity="few">%s / شهر لمدة %d شهر!</item>
+        <item quantity="many">%s / شهر لمدة %d شهر!</item>
+        <item quantity="other">%s / شهر لمدة %d شهر!</item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="zero">%s لمدة %d سنة!</item>
+        <item quantity="one">%s / سنة لمدة %d سنوات!</item>
+        <item quantity="two">%s / سنة لمدة %d سنوات!</item>
+        <item quantity="few">%s / سنة لمدة %d سنوات!</item>
+        <item quantity="many">%s / سنة لمدة %d سنوات!</item>
+        <item quantity="other">%s / سنة لمدة %d سنوات!</item>
+    </plurals>
+</resources>

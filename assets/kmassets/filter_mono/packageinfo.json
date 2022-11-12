@@ -1,0 +1,41 @@
+{
+    "thumbnail":"thumb_lut_m01.png",
+    "packageContentVersion": 1,
+    "itemRoots": [
+        "filtereffect/lut_m01",
+        "filtereffect/lut_m02",
+        "filtereffect/lut_m03",
+        "filtereffect/lut_m04",
+        "filtereffect/lut_m05",
+        "filtereffect/lut_m06",
+        "filtereffect/lut_m07",
+        "filtereffect/lut_m08",
+        "filtereffect/lut_m09",
+        "filtereffect/lut_m10"
+    ],
+    "targetVersionCode": 2,
+    "format": "com.kinemaster.assetpackage",
+    "minVersionCode": 2,
+    "assetName": {
+        "pt": "Mono",
+        "ja": "モノ",
+        "fr": "Mono",
+        "zh-CN": "单色",
+        "ko": "모노",
+        "ar": "أحادي",
+        "zh-TW": "單色",
+        "en": "Mono",
+        "zh-HK": "單色",
+        "de": "Mono",
+        "ru": "Моно",
+        "es": "Mono",
+        "hi": "मोनो",
+        "id": "Satu warna",
+        "it": "Mono",
+        "ms": "Satu Warna",
+        "th": "ขาวดำ",
+        "tr": "Tek Renkli",
+        "vi": "Đơn sắc"
+    },
+    "assetLevel": 7
+}

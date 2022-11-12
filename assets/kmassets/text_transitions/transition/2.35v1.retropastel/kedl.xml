@@ -1,0 +1,277 @@
+<effect categorytitle="@string/category_text_transitions" defaultduration="2000" effectoffset="100" icon="transition_retro_title.cb6ce153d348f58f212d69a6973fa32c2f4d1165.png" id="com.nexstreaming.kinemaster.builtin3.2.25v1.retropastel" maxduration="10000" minduration="500" name="@string/trans_retro_pastel" type="transition" videooverlap="100">
+  
+  
+<userfield id="f_text" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+  
+<animatedvalue id="cslide" timingfunction="linear">
+<keyframe time="0.15" value="1823.500 300" />
+<keyframe time="0.25" timingfunction="default" value="791.998 300" />
+<keyframe time="0.75" timingfunction="linear" value="791.998 300" />
+<keyframe time="0.85" timingfunction="default" value="-405 300" />
+</animatedvalue>
+<animatedvalue id="leftscale">
+<keyframe time="0.0" value="7" />
+<keyframe time="0.1" value="1" />
+</animatedvalue>
+<animatedvalue id="rightscale">
+<keyframe time="0.9" value="1" />
+<keyframe time="1.0" value="7" />
+</animatedvalue>
+<animatedvalue id="textslide" timingfunction="linear">
+<keyframe time="0.24" value="1982.385 251.119" />
+<keyframe time="0.31" timingfunction="default" value="716.451 251.119" />
+<keyframe time="0.69" timingfunction="linear" value="716.451 251.119" />
+<keyframe time="0.76" timingfunction="default" value="-558.861 251.119" />
+</animatedvalue>
+<texture id="video2" video="2" />
+<texture id="video1" video="1" />
+
+<texture autosize="false" fill="true" fillcolor="#f3eec5ff" height="150" id="text1" shadow="true" shadowcolor="#98946fcc" shadowoffset="2 2" shadowradius="6" srcfield="@f_text" text="%1" textalign="center" textsize="90" textvalign="center" typeface="asset:redressed.ttf" width="1358" />
+  <projection
+    type="perspective"
+    fov="45"
+    aspect="2.35000"
+    near="0.01"
+    far="60000">
+<scale y="-1">
+<translate offset="-705 -300 -724.26407">
+<translate offset="705 300">
+<rect bounds="-705 -300 705 300" color="0.773 0.878 0.953" />
+</translate>
+<translate offset="668.623 326.928">
+<style alpha="0.500">
+<translate offset="0 0">
+              
+<translate offset="-960 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-900 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-840 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-780 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-720 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-660 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-600 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-540 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-480 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-420 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-360 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-300 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-240 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-180 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-120 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="-60 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+<translate offset="60 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="120 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="180 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="240 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="300 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="360 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="420 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="480 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="540 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="600 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="660 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="720 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="780 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="840 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="900 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+<translate offset="960 0">
+<rotate angle="-45" axis="0 0 1">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.953 0.953" />
+</rotate>
+</translate>
+              
+</translate>
+</style>
+</translate>
+<translate offset="@cslide">
+<translate offset="0 0">
+            
+<translate offset="21.500 1">
+<rect bounds="-1000 -10 1000 10" color="0.737 0.439 0.486" />
+</translate>
+<translate offset="21.500 -2">
+<rect bounds="-1000 -10 1000 10" color="0.953 0.592 0.620" />
+</translate>
+<translate offset="-1108.500 0">
+<scale uniform="@leftscale">
+<translate offset="0 0">
+                    
+<circle center="0 0" color="0.953 0.592 0.620" radius="135.500" />
+<circle center="0 0" color="0.737 0.439 0.486" radius="122.674" />
+<style dest="stencil">
+<circle center="0 0" color="0 0 0" radius="115.467" />
+</style>
+                    
+</translate>
+</scale>
+</translate>
+<translate offset="1108.500 0">
+<scale uniform="@rightscale">
+<translate offset="0 0">
+                    
+<circle center="0 0" color="0.953 0.592 0.620" radius="135.500" />
+<circle center="0 0" color="0.737 0.439 0.486" radius="122.674" />
+<style dest="stencil">
+<circle center="0 0" color="0 0 0" radius="115.467" />
+</style>
+                    
+</translate>
+</scale>
+</translate>
+            
+</translate>
+</translate>
+<translate offset="@textslide">
+<translate offset="0 -8">
+            
+<translate offset="-1.549 -1.881">
+<rect bounds="-604 -75 604 75" texture="@text1" />
+</translate>
+            
+</translate>
+</translate>
+        
+<style rendertest="stencil">
+<visibility end="0.5" start="0">
+<translate offset="705 300">
+<rect bounds="-705 -300 705 300" texture="@video1" />
+</translate>
+</visibility>
+<visibility end="1" start="0.5">
+<translate offset="705 300">
+<rect bounds="-705 -300 705 300" texture="@video2" />
+</translate>
+</visibility>
+</style>
+</translate>
+</scale>
+</projection>
+</effect>

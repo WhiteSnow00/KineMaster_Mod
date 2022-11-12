@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b27.png",
+    "hidden": "False",
+    "filename": "lut_b27.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b27.B27",
+    "label": {
+        "pt": "B27",
+        "ja": "B27",
+        "fr": "B27",
+        "zh-CN": "B27",
+        "ko-KR": "B27",
+        "ar": "B27",
+        "zh-TW": "B27",
+        "en": "B27",
+        "zh-HK": "B27",
+        "de-DE": "B27",
+        "ru": "B27",
+        "es": "B27",
+        "hi": "B27",
+        "id": "B27",
+        "it": "B27",
+        "ms": "B27",
+        "th": "B27",
+        "tr-TR": "B27",
+        "vi-VN": "B27"
+    }
+}

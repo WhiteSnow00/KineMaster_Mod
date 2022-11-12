@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b32.png",
+    "hidden": "False",
+    "filename": "lut_b32.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b32.B32",
+    "label": {
+        "pt": "B32",
+        "ja": "B32",
+        "fr": "B32",
+        "zh-CN": "B32",
+        "ko-KR": "B32",
+        "ar": "B32",
+        "zh-TW": "B32",
+        "en": "B32",
+        "zh-HK": "B32",
+        "de-DE": "B32",
+        "ru": "B32",
+        "es": "B32",
+        "hi": "B32",
+        "id": "B32",
+        "it": "B32",
+        "ms": "B32",
+        "th": "B32",
+        "tr-TR": "B32",
+        "vi-VN": "B32"
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Spol %d sekund frem</item>
+        <item quantity="other">Spol %d sekunder frem</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Spol %d sekund tilbage</item>
+        <item quantity="other">Spol %d sekunder tilbage</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Adgangskoden er ikke stærk nok. Brug mindst %1$d tegn og en blanding af bogstaver og tal</item>
+        <item quantity="other">Adgangskoden er ikke stærk nok. Brug mindst %1$d tegn og en blanding af bogstaver og tal</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny notifikation</item>
+        <item quantity="other">%d nye notifikationer</item>
+    </plurals>
+</resources>

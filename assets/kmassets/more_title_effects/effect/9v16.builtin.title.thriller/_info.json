@@ -1,0 +1,31 @@
+{
+  "ratios": ["9:16"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.thriller",
+  "id": "com.nexstreaming.kinemaster.9v16.builtin.title.thriller",
+  "label": {
+    "en": "Thriller",
+    "ar": "قصة مثيرة",
+    "ko": "스릴러",
+    "pt": "Suspense",
+    "ja": "スリラー",
+    "fr": "Thriller",
+    "zh-CN": "恐怖",
+    "zh-TW": "恐怖",
+    "zh-HK": "恐怖",
+    "de": "Thriller",
+    "ru": "Триллер",
+    "es": "Terror",
+    "hi":"थ्रिलर",
+    "id":"Mengerikan",
+    "it":"Thriller",
+    "ms":"Menyeramkan",
+    "th":"Thriller",
+    "tr":"Gerilim",
+    "vi":"Giật gân"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

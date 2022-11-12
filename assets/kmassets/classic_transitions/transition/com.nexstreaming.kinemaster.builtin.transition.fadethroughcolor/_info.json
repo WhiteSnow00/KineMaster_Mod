@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "kmcategory" : ["kmc.transition"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.fadethroughcolor",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.fadethroughcolor",
+  "label": {
+    "en": "Fade Through Color",
+    "ar": "تلاشي عبر اللون",
+    "ko": "페이드(컬러)",
+    "pt": "Desvanecer com a cor",
+    "ja": "フェード（カラー）",
+    "fr": "Fondu de couleurs",
+    "zh-CN": "淡出效果(颜色)",
+    "zh-TW": "淡出特效(顏色)",
+    "zh-HK": "淡出特效(顏色)",
+    "de": "Farblich Ausblenden",
+    "ru": "Затухание через цвет",
+    "es": "Disolver por color",
+    "hi":"रंग के माध्यम से फेड ",
+    "id":"Memudar melalui Warna",
+    "it":"Dissolvenza Attraverso il Colore",
+    "ms":"Pudar Melalui Warna",
+    "th":"สีจางลง",
+    "tr":"Renk Soldurması",
+    "vi":"Mờ theo màu"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.stylishfinale",
+  "id": "com.nexstreaming.kinemaster.4v3.builtin.title.stylishfinale",
+  "label": {
+    "en": "Stylish Finale",
+    "ar": "خاتمة أنيقة",
+    "ko": "스타일리시(엔딩)",
+    "pt": "Final elegante",
+    "ja": "スタイリッシュ（エンディング）",
+    "fr": "Final élégant",
+    "zh-CN": "时尚(结尾)",
+    "zh-TW": "時尚(結尾)",
+    "zh-HK": "時尚(結尾)",
+    "de": "Stilvolles Finale",
+    "ru": "Стильный финал",
+    "es": "Final elegante",
+    "hi":"स्टाइलिश अंत ",
+    "id":"Akhir Bergaya",
+    "it":"Finale Elegante",
+    "ms":"Pengahiran Bergaya",
+    "th":"จบแบบทันสมัย",
+    "tr":"Şık Final",
+    "vi":"Kết thúc (Nghệ thuật)"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

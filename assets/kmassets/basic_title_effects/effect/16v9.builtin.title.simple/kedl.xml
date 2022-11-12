@@ -1,0 +1,53 @@
+<effect categorytitle="@string/category_basic_title" icon="fx_text_subtitle.4bbc6a76c41845912f40c3503d132c9978b19144.png" id="com.nexstreaming.kinemaster.builtin.title.simple" intime="1000" name="@string/fx_subtitle" outtime="1000" outtimelast="1000" intimefirst="1000" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="2" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<userfield default="#000000" id="f_color_bg" type="color">
+<fieldlabel locale="en" value="@string/userfld_bg_color" />
+</userfield>
+	
+<userfield default="0 153 1280 0" id="f_pos" type="selection">
+<option value="0 153 1280 0">
+<fieldlabel locale="en" value="@string/userfld_pos_bottom" />
+</option>
+<option value="0 436 1280 283">
+<fieldlabel locale="en" value="@string/userfld_pos_middle" />
+</option>
+<option value="0 720 1280 567">
+<fieldlabel locale="en" value="@string/userfld_pos_top" />
+</option>
+</userfield>
+
+<animatedvalue id="fade">
+<part type="in">
+<keyframe value="0" />
+<keyframe value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+</part>
+<part type="out">
+<keyframe value="1" />
+<keyframe value="0" />
+</part>
+</animatedvalue>
+
+<texture id="video1" video="1" />
+<texture autosize="false" bgcolor="@f_color_bg.r @f_color_bg.g @f_color_bg.b 0.5" fill="true" fillcolor="@f_color_text" height="230" id="text_2" srcfield="@f_text" text="%1" textalign="left" textmargin="10" textsize="180" textvalign="center" typeface="asset:junction.ttf" width="1920" />
+    	
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<translate offset="-640 -360 -870">
+<rect bounds="0 720 1280 0" texture="@video1" />
+<style alpha="@fade">
+<rect bounds="@f_pos" texture="@text_2" />
+</style>
+</translate>
+</projection>
+    
+</effect>

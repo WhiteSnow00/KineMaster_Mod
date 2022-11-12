@@ -1,0 +1,111 @@
+<effect categorytitle="@string/category_pres_trans" defaultduration="2000" effectoffset="100" icon="wipe.985b468469cd31bff59b0a868bd695bca40569a5.png" id="com.nexstreaming.kinemaster.builtin4.wipe" maxduration="5000" minduration="500" name="@string/trans_wipe" type="transition" videooverlap="100">
+  
+<animatedvalue id="anim_left" timingfunction="linear">
+<keyframe time="0.1" value="1925.319 360" />
+<keyframe time="0.9" timingfunction="ease-in-out" value="640 360" />
+</animatedvalue>
+<animatedvalue id="anim_right" timingfunction="linear">
+<keyframe time="0.1" value="-645 360" />
+<keyframe time="0.9" timingfunction="ease-in-out" value="640 360" />
+</animatedvalue>
+<animatedvalue id="anim_up" timingfunction="linear">
+<keyframe time="0.1" value="640 -360" />
+<keyframe time="0.9" timingfunction="ease-in-out" value="640 360" />
+</animatedvalue>
+<animatedvalue id="anim_down" timingfunction="linear">
+<keyframe time="0.1" value="640 1080" />
+<keyframe time="0.9" timingfunction="ease-in-out" value="640 360" />
+</animatedvalue>
+<animatedvalue id="anim_in" timingfunction="linear">
+<keyframe time="0.1" value="1" />
+<keyframe time="0.9" timingfunction="ease-in-out" value="0.001" />
+</animatedvalue>
+<animatedvalue id="anim_out" timingfunction="linear">
+<keyframe time="0.1" value="0.001" />
+<keyframe time="0.9" timingfunction="ease-in-out" value="1" />
+</animatedvalue>
+  
+<userfield default="5.5" id="f_wipedir" type="selection">
+<option value="5.5">
+<fieldlabel locale="en" value="@string/userfld_direction_left" />
+</option>
+<option value="2.5">
+<fieldlabel locale="en" value="@string/userfld_direction_right" />
+</option>
+<option value="4.5">
+<fieldlabel locale="en" value="@string/userfld_direction_up" />
+</option>
+<option value="3.5">
+<fieldlabel locale="en" value="@string/userfld_direction_down" />
+</option>
+<option value="1.5">
+<fieldlabel locale="en" value="@string/userfld_direction_in" />
+</option>
+<option value="6.5">
+<fieldlabel locale="en" value="@string/userfld_direction_out" />
+</option>
+</userfield>
+
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<scale y="-1">
+<translate offset="-640 -360 -870">
+<translate offset="640 360">
+<visibility check="@f_wipedir" end="1.9" start="0.0">
+<rect bounds="-640 -360 640 360" texture="@video2" />
+</visibility>
+<visibility check="@f_wipedir" end="100" start="2.0">
+<rect bounds="-640 -360 640 360" texture="@video1" />
+</visibility>
+</translate>
+<style dest="stencil">
+<visibility check="@f_wipedir" end="5.9" start="5.0">
+<translate offset="@anim_left">
+<rect bounds="-640 -360 640 360" />
+</translate>
+</visibility>
+<visibility check="@f_wipedir" end="2.9" start="2.0">
+<translate offset="@anim_right">
+<rect bounds="-640 -360 640 360" />
+</translate>
+</visibility>
+<visibility check="@f_wipedir" end="3.9" start="3.0">
+<translate offset="@anim_up">
+<rect bounds="-640 -360 640 360" />
+</translate>
+</visibility>
+<visibility check="@f_wipedir" end="4.9" start="4.0">
+<translate offset="@anim_down">
+<rect bounds="-640 -360 640 360" />
+</translate>
+</visibility>
+<visibility check="@f_wipedir" end="1.9" start="1.0">
+<translate offset="640 360">
+<scale uniform="@anim_in">
+<rect bounds="-640 -360 640 360" />
+</scale>
+</translate>
+</visibility>
+<visibility check="@f_wipedir" end="6.9" start="6.0">
+<translate offset="640 360">
+<scale uniform="@anim_out">
+<rect bounds="-640 -360 640 360" />
+</scale>
+</translate>
+</visibility>
+</style>
+<style rendertest="stencil">
+<translate offset="640 360">
+<visibility check="@f_wipedir" end="1.9" start="0.0">
+<rect bounds="-640 -360 640 360" texture="@video1" />
+</visibility>
+<visibility check="@f_wipedir" end="100" start="2.0">
+<rect bounds="-640 -360 640 360" texture="@video2" />
+</visibility>
+</translate>
+</style>
+</translate>
+</scale>
+</projection>
+</effect>

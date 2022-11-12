@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_croissant.svg",
+	"thumbnail":"sticker_croissant.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_croissant"
+}

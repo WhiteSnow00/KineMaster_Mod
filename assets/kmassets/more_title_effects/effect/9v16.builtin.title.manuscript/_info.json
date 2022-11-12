@@ -1,0 +1,31 @@
+{
+  "ratios": ["9:16"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.manuscript",
+  "id": "com.nexstreaming.kinemaster.9v16.builtin.title.manuscript",
+  "label": {
+    "en": "Manuscript",
+    "ar": "مخطوط",
+    "ko": "대본",
+    "pt": "Manuscrito",
+    "ja": "台本",
+    "fr": "Manuscrit",
+    "zh-CN": "剧本",
+    "zh-TW": "手稿",
+    "zh-HK": "手稿",
+    "de": "Manuskript",
+    "ru": "Рукописный",
+    "es": "Manuscrito",
+    "hi":"हस्तलिपि",
+    "id":"Naskah",
+    "it":"Manoscritto",
+    "ms":"Manuskirp",
+    "th":"ลายมือ",
+    "tr":"El Yazısı",
+    "vi":"Kịch bản"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.stripwipe",
+  "id": "com.nexstreaming.kinemaster.builtin4.stripwipe",
+  "label": {
+    "en": "Strip Wipe",
+    "ar": "مسح شريطي",
+    "ko": "줄무늬 닦아내기",
+    "pt": "Limpar listra",
+    "ja": "ストリップワイプ",
+    "fr": "Balayage bande",
+    "zh-CN": "条式擦除",
+    "zh-TW": "條式抹去",
+    "zh-HK": "條式抹去",
+    "de": "Streifen-Wischen",
+    "ru": "Шторка \u0027Полоса\u0027",
+    "es": "Limpiar con franjas",
+    "hi":"स्ट्रीप वाइप",
+    "id":"Seka Searah Jarum Jam",
+    "it":"Pulire come Striscia",
+    "ms":"Mengeset Strip",
+    "th":"แถบ",
+    "tr":"Şerit Silme",
+    "vi":"Xoá theo dải"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

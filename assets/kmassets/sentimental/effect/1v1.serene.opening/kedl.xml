@@ -1,0 +1,206 @@
+<effect id="com.nexstreaming.kinemaster.1v1.serene.opening" intime="2000" intimefirst="2000" outtime="2000" outtimelast="0" theme="true" type="title">
+
+<texture id="videoframe" video="1" />
+<userfield id="f_text" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+<texture fill="true" fillcolor="0.05 0.1 0.2 0.9" id="title_text" srcfield="@f_text" text="%1" textalign="center" textsize="90" typeface="asset:junction.ttf" width="900" height="1024"/>
+			
+			
+<animatedvalue id="fade_in">
+<keyframe value="0" />
+<keyframe value="1" />
+</animatedvalue>
+		
+<animatedvalue id="fade_out">
+<keyframe value="1" />
+<keyframe value="0" />
+</animatedvalue>
+
+<texture id="bp4" src="r0" />
+<texture id="bp1" src="r2" />
+
+<animatedvalue id="fade_out">
+<keyframe time="0.35" value="1" />
+<keyframe time="0.7" value="0.2" />
+</animatedvalue>
+	
+<animatedvalue id="fade_in">
+<keyframe time="0.3" value="0.2" />
+<keyframe time="0.65" value="1" />
+</animatedvalue>
+	
+<scale x="0.9" y="1.5">
+<trianglestrip type="fan">
+<point color="#e4eceb" location="0 0" />
+<point color="#96cac5" location="0.000000 -2.000000" />
+<point color="#96cac5" location="0.765367 -1.847759" />
+<point color="#96cac5" location="1.414214 -1.414214" />
+<point color="#96cac5" location="1.847759 -0.765367" />
+<point color="#96cac5" location="2.000000 -0.000000" />
+<point color="#96cac5" location="1.847759 0.765367" />
+<point color="#96cac5" location="1.414214 1.414214" />
+<point color="#96cac5" location="0.765367 1.847759" />
+<point color="#96cac5" location="0.000000 2.000000" />
+<point color="#96cac5" location="-0.765367 1.847759" />
+<point color="#96cac5" location="-1.414214 1.414214" />
+<point color="#96cac5" location="-1.847759 0.765367" />
+<point color="#96cac5" location="-2.000000 0.000000" />
+<point color="#96cac5" location="-1.847759 -0.765367" />
+<point color="#96cac5" location="-1.414214 -1.414214" />
+<point color="#96cac5" location="-0.765367 -1.847759" />
+<point color="#96cac5" location="0.000000 -2.000000" />
+</trianglestrip>
+</scale>
+	
+<animatedvalue id="zoom_amount" timingfunction="linear">
+<keyframe value="-11.14" />
+<keyframe timingfunction="ease-in-out" value="-17" />
+<keyframe timingfunction="ease-in-out" value="-11.14" />
+</animatedvalue>
+	
+<animatedvalue id="rotate_amount" timingfunction="ease-in-out">
+<keyframe value="-23" />
+<keyframe value="23" />
+</animatedvalue>
+	
+<animatedvalue id="rotate_amount_b" timingfunction="ease-in-out">
+<keyframe value="23" />
+<keyframe value="-23" />
+</animatedvalue>
+	
+<animatedvalue id="bgspin_s" timingfunction="linear">
+<keyframe value="-30" />
+<keyframe value="-15" />
+</animatedvalue>
+<animatedvalue id="bgspin_m" timingfunction="linear">
+<keyframe value="-15" />
+<keyframe value="15" />
+</animatedvalue>
+<animatedvalue id="bgspin_e" timingfunction="linear">
+<keyframe value="15" />
+<keyframe value="30" />
+</animatedvalue>
+	
+<projection type="perspective" fov="45" aspect="1.0" near="0.01" far="60000">
+
+<part type="in">
+<translate offset="0 0 @zoom_amount"><rotate angle="@rotate_amount" axis="0 1 0">
+				
+<sequence count="90" end="10 5 0.3 360" id="r" seed="42985357" start="-10 -5 0.6 0" type="randmix">
+<translate offset="@r.x @r.y @r.z*15"><style alpha="@r.z">
+<rotate angle="@bgspin_s" axis="0 1 0">
+<rotate angle="@r.w" axis="0 1 0"><rect bounds="-0.5 0.5 0.5 -0.5" texture="@bp4" /></rotate>
+</rotate>
+</style></translate>
+</sequence>
+			
+<rotate angle="-23" axis="0 1 0">
+<translate offset="0 0 9">
+<scale uniform="0.1">
+<rect anchor="center" location="0 0" texture="@title_text" width="14" />
+</scale>
+</translate>
+</rotate>
+				
+<part clip="!first">
+<rotate angle="23" axis="0 1 0">
+<translate offset="0 0 9">
+<scale uniform="0.1">
+<style alpha="0.8"><rect bounds="-15 15 15 -15" texture="@bp1" /></style>
+<style alpha="@fade_out"><rect bounds="-9 9 9 -9" texture="@videoframe" /></style>
+</scale>
+</translate>
+</rotate>
+</part>
+			
+<sequence count="25" end="8 4 0.75 360" id="r" seed="29483674" start="-8 -4 1 0" type="randmix">
+<translate offset="@r.x @r.y @r.z*15"><style alpha="@r.z">
+<rotate angle="@bgspin_s" axis="0 1 0">
+<rotate angle="@r.w" axis="0 1 0"><rect bounds="-0.5 0.5 0.5 -0.5" texture="@bp4" /></rotate>
+</rotate>
+</style></translate>
+</sequence>
+					
+</rotate></translate>
+</part>
+		
+<part type="mid">
+<translate offset="0 0 -11.14"><rotate angle="23" axis="0 1 0">
+				
+<sequence count="90" end="10 5 0.3 360" id="r" seed="42985357" start="-10 -5 0.6 0" type="randmix">
+<translate offset="@r.x @r.y @r.z*15"><style alpha="@r.z">
+<rotate angle="@bgspin_m" axis="0 1 0">
+<rotate angle="@r.w" axis="0 1 0"><rect bounds="-0.5 0.5 0.5 -0.5" texture="@bp4" /></rotate>
+</rotate>
+</style></translate>
+</sequence>
+			
+<rotate angle="-23" axis="0 1 0">
+<translate offset="0 0 9">
+<scale uniform="0.1">
+<rect anchor="center" location="0 0" texture="@title_text" width="14" />
+</scale>
+</translate>
+</rotate>
+<rotate angle="23" axis="0 1 0">
+<translate offset="0 0 9">
+<scale uniform="0.1">
+<style alpha="0.8"><rect bounds="-15 15 15 -15" texture="@bp1" /></style>
+<style alpha="@fade_out"><rect bounds="-9 9 9 -9" texture="@videoframe" /></style>
+</scale>
+</translate>
+</rotate>
+			
+<sequence count="25" end="8 4 0.75 360" id="r" seed="29483674" start="-8 -4 1 0" type="randmix">
+<translate offset="@r.x @r.y @r.z*15"><style alpha="@r.z">
+<rotate angle="@bgspin_m" axis="0 1 0">
+<rotate angle="@r.w" axis="0 1 0"><rect bounds="-0.5 0.5 0.5 -0.5" texture="@bp4" /></rotate>
+</rotate>
+</style></translate>
+</sequence>
+					
+</rotate></translate>
+</part>
+		
+<part type="out">
+<translate offset="0 0 @zoom_amount"><rotate angle="@rotate_amount_b" axis="0 1 0">
+				
+<sequence count="90" end="10 5 0.3 360" id="r" seed="42985357" start="-10 -5 0.6 0" type="randmix">
+<translate offset="@r.x @r.y @r.z*15"><style alpha="@r.z">
+<rotate angle="@bgspin_e" axis="0 1 0">
+<rotate angle="@r.w" axis="0 1 0"><rect bounds="-0.5 0.5 0.5 -0.5" texture="@bp4" /></rotate>
+</rotate>
+</style></translate>
+</sequence>
+			
+<rotate angle="-23" axis="0 1 0">
+<translate offset="0 0 9">
+<scale uniform="0.1">
+<rect anchor="center" location="0 0" texture="@title_text" width="14" />
+</scale>
+</translate>
+</rotate>
+<rotate angle="23" axis="0 1 0">
+<translate offset="0 0 9">
+<scale uniform="0.1">
+<style alpha="0.8"><rect bounds="-15 15 15 -15" texture="@bp1" /></style>
+<style alpha="@fade_in"><rect bounds="-9 9 9 -9" texture="@videoframe" /></style>
+</scale>
+</translate>
+</rotate>
+			
+<sequence count="25" end="8 4 0.75 360" id="r" seed="29483674" start="-8 -4 1 0" type="randmix">
+<translate offset="@r.x @r.y @r.z*15"><style alpha="@r.z">
+<rotate angle="@bgspin_e" axis="0 1 0">
+<rotate angle="@r.w" axis="0 1 0"><rect bounds="-0.5 0.5 0.5 -0.5" texture="@bp4" /></rotate>
+</rotate>
+</style></translate>
+</sequence>
+					
+</rotate></translate>
+</part>
+		
+</projection>
+	
+</effect>

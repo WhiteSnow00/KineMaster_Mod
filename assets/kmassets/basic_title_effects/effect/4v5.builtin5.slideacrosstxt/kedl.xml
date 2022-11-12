@@ -1,0 +1,87 @@
+<effect categorytitle="@string/category_basic_title" icon="slideacross.eb13d7e6c8e483443123af6dfdf23c17b23830ca.png" id="com.nexstreaming.kinemaster.4v5.builtin5.slideacrosstxt" intime="750" intimefirst="750" name="@string/fx_slideacross" outtime="750" outtimelast="750" repeat="no" type="title">
+<animatedvalue id="anim_1" timingfunction="linear">
+<part type="in">
+<keyframe time="0" value="1100 541.178" />
+<keyframe time="1" timingfunction="ease-in" value="400 541.178" />
+</part>
+<part type="mid">
+<keyframe time="0" value="400 541.178" />
+<keyframe time="1" timingfunction="linear" value="360 541.178" />
+</part>
+<part type="out">
+<keyframe time="0" value="360 541.178" />
+<keyframe time="1" timingfunction="ease-out" value="-200 541.178" />
+</part>
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<part type="in">
+<keyframe time="0" value="-160.079 640.791" />
+<keyframe time="1" timingfunction="ease-in" value="560 640.791" />
+</part>
+<part type="mid">
+<keyframe time="0" value="560 640.791" />
+<keyframe time="1" timingfunction="linear" value="600 640.791" />
+</part>
+<part type="out">
+<keyframe time="0" value="600 640.791" />
+<keyframe time="1" timingfunction="ease-out" value="1100 640.791" />
+</part>
+</animatedvalue>
+
+<userfield id="f_text" type="text">
+<fieldlabel locale="en" value="@string/userfld_first_line" />
+</userfield>
+    
+<userfield default="#FFFFFF" id="f_color_line" type="color">
+<fieldlabel locale="en" value="@string/userfld_first_line" />
+</userfield>
+
+<userfield id="f_text2" type="text">
+<fieldlabel locale="en" value="@string/userfld_second_line" />
+</userfield>
+
+<userfield default="#FFFFFF" id="f_color_line2" type="color">
+<fieldlabel locale="en" value="@string/userfld_second_line" />
+</userfield>
+
+<userfield default="0 450 0 0" id="f_slide_across_pos" type="selection">
+<option value="0 450 0 0">
+<fieldlabel locale="en" value="@string/userfld_pos_bottom" />
+</option>
+<option value="0 0 0 0">
+<fieldlabel locale="en" value="@string/userfld_pos_middle" />
+</option>
+<option value="0 -450 0 0">
+<fieldlabel locale="en" value="@string/userfld_pos_top" />
+</option>
+</userfield>
+
+
+<texture id="video1" video="1" />
+<texture autosize="false" fill="true" fillcolor="@f_color_line" height="110" id="text1" srcfield="@f_text" text="%1" textalign="center" textsize="50" textvalign="center" typeface="asset:lato-bold.ttf" width="480" />
+<texture autosize="false" fill="true" fillcolor="@f_color_line2" height="70" id="text2" srcfield="@f_text2" text="%1" textalign="center" textsize="40" textvalign="center" typeface="asset:lato-bold.ttf" width="348" />
+
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.80000"
+    near="0.01"
+    far="60000">
+<scale y="-1">
+<translate offset="-480 -600 -1448.52814">
+
+<translate offset="480 600">
+<rect bounds="-480 -600 480 600" texture="@video1" />
+</translate>
+<translate offset="@f_slide_across_pos.x @f_slide_across_pos.y">
+<translate offset="@anim_1">
+<rect bounds="-181.351 -50 297.622 60" texture="@text1" />
+</translate>
+<translate offset="@anim_2">
+<rect bounds="-204.151 -59.874 143.982 11.443" texture="@text2" />
+</translate>
+</translate>
+</translate>
+</scale>
+</projection>
+</effect>

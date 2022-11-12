@@ -1,0 +1,31 @@
+{
+  "ratios": ["9:16"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.travel.ending",
+  "id": "com.nexstreaming.kinemaster.9v16.travel.ending",
+  "label": {
+    "en": "Travel - Ending",
+    "ar": "سفر - إنهاء",
+    "ko": "여행 - 마지막",
+    "pt": "Viagem - Final",
+    "ja": "旅行 - 終わり",
+    "fr": "Voyage - Fin",
+    "zh-CN": "旅行 - 结尾",
+    "zh-TW": "旅行 - 最後",
+    "zh-HK": "旅行 - 最後",
+    "de": "Reisen - Ende",
+    "ru": "Путешествие - Завершение",
+    "es": "Viajes - Final",
+    "hi":"यात्रा - अंत ",
+    "id":"Perjalanan - Akhir",
+    "it":"Viaggio- Finale",
+    "ms":"Perjalanan - Pengakhiran",
+    "th":"การเดินทาง - ตอนจบ",
+    "tr":"Gezi - Bitiş",
+    "vi":"Du lịch - Kết thúc"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

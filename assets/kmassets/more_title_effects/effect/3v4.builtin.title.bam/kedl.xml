@@ -1,0 +1,152 @@
+<effect categorytitle="@string/category_more_title" cycletime="1100" icon="fx_text_bam.552ec3aa7c44349a67bf41551fe1988afa0615b4.png" id="com.nexstreaming.kinemaster.3v4.builtin.title.bam" intime="1300" intimefirst="1300" maxtitleduration="8000" name="@string/fx_bam" outtime="600" outtimelast="600" repeat="yes" type="title">
+
+<userfield id="f_text" maxlines="2" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<userfield default="#FFAA00" id="f_color" type="color">
+<fieldlabel locale="en" value="@string/userfld_burst_color_1" />
+</userfield>
+
+<userfield default="#FFFF00" id="f_color2" type="color">
+<fieldlabel locale="en" value="@string/userfld_burst_color_2" />
+</userfield>
+
+<texture id="video1" video="1" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text" height="534" id="text_2" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="5 5" shadowradius="8" srcfield="@f_text" text="%1" textalign="center" textmargin="0" textsize="150" textvalign="center" typeface="asset:lato-bold.ttf" width="1335" />
+<animatedvalue id="text_2_alpha">
+<part type="in">
+<keyframe value="0" />
+<keyframe value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+</part>
+<part type="out">
+<keyframe value="1" />
+<keyframe value="0" />
+</part>
+</animatedvalue>
+<animatedvalue id="burst_alpha">
+<part type="in">
+<keyframe value="0" />
+<keyframe value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+</part>
+<part type="out">
+<keyframe value="1" />
+<keyframe value="0" />
+</part>
+</animatedvalue>
+<animatedvalue id="burst_size">
+<part type="in">
+<keyframe value="0.05" />
+<keyframe value="0.5" />
+<keyframe value="0.9" />
+<keyframe value="0.3" />
+<keyframe timingfunction="ease-out" value="0.75" />
+<keyframe value="0.5" />
+</part>
+<part type="mid">
+<keyframe value="0.5" />
+<keyframe value="0.9" />
+<keyframe value="0.3" />
+<keyframe value="0.75" />
+<keyframe value="0.5" />
+</part>
+<part type="out">
+<keyframe value="0.5" />
+<keyframe value="0.15" />
+</part>
+</animatedvalue>
+<animatedvalue id="burst_size2">
+<part type="in">
+<keyframe value="0.05" />
+<keyframe value="0.6" />
+<keyframe value="0.75" />
+<keyframe value="0.4" />
+<keyframe timingfunction="ease-out" value="0.65" />
+<keyframe value="0.3" />
+</part>
+<part type="mid">
+<keyframe value="0.3" />
+<keyframe value="0.2" />
+<keyframe value="0.65" />
+<keyframe value="0.45" />
+<keyframe value="0.3" />
+</part>
+<part type="out">
+<keyframe value="0.3" />
+<keyframe value="0.05" />
+</part>
+</animatedvalue>
+<animatedvalue id="text_size" timingfunction="ease-in">
+<part type="in">
+<keyframe value="5" />
+<keyframe time="0.5" value="0.5" />
+</part>
+<part type="mid">
+<keyframe value="0.5" />
+</part>
+<part type="out">
+<keyframe value="0.5" />
+<keyframe value="0.05" />
+</part>
+</animatedvalue>
+<animatedvalue id="text_2_pos">
+<part type="in">
+<keyframe value="360.5 485.5" />
+<keyframe value="360.5 485.5" />
+</part>
+<part type="mid">
+<keyframe value="360.5 485.5" />
+<keyframe value="360.5 485.5" />
+</part>
+<part type="out">
+<keyframe value="360.5 485.5" />
+<keyframe value="360.5 485.5" />
+</part>
+</animatedvalue>
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.75"
+    near="0.01"
+    far="60000">
+<translate offset="-360 -480 -1158.82251">
+<rect bounds="0 960 720 0" texture="@video1" />
+<translate offset="360 480">
+<style alpha="@burst_alpha">
+<scale uniform="@burst_size">
+<style alpha="0.5">
+<polygon fill="@f_color" points="-109 10 -257 86 -101 58 -126 123 -32 65 25 150 19 58 165 155 81 52 278 105 140 33 287 44 163 6 371 -47 131 -43 328 -168 131 -89 193 -172 40 -81 45 -205 -18 -89 -64 -129 -67 -71 -227 -134 -113 -36 -306 -56" />
+</style>
+</scale>
+<scale uniform="@burst_size2">
+<scale x="-1">
+<rotate angle="20" axis="0 0 1">
+<style alpha="0.7">
+<polygon fill="@f_color2" points="-109 10 -257 86 -101 58 -126 123 -32 65 25 150 19 58 165 155 81 52 278 105 140 33 287 44 163 6 371 -47 131 -43 328 -168 131 -89 193 -172 40 -81 45 -205 -18 -89 -64 -129 -67 -71 -227 -134 -113 -36 -306 -56" />
+</style>
+</rotate>
+</scale>
+</scale>
+</style>
+</translate>
+<translate offset="@text_2_pos">
+<style alpha="@text_2_alpha">
+<scale uniform="@text_size">
+<rect bounds="-593.5 237.5 593.5 -237.5" texture="@text_2" />
+</scale>
+</style>
+</translate>
+</translate>
+</projection>
+	
+</effect>

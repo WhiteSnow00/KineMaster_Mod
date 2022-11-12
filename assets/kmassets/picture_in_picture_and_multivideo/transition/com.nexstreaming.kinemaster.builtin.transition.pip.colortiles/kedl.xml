@@ -1,0 +1,208 @@
+<effect categorytitle="@string/category_pip_trans" effectoffset="100" icon="transition_color_tiles.3c60e467fb08bca87ba021dad9145b14367fb9c7.png" id="com.nexstreaming.kinemaster.builtin.transition.pip.colortiles" maxduration="20000" minduration="2000" name="@string/trans_color_tiles" type="transition" videooverlap="100">
+ 
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+    
+    
+<animatedvalue id="slide">
+<keyframe value="-0.25 0.25" />
+    	
+<keyframe value="0 0" />
+<keyframe value="0 0" />
+<keyframe value="0 0" />
+<keyframe value="0 0" />
+<keyframe value="0 0" />
+<keyframe value="0 0" />
+<keyframe value="0 0" />
+<keyframe value="0 0" />
+<keyframe value="0 0" />
+    	
+<keyframe value="0.25 0.25" />
+</animatedvalue>
+
+<animatedvalue id="scale">
+<keyframe value="4" />
+    	
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+    	
+<keyframe value="4" />
+</animatedvalue>
+    
+<animatedvalue id="fadein">
+<keyframe value="0" />
+    	
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+    	
+<keyframe value="1" />
+</animatedvalue>
+    
+<animatedvalue id="fadeout">
+<keyframe value="1" />
+    	
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+    	
+<keyframe value="0" />
+</animatedvalue>
+    
+<scale uniform="@scale">
+<translate offset="@slide">
+    
+    
+<style brightness="0.1" contrast="-0.2" saturation="-0.4" tint="#662222">
+<translate offset="-0.75 0.75">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="-0.1" contrast="-0.2" saturation="-0.4" tint="#664422">
+<translate offset="-0.25 0.75">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="0.1" contrast="-0.2" saturation="-0.4" tint="#666622">
+<translate offset="0.25 0.75">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="-0.1" contrast="-0.2" saturation="-0.4" tint="#226622">
+<translate offset="0.75 0.75">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="0.1" contrast="-0.2" saturation="-0.4" tint="#226666">
+<translate offset="-0.75 0.25">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="-0.1" contrast="-0.2" saturation="-0.4" tint="#222266">
+<translate offset="-0.25 0.25">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="0.1" contrast="-0.2" saturation="-0.4" tint="#442266">
+<translate offset="0.25 0.25">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+</scale>
+</translate>
+</style>
+		
+<style brightness="-0.1" contrast="-0.2" saturation="-0.4" tint="#662266">
+<translate offset="0.75 0.25">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="-0.1" contrast="-0.2" saturation="-0.4" tint="#664422">
+<translate offset="-0.75 -0.25">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+</scale>
+</translate>
+</style>
+		    
+		    
+<style brightness="@fadeout*0.1" contrast="@fadeout*-0.2" saturation="@fadeout*-0.4" tint="#446622">
+<translate offset="-0.25 -0.25">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="@fadein*-0.1" contrast="@fadein*-0.2" saturation="@fadein*-0.4" tint="#226644">
+<translate offset="0.25 -0.25">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+</scale>
+</translate>
+</style>
+			
+		    
+<style brightness="0.1" contrast="-0.2" saturation="-0.4" tint="#662222">
+<translate offset="0.75 -0.25">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="0.1" contrast="-0.2" saturation="-0.4" tint="#226666">
+<translate offset="-0.75 -0.75">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="-0.1" contrast="-0.2" saturation="-0.4" tint="#224466">
+<translate offset="-0.25 -0.75">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="0.1" contrast="-0.2" saturation="-0.4" tint="#666644">
+<translate offset="0.25 -0.75">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+</scale>
+</translate>
+</style>
+		    
+<style brightness="-0.1" contrast="-0.2" saturation="-0.4" tint="#664422">
+<translate offset="0.75 -0.75">
+<scale uniform="0.25">
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video1" />
+</scale>
+</translate>
+</style>
+	
+</translate>
+</scale>
+
+</effect>

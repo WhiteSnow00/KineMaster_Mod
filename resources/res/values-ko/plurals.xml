@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d 트랙</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="other">%s 개의 항목을 복제하시겠습니까?</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">비밀번호 보안 강도가 약합니다. 최소 %1$d 개수의 문자와 숫자를 혼용해 주세요.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d초 빨리 감기</item>
+        <item quantity="other">%d초 빨리 감기</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d초 되감기</item>
+        <item quantity="other">%d초 되감기</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">안전한 비밀번호가 아닙니다. 길이가 %1$d자 이상이고 문자와 숫자가 조합되어야 합니다.</item>
+        <item quantity="other">안전한 비밀번호가 아닙니다. 길이가 %1$d자 이상이고 문자와 숫자가 조합되어야 합니다.</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">오디오 파일 %d개를 프로젝트에서 찾을 수 없습니다.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">이미지 파일 %d개를 프로젝트에서 찾을 수 없습니다.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">저장하기 전 교체하는 것을 권장합니다.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">동영상 파일 %d개를 프로젝트에서 찾을 수 없습니다.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">새 알림 %d개</item>
+        <item quantity="other">새 알림 %d개</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="other">%d개 댓글</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="other">%d 개 프로젝트를 삭제합니다.</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="other">%d개 프로젝트 선택</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">KineMaster 프리미엄 사용자 (%d일 남음)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="other">%s 으로 %d개월 사용!</item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="other">%s 으로 %d년 사용!</item>
+    </plurals>
+</resources>

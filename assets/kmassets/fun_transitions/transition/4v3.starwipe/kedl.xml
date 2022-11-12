@@ -1,0 +1,103 @@
+<effect categorytitle="@string/category_fun_trans" defaultduration="2000" effectoffset="100" icon="starwipe.88990e126f975ad4553f88176a1251f49868f599.png" id="com.nexstreaming.kinemaster.builtin4.4v3.starwipe" maxduration="5000" minduration="500" name="@string/trans_starwipe" type="transition" videooverlap="100">
+<animatedvalue id="anim_1" timingfunction="linear">
+<keyframe time="0.0" value="0.010" />
+<keyframe time="1.0" value="7.500" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+  <projection
+    type="perspective"
+    fov="45"
+    aspect="1.333333"
+    near="0.01"
+    far="60000">
+    <scale y="-1">
+      <translate offset="-480 -360 -869.1168825">
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" texture="@video1" />
+</translate>
+<translate offset="500 360">
+<scale uniform="@anim_1">
+<translate offset="3 -77">
+<scale x="0.996" y="1.000">
+<style dest="stencil">
+                
+<translate offset="-6.578 86.906">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-73.770 -75.941" />
+<point location="73.770 -75.941" />
+<point location="0 -297.129" />
+</trianglestrip>
+</translate>
+<translate offset="-7.233 86.431">
+<rotate angle="72" axis="0 0 1">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-73 -75" />
+<point location="73 -75" />
+<point location="0 -297" />
+</trianglestrip>
+</rotate>
+</translate>
+<translate offset="-7.233 86.431">
+<rotate angle="144" axis="0 0 1">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-73 -75" />
+<point location="73 -75" />
+<point location="0 -297" />
+</trianglestrip>
+</rotate>
+</translate>
+<translate offset="-7.233 86.431">
+<rotate angle="216" axis="0 0 1">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-73 -75" />
+<point location="73 -75" />
+<point location="0 -297" />
+</trianglestrip>
+</rotate>
+</translate>
+<translate offset="-7.233 86.431">
+<rotate angle="288" axis="0 0 1">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-73 -75" />
+<point location="73 -75" />
+<point location="0 -297" />
+</trianglestrip>
+</rotate>
+</translate>
+<translate offset="-62.437 50.074">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-42.869 76.139" />
+<point location="133.194 -43.861" />
+<point location="0 -50" />
+</trianglestrip>
+</translate>
+<translate offset="8.872 134.431">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-42.869 76.139" />
+<point location="101.105 -34.356" />
+<point location="-118.849 -42.871" />
+</trianglestrip>
+</translate>
+<translate offset="301.240 126.114">
+<trianglestrip color="0.392 0.588 0.784">
+<point location="-214.011 -8.218" />
+<point location="-247.122 -127.030" />
+<point location="-386.258 -14.356" />
+</trianglestrip>
+</translate>
+                
+</style>
+</scale>
+</translate>
+</scale>
+</translate>
+<style rendertest="stencil">
+<translate offset="480 360">
+<rect bounds="-480 -360 480 360" texture="@video2" />
+</translate>
+</style>
+</translate>
+</scale>
+</projection>
+</effect>

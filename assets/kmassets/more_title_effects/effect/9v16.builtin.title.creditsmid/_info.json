@@ -1,0 +1,31 @@
+{
+  "ratios": ["9:16"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.creditsmid",
+  "id": "com.nexstreaming.kinemaster.9v16.builtin.title.creditsmid",
+  "label": {
+    "en": "Credits",
+    "ar": "اعتمادات",
+    "ko": "엔딩 크레디트",
+    "pt": "Créditos",
+    "ja": "エンディング　クレジット",
+    "fr": "Générique",
+    "zh-CN": "剧幕",
+    "zh-TW": "劇幕",
+    "zh-HK": "劇幕",
+    "de": "Danksagungen",
+    "ru": "Титры",
+    "es": "Créditos",
+    "hi":"क्रेडिट",
+    "id":"Daftar Penghargaan",
+    "it":"Crediti",
+    "ms":"Kredit",
+    "th":"เครดิต",
+    "tr":"Jenerik",
+    "vi":"Danh đề"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

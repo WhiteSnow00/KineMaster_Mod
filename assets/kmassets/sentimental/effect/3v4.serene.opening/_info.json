@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "3:4"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.serene.opening",
+  "id": "com.nexstreaming.kinemaster.3v4.serene.opening",
+  "label": {
+    "en": "Serene - Opening",
+    "ar": "هادئ - فتح",
+    "ko": "고요한 - 시작",
+    "pt": "Sereno - Abertura",
+    "ja": "静かな - 始まり",
+    "fr": "Serein - Ouverture",
+    "zh-CN": "沉静 - 开始",
+    "zh-TW": "寧靜 - 開始",
+    "zh-HK": "寧靜 - 開始",
+    "de": "Heiter - Beginn",
+    "ru": "Безмятежность - Открытие",
+    "es": "Sereno - Apertura",
+    "hi":"सेरीन - शुरु",
+    "id":"Hening - Pembukaan",
+    "it":"Sereno - Apertura",
+    "ms":"Serene - Pembukaan",
+    "th":"Serene - ตอนเปิด",
+    "tr":"Sakin - Açılış",
+    "vi":"Êm đềm - Mở đầu"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

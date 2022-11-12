@@ -1,0 +1,32 @@
+{
+  "ratios":["9:16"],
+  "kmcategory" : ["kmc.transition"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.3d.checker",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.9v16.checker",
+  "label": {
+    "en": "Checker Flip",
+    "ar": "رقعة الشطرنج",
+    "ko": "체크무늬 회전",
+    "pt": "Virar xadrez",
+    "ja": "チェック柄回転",
+    "fr": "Basculement damier",
+    "zh-CN": "顺序翻转",
+    "zh-TW": "順序翻轉",
+    "zh-HK": "順序翻轉",
+    "de": "Schachbrett Flip",
+    "ru": "Шахматная доска",
+    "es": "Voltear con patrón a cuadros",
+    "hi":"चेकर फ्लिप ",
+    "id" :"Pembalik Pemeriksa",
+    "it":"Vibrazione a scacchi",
+    "ms":"Pembalik Pemeriksa",
+    "th":"ตารางหมากรุกพลิก",
+    "tr":"Denetleyici Çevirme",
+    "vi":"Lật cờ"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+  
+}

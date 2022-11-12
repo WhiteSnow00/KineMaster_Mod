@@ -1,0 +1,128 @@
+<effect categorytitle="@string/category_pres_trans" defaultduration="2000" effectoffset="100" icon="split.c08b0f4a7adfbe8dabfd54ec8e31429e24dd6c5a.png" id="com.nexstreaming.kinemaster.builtin4.split" maxduration="5000" minduration="500" name="@string/trans_split" type="transition" videooverlap="100">
+  
+<userfield default="1.5" id="f_splittype" type="selection">
+<option value="1.5">
+<fieldlabel locale="en" value="@string/userfld_split_horizontal" />
+</option>
+<option value="2.5">
+<fieldlabel locale="en" value="@string/userfld_split_vertical" />
+</option>
+<option value="3.5">
+<fieldlabel locale="en" value="@string/userfld_split_corners" />
+</option>
+</userfield>
+  
+<animatedvalue id="anim_1" timingfunction="linear">
+<keyframe time="0.0" value="320 360" />
+<keyframe time="0.9" timingfunction="ease" value="-320 360" />
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<keyframe time="0.0" value="960 360" />
+<keyframe time="0.9" timingfunction="ease" value="1600 360" />
+</animatedvalue>
+<animatedvalue id="anim_3" timingfunction="linear">
+<keyframe time="0.0" value="640 180" />
+<keyframe time="0.9" timingfunction="ease" value="640 -180" />
+</animatedvalue>
+<animatedvalue id="anim_4" timingfunction="linear">
+<keyframe time="0.0" value="640 540" />
+<keyframe time="0.9" timingfunction="ease" value="640 900" />
+</animatedvalue>
+<animatedvalue id="anim_5" timingfunction="linear">
+<keyframe time="0.0" value="320 180" />
+<keyframe time="0.9" timingfunction="ease" value="-320.898 -180.931" />
+</animatedvalue>
+<animatedvalue id="anim_6" timingfunction="linear">
+<keyframe time="0.0" value="960 180" />
+<keyframe time="0.9" timingfunction="ease" value="1600.521 -180.307" />
+</animatedvalue>
+<animatedvalue id="anim_7" timingfunction="linear">
+<keyframe time="0.0" value="960 540" />
+<keyframe time="0.9" timingfunction="ease" value="1600.186 900.238" />
+</animatedvalue>
+<animatedvalue id="anim_8" timingfunction="linear">
+<keyframe time="0.0" value="320 540" />
+<keyframe time="0.9" timingfunction="ease" value="-320.955 900.178" />
+</animatedvalue>
+<texture id="video2" video="2" />
+<texture id="video1" video="1" />
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<scale y="-1">
+<translate offset="-640 -360 -870">
+<translate offset="640 360">
+<rect bounds="-640 -360 640 360" texture="@video2" />
+</translate>
+<visibility check="@f_splittype" end="2.9" start="2.0">
+<translate offset="@anim_1">
+<trianglestrip texture="@video1">
+<point location="-320 360" texcoord="0 1" />
+<point location="320 360" texcoord="0.500 1" />
+<point location="-320 -360" texcoord="0 0" />
+<point location="320 -360" texcoord="0.500 0" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_2">
+<trianglestrip texture="@video1">
+<point location="-320 360" texcoord="0.500 1" />
+<point location="320 360" texcoord="1 1" />
+<point location="-320 -360" texcoord="0.500 0" />
+<point location="320 -360" texcoord="1 0" />
+</trianglestrip>
+</translate>
+</visibility>
+<visibility check="@f_splittype" end="1.9" start="1.0">
+<translate offset="@anim_3">
+<trianglestrip texture="@video1">
+<point location="-640 180" texcoord="0 0.500" />
+<point location="640 180" texcoord="1 0.500" />
+<point location="-640 -180" texcoord="0 0" />
+<point location="640 -180" texcoord="1 0" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_4">
+<trianglestrip texture="@video1">
+<point location="-640 180" texcoord="0 1" />
+<point location="640 180" texcoord="1 1" />
+<point location="-640 -180" texcoord="0 0.500" />
+<point location="640 -180" texcoord="1 0.500" />
+</trianglestrip>
+</translate>
+</visibility>
+<visibility check="@f_splittype" end="3.9" start="3.0">
+<translate offset="@anim_5">
+<trianglestrip texture="@video1">
+<point location="-320 180" texcoord="0 0.500" />
+<point location="320 180" texcoord="0.500 0.500" />
+<point location="-320 -180" texcoord="0 0" />
+<point location="320 -180" texcoord="0.500 0" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_6">
+<trianglestrip texture="@video1">
+<point location="-320 180" texcoord="0.500 0.500" />
+<point location="320 180" texcoord="1 0.500" />
+<point location="-320 -180" texcoord="0.500 0" />
+<point location="320 -180" texcoord="1 0" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_7">
+<trianglestrip texture="@video1">
+<point location="-320 180" texcoord="0.500 1" />
+<point location="320 180" texcoord="1 1" />
+<point location="-320 -180" texcoord="0.500 0.500" />
+<point location="320 -180" texcoord="1 0.500" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_8">
+<trianglestrip texture="@video1">
+<point location="-320 180" texcoord="0 1" />
+<point location="320 180" texcoord="0.500 1" />
+<point location="-320 -180" texcoord="0 0.500" />
+<point location="320 -180" texcoord="0.500 0.500" />
+</trianglestrip>
+</translate>
+</visibility>
+</translate>
+</scale>
+</projection>
+</effect>

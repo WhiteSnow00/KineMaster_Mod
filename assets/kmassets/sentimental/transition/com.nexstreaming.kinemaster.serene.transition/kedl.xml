@@ -1,0 +1,106 @@
+<effect effectoffset="100" effectoverlap="100" id="com.nexstreaming.kinemaster.serene.transition" maxduration="3000" minduration="500" theme="true" type="transition">
+	
+<texture id="bp4" src="r0" />
+<texture id="bp1" src="r2" />
+<texture id="video_out" video="1" />
+<texture id="video_in" video="2" />
+
+<animatedvalue id="fade_out">
+<keyframe time="0.35" value="1" />
+<keyframe time="0.7" value="0.2" />
+</animatedvalue>
+	
+<animatedvalue id="fade_in">
+<keyframe time="0.3" value="0.2" />
+<keyframe time="0.65" value="1" />
+</animatedvalue>
+	
+<scale x="0.9" y="1.5">
+<trianglestrip type="fan">
+<point color="#e4eceb" location="0 0" />
+<point color="#96cac5" location="0.000000 -2.000000" />
+<point color="#96cac5" location="0.765367 -1.847759" />
+<point color="#96cac5" location="1.414214 -1.414214" />
+<point color="#96cac5" location="1.847759 -0.765367" />
+<point color="#96cac5" location="2.000000 -0.000000" />
+<point color="#96cac5" location="1.847759 0.765367" />
+<point color="#96cac5" location="1.414214 1.414214" />
+<point color="#96cac5" location="0.765367 1.847759" />
+<point color="#96cac5" location="0.000000 2.000000" />
+<point color="#96cac5" location="-0.765367 1.847759" />
+<point color="#96cac5" location="-1.414214 1.414214" />
+<point color="#96cac5" location="-1.847759 0.765367" />
+<point color="#96cac5" location="-2.000000 0.000000" />
+<point color="#96cac5" location="-1.847759 -0.765367" />
+<point color="#96cac5" location="-1.414214 -1.414214" />
+<point color="#96cac5" location="-0.765367 -1.847759" />
+<point color="#96cac5" location="0.000000 -2.000000" />
+</trianglestrip>
+</scale>
+	
+<animatedvalue id="zoom_amount" timingfunction="linear">
+<keyframe value="-11.14" />
+<keyframe timingfunction="ease-in-out" value="-17" />
+<keyframe timingfunction="ease-in-out" value="-11.14" />
+</animatedvalue>
+	
+<animatedvalue id="rotate_amount" timingfunction="ease-in-out">
+<keyframe value="-23" />
+<keyframe value="23" />
+</animatedvalue>
+	
+<projection aspect="1.77777" far="30" fov="45" near="1" top="1" type="perspective">
+<translate offset="0 0 @zoom_amount">
+<rotate angle="@rotate_amount" axis="0 1 0">
+			
+<sequence count="90" end="10 5 0.3 360" id="r" seed="42985357" start="-10 -5 0.6 0" type="randmix">
+<translate offset="@r.x @r.y @r.z*15">
+<style alpha="@r.z">
+<rotate angle="@r.w" axis="0 1 0">
+<rect bounds="-0.85 0.5 0.85 -0.5" texture="@bp4" />
+</rotate>
+</style>
+</translate>
+</sequence>
+			
+<rotate angle="-23" axis="0 1 0">
+<translate offset="0 0 9">
+<scale uniform="0.1">
+<style alpha="0.8">
+<rect bounds="-25 16 29.4 -18.3" texture="@bp1" />
+</style>
+<style alpha="@fade_in">
+<rect bounds="-16 9 16 -9" texture="@video_in" />
+</style>
+</scale>
+</translate>
+</rotate>
+<rotate angle="23" axis="0 1 0">
+<translate offset="0 0 9">
+<scale uniform="0.1">
+<style alpha="0.8">
+<rect bounds="-25 16 29.4 -18.3" texture="@bp1" />
+</style>
+<style alpha="@fade_out">
+<rect bounds="-16 9 16 -9" texture="@video_out" />
+</style>
+</scale>
+</translate>
+</rotate>
+			
+<sequence count="25" end="8 4 0.75 360" id="r" seed="29483674" start="-8 -4 1 0" type="randmix">
+<translate offset="@r.x @r.y @r.z*15">
+<style alpha="@r.z">
+<rotate angle="@r.w" axis="0 1 0">
+<rect bounds="-0.85 0.5 0.85 -0.5" texture="@bp4" />
+</rotate>
+</style>
+</translate>
+</sequence>
+				
+				
+</rotate>
+</translate>
+</projection>
+		
+</effect>

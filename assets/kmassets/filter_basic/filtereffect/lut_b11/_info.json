@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b11.png",
+    "hidden": "False",
+    "filename": "lut_salmon_teal.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b11.B11",
+    "label": {
+        "pt": "B11",
+        "ja": "B11",
+        "fr": "B11",
+        "zh-CN": "B11",
+        "ko": "B11",
+        "ar": "B11",
+        "zh-TW": "B11",
+        "en": "B11",
+        "zh-HK": "B11",
+        "de": "B11",
+        "ru": "B11",
+        "es": "B11",
+        "hi": "B11",
+        "id": "B11",
+        "it": "B11",
+        "ms": "B11",
+        "th": "B11",
+        "tr": "B11",
+        "vi": "B11"
+    }
+    }

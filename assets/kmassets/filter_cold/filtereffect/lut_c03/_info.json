@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_c03.png",
+    "hidden": "False",
+    "filename": "lut_c03.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_c03.C03",
+    "label": {
+        "pt": "C03",
+        "ja": "C03",
+        "fr": "C03",
+        "zh-CN": "C03",
+        "ko": "C03",
+        "ar": "C03",
+        "zh-TW": "C03",
+        "en": "C03",
+        "zh-HK": "C03",
+        "de": "C03",
+        "ru": "C03",
+        "es": "C03",
+        "hi": "C03",
+        "id": "C03",
+        "it": "C03",
+        "ms": "C03",
+        "th": "C03",
+        "tr": "C03",
+        "vi": "C03"
+    }
+    }

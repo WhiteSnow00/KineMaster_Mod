@@ -1,0 +1,58 @@
+<effect categorytitle="@string/category_pres_trans" defaultduration="2000" effectoffset="100" icon="doublesplit.8db6fe06af966cc0aad984987ca759b14217b84a.png" id="com.nexstreaming.kinemaster.builtin4.doublesplit" maxduration="5000" minduration="500" name="@string/trans_double_split" type="transition" videooverlap="100">
+<animatedvalue id="anim_1" timingfunction="linear">
+<keyframe time="0.0" value="320.486 360" />
+<keyframe time="0.4" timingfunction="ease-in" value="320.486 -361" />
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<keyframe time="0.0" value="960.486 360" />
+<keyframe time="0.4" timingfunction="ease-in" value="960.486 1081" />
+</animatedvalue>
+<animatedvalue id="anim_3" timingfunction="linear">
+<keyframe time="0.45" value="-641 180" />
+<keyframe time="0.9" timingfunction="ease-out" value="640 180" />
+</animatedvalue>
+<animatedvalue id="anim_4" timingfunction="linear">
+<keyframe time="0.45" value="1921 540" />
+<keyframe time="0.9" timingfunction="ease-out" value="640 540" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<scale y="-1">
+<translate offset="-640 -360 -870">
+<translate offset="@anim_1">
+<trianglestrip texture="@video1">
+<point location="-320 360" texcoord="0 1" />
+<point location="320 360" texcoord="0.500 1" />
+<point location="-320 -360" texcoord="0 0" />
+<point location="320 -360" texcoord="0.500 0" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_2">
+<trianglestrip texture="@video1">
+<point location="-320 360" texcoord="0.500 1" />
+<point location="320 360" texcoord="1 1" />
+<point location="-320 -360" texcoord="0.500 0" />
+<point location="320 -360" texcoord="1 0" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_3">
+<trianglestrip texture="@video2">
+<point location="-640 180" texcoord="0 0.500" />
+<point location="640 180" texcoord="1 0.500" />
+<point location="-640 -180" texcoord="0 0" />
+<point location="640 -180" texcoord="1 0" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_4">
+<trianglestrip texture="@video2">
+<point location="-640 180" texcoord="0 1" />
+<point location="640 180" texcoord="1 1" />
+<point location="-640 -180" texcoord="0 0.500" />
+<point location="640 -180" texcoord="1 0.500" />
+</trianglestrip>
+</translate>
+</translate>
+</scale>
+</projection>
+</effect>

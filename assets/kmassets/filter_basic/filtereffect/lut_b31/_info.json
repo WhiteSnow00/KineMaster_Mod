@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b31.png",
+    "hidden": "False",
+    "filename": "lut_b31.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b31.B31",
+    "label": {
+        "pt": "B31",
+        "ja": "B31",
+        "fr": "B31",
+        "zh-CN": "B31",
+        "ko-KR": "B31",
+        "ar": "B31",
+        "zh-TW": "B31",
+        "en": "B31",
+        "zh-HK": "B31",
+        "de-DE": "B31",
+        "ru": "B31",
+        "es": "B31",
+        "hi": "B31",
+        "id": "B31",
+        "it": "B31",
+        "ms": "B31",
+        "th": "B31",
+        "tr-TR": "B31",
+        "vi-VN": "B31"
+    }
+}

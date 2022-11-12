@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b37.png",
+    "hidden": "False",
+    "filename": "lut_b37.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b37.B37",
+    "label": {
+        "pt": "B37",
+        "ja": "B37",
+        "fr": "B37",
+        "zh-CN": "B37",
+        "ko-KR": "B37",
+        "ar": "B37",
+        "zh-TW": "B37",
+        "en": "B37",
+        "zh-HK": "B37",
+        "de-DE": "B37",
+        "ru": "B37",
+        "es": "B37",
+        "hi": "B37",
+        "id": "B37",
+        "it": "B37",
+        "ms": "B37",
+        "th": "B37",
+        "tr-TR": "B37",
+        "vi-VN": "B37"
+    }
+}

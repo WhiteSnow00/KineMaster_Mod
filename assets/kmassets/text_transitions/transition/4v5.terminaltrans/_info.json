@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:5"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.terminaltrans",
+  "id": "com.nexstreaming.kinemaster.builtin3.4v5.terminaltrans",
+  "label": {
+    "en": "Retro Terminal Title",
+    "ar": "عنوان محطة العودة",
+    "ko": "복고풍 터미널 타이틀",
+    "pt": "Título terminal retrô",
+    "ja": "古いターミナル字幕",
+    "fr": "Titre Terminal Rétro",
+    "zh-CN": "复古终端标题",
+    "zh-TW": "復古型終端標題",
+    "zh-HK": "復古型終端標題",
+    "de": "Retro End-Titel",
+    "ru": "Название Ретро терминал\u0027",
+    "es": "Cuadros terminal retro",
+    "hi":"रेट्रो टर्मिनल टाइटल",
+    "id":"Judul Retro Terminal",
+    "it":"Titolo Finale Retro",
+    "ms":"Tajuk Retro Pastel",
+    "th":"ชื่อ Terminal Retro",
+    "tr":"Retro Terminal Başlık",
+    "vi":"Ô màu Retro Terminal"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,31 @@
+{
+  "ratios": ["2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.onstage.accent",
+  "id": "com.nexstreaming.kinemaster.2.35v1.onstage.accent",
+  "label": {
+    "en": "On-Stage - Accent",
+    "ar": "على المسرح - لهجة",
+    "ko": "스테이지 - 엑센트",
+    "pt": "No palco - Enfatizado",
+    "ja": "ステージ - アクセント",
+    "fr": "Sur scène - Accent",
+    "zh-CN": "舞台 - 强调",
+    "zh-TW": "舞臺 - 強調",
+    "zh-HK": "舞臺 - 強調",
+    "de": "Auf der Bühne - Akzent",
+    "ru": "На сцене - Акцент",
+    "es": "En escena - Énfasis",
+    "hi":"ओन- स्टेज - एक्सेंट",
+    "id":"Di Atas Panggung - Aksen",
+    "it":"In-Scena - Enfasi",
+    "ms":"Pada AksenPentas",
+    "th":"บนเวที - เน้น",
+    "tr":"Sahnede - Aksan",
+    "vi":"On-Stage - Nhấn mạnh"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

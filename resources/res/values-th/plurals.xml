@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d track</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="other">คัดลอก %s รายการใช่ไหม</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">รหัสผ่านไม่รัดกุมพอ ใช้อักขระอย่างน้อย %1$d ตัว และมีทั้งตัวอักษรและตัวเลข</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">กรอไปข้างหน้า %d วินาที</item>
+        <item quantity="other">กรอไปข้างหน้า %d วินาที</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">กรอกลับ %d วินาที</item>
+        <item quantity="other">กรอกลับ %d วินาที</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">รหัสผ่านไม่รัดกุมมากพอ ใช้อักขระอย่างน้อย %1$d ตัวและต้องเป็นตัวอักษรปนกับตัวเลข</item>
+        <item quantity="other">รหัสผ่านไม่รัดกุมมากพอ ใช้อักขระอย่างน้อย %1$d ตัวและต้องเป็นตัวอักษรปนกับตัวเลข</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">มีไฟล์เสียงหายไปจากโปรเจกต์นี้ที่ %s</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">มีไฟล์ภาพหายไปจากโปรเจกต์นี้ที่ %s</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">ขอแนะนำให้คุณเปลี่ยนไฟล์มีเดียที่หายไปก่อนบันทึก</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">มีไฟล์วิดีโอหายไปจากโปรเจกต์นี้ที่ %s</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="other">%d ความคิดเห็น</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="other">%d โปรเจกต์จะถูกลบ</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="other">เลือก %d โปรเจกต์</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">ผู้ใช้ KineMaster Premium (เหลืออีก %d วัน)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="other">%s / เดือนสำหรับ %d เดือน! </item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="other">%s / ปีสำหรับ %d ปี!</item>
+    </plurals>
+</resources>

@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b06.png",
+    "hidden": "False",
+    "filename": "lut_sunprint.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b06.B06",
+    "label": {
+        "pt": "B06",
+        "ja": "B06",
+        "fr": "B06",
+        "zh-CN": "B06",
+        "ko": "B06",
+        "ar": "B06",
+        "zh-TW": "B06",
+        "en": "B06",
+        "zh-HK": "B06",
+        "de": "B06",
+        "ru": "B06",
+        "es": "B06",
+        "hi": "B06",
+        "id": "B06",
+        "it": "B06",
+        "ms": "B06",
+        "th": "B06",
+        "tr": "B06",
+        "vi": "B06"
+    }
+    }

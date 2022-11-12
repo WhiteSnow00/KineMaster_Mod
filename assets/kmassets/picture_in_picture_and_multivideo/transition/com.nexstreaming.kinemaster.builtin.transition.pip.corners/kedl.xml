@@ -1,0 +1,32 @@
+<effect categorytitle="@string/category_pip_trans" effectoffset="100" icon="transition_corners.04754f8682d576060bbcea109043473cc05c34b7.png" id="com.nexstreaming.kinemaster.builtin.transition.pip.corners" maxduration="20000" minduration="2000" name="@string/trans_corners" type="transition" videooverlap="100">
+<animatedvalue id="video_out_pos">
+<keyframe value="0 720 1280 0" />
+<keyframe value="0 360 640 0" />
+<keyframe value="0 360 640 0" />
+<keyframe value="0 360 640 0" />
+<keyframe value="0 360 640 0" />
+<keyframe value="0 360 640 0" />
+<keyframe value="0 360 640 0" />
+<keyframe value="0 0 0 0" />
+</animatedvalue>
+<animatedvalue id="video_in_pos">
+<keyframe value="1280 720 1280 720" />
+<keyframe value="640 720 1280 360" />
+<keyframe value="640 720 1280 360" />
+<keyframe value="640 720 1280 360" />
+<keyframe value="640 720 1280 360" />
+<keyframe value="640 720 1280 360" />
+<keyframe value="640 720 1280 360" />
+<keyframe value="0 720 1280 0" />
+</animatedvalue>
+<projection aspect="1.77777" far="40" fov="45" near="1" top="1" type="perspective">
+<translate offset="0 0 -21.69">
+<scale uniform="0.025">
+<translate offset="-640 -360">
+<rect bounds="@video_in_pos" texture="@video_in" />
+<rect bounds="@video_out_pos" texture="@video_out" />
+</translate>
+</scale>
+</translate>
+</projection>
+</effect>

@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b07.png",
+    "hidden": "False",
+    "filename": "lut_rosy.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b07.B07",
+    "label": {
+        "pt": "B07",
+        "ja": "B07",
+        "fr": "B07",
+        "zh-CN": "B07",
+        "ko": "B07",
+        "ar": "B07",
+        "zh-TW": "B07",
+        "en": "B07",
+        "zh-HK": "B07",
+        "de": "B07",
+        "ru": "B07",
+        "es": "B07",
+        "hi": "B07",
+        "id": "B07",
+        "it": "B07",
+        "ms": "B07",
+        "th": "B07",
+        "tr": "B07",
+        "vi": "B07"
+    }
+    }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="one">Pārtīt uz priekšu par %d sekundi</item>
+        <item quantity="other">Pārtīt uz priekšu par %d sekundēm</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="one">Attīt atpakaļ par %d sekundi</item>
+        <item quantity="other">Attīt atpakaļ par %d sekundēm</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="zero">Parole nav pietiekami droša. Izmantojiet vismaz %1$d rakstzīmes un burtu un ciparu kombināciju</item>
+        <item quantity="one">Parole nav pietiekami droša. Izmantojiet vismaz %1$d rakstzīmi un burtu un ciparu kombināciju</item>
+        <item quantity="other">Parole nav pietiekami droša. Izmantojiet vismaz %1$d rakstzīmes un burtu un ciparu kombināciju</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+</resources>

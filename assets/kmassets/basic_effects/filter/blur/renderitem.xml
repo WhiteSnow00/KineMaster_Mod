@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renderitem xmlns="http://schemas.kinemaster.com/km/renderitem" main="mainScript"
+	id="com.nexstreaming.csd.blurall"
+	type="transition"
+	intime="1500"
+	outtime="0"
+	intimefirst="1500"
+	outtimelast="0"
+	repeat="no"
+	name="blurall">
+
+	<shader name="filters_blurH_vertex" language="glsl" src="glsl/filters_blurH_vertex.glsl"/>
+	<shader name="filters_blurV_vertex" language="glsl" src="glsl/filters_blurV_vertex.glsl"/>
+	<shader name="filters_blur_fragment" language="glsl" src="glsl/filters_blur_fragment.glsl"/>
+
+	<parameter id="f_block_size" type="range" default="2" minvalue="1" maxvalue="20">
+		<string name="label" lang="en">Blur Strength</string>
+		<string name="label" lang="ar">قوة الطمس</string>
+		<string name="label" lang="ko">블러 강도</string>
+		<string name="label" lang="pt">Força Blur</string>
+		<string name="label" lang="ja">ぼかし強度</string>
+		<string name="label" lang="fr">Force Flou</string>
+		<string name="label" lang="zh-CN">模糊强度</string>
+		<string name="label" lang="zh-TW">模糊強度</string>
+		<string name="label" lang="zh-HK">模糊強度</string>
+		<string name="label" lang="de">Weichzeichnungs Stärke</string>
+		<string name="label" lang="ru">Прочность Пятна</string>
+		<string name="label" lang="es">Fuerza de difuminación</string>
+		<string name="label" lang="hi">ब्लर की ताकत</string>
+		<string name="label" lang="id">Kekuatan Buram</string>
+		<string name="label" lang="it">Forza della Sfocatura</string>
+		<string name="label" lang="ms">Kekuatan Pudar</string>
+		<string name="label" lang="th">ความแรงของการเบลอ</string>
+		<string name="label" lang="tr">Bulanıklık Gücü</string>
+		<string name="label" lang="vi">Độ mờ</string>
+	</parameter>
+
+	<program name="BHFx" language="glsl" fragmentShader="filters_blur_fragment" vertexShader="filters_blurH_vertex" />
+	<program name="BVFx" language="glsl" fragmentShader="filters_blur_fragment" vertexShader="filters_blurV_vertex" />
+	<script name="mainScript" language="lua"><![CDATA[
+
+		effect = {matrix = 0, left = 0, top = 0, right = 0, bottom = 0, alpha = 1}
+
+		function setMatrixRECT(matrix, left, top, right, bottom, alpha)
+
+			effect.matrix = matrix
+			effect.left = left
+			effect.top = top
+			effect.right = right
+			effect.bottom = bottom
+			effect.alpha = alpha
+		end
+
+		function main()
+			src_tex_id = kmGetScreenTexture(effect.matrix, effect.left, effect.top, effect.right, effect.bottom, 0.05)
+			w = kmGetTexWidth(src_tex_id) * 1280 / kmGetOutputWidth()
+			h = kmGetTexHeight(src_tex_id) * 720 / kmGetOutputHeight()
+			first_pass_tex = kmSetRenderToTexture(w / range.f_block_size, h)
+			mvp_matrix = kmNewMatrix()
+			kmLoadIdentity(mvp_matrix)
+			BHFx.setMvpMatrix(mvp_matrix)
+			BHFx.setTextureSize(w / range.f_block_size, h)
+			BHFx.setSTexture0(src_tex_id)
+			BHFx.drawRect(2, 2)
+
+			kmSetRenderToDefault()
+			res_tex = kmSetRenderToTexture(w / range.f_block_size, h / range.f_block_size)
+			BVFx.setMvpMatrix(mvp_matrix)
+			BVFx.setTextureSize(w / range.f_block_size, h / range.f_block_size)
+			BVFx.setSTexture0(first_pass_tex)
+			BVFx.drawRect(2, 2)
+
+			kmSetRenderToDefault()
+			kmSetRenderDest(1, 0)
+			kmClear(GL_STENCIL_BUFFER_BIT)
+			kmDrawSolid(effect.matrix, effect.left, effect.top, effect.right, effect.bottom)
+			kmSetRenderDest(0, 1)
+			kmDrawRegionTexBox(res_tex, effect.matrix, effect.left, effect.top, effect.right, effect.bottom, 0.05, effect.alpha)
+			kmReleaseTexture(src_tex_id)
+			kmSetRenderDest(0, 0)
+		end
+
+		]]></script>
+</renderitem>

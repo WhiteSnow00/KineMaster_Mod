@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.travel.opening",
+  "id": "com.nexstreaming.kinemaster.4v3.travel.opening",
+  "label": {
+    "en": "Travel - Opening",
+    "ar": "سفر - فتح",
+    "ko": "여행 - 시작",
+    "pt": "Viagem - Abertura",
+    "ja": "旅行 - 始まり",
+    "fr": "Voyage - Ouverture",
+    "zh-CN": "旅行 - 开始",
+    "zh-TW": "旅行 - 開始",
+    "zh-HK": "旅行 - 開始",
+    "de": "Reisen - Beginn",
+    "ru": "Путешествие - Открытие",
+    "es": "Viajes - Apertura",
+    "hi":"यात्रा - शुरू",
+    "id":"Perjalanan - Pembuka",
+    "it":"Viaggio - Apertura",
+    "ms":"Perjalanan - Pembukaan",
+    "th":"การเดินทาง - เปิด",
+    "tr":"Gezi - Açılış",
+    "vi":"Du lịch và Hoạt động"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

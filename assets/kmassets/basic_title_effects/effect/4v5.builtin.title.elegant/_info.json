@@ -1,0 +1,31 @@
+{
+  "ratios":["4:5"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.elegant",
+  "id": "com.nexstreaming.kinemaster.4v5.builtin.title.elegant",
+  "label": {
+    "en": "Elegant",
+    "ar": "أنيق",
+    "ko": "우아한",
+    "pt": "Elegante",
+    "ja": "優雅な",
+    "fr": "Élégant",
+    "zh-CN": "优雅",
+    "zh-TW": "優雅",
+    "zh-HK": "優雅",
+    "de": "Elegant",
+    "ru": "Элегантный",
+    "es": "Elegante",
+    "hi":"शिष्ट",
+    "id":"Elegan",
+    "it":"Elegante",
+    "ms":"Elegan",
+    "th":"สง่างาม",
+    "tr":"Zarif",
+    "vi":"Thanh lịch"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

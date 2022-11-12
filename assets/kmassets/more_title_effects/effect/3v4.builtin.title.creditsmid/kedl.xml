@@ -1,0 +1,36 @@
+<effect categorytitle="@string/category_more_title" icon="fx_credit_mid.a6a5d0687667019dba65d261ec296a8dd213c41e.png" id="com.nexstreaming.kinemaster.3v4.builtin.title.creditsmid" intime="0" intimefirst="0" name="@string/fx_credits" outtime="0" outtimelast="0" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="100" type="text">
+<fieldlabel locale="en" value="@string/userfld_credits_text" />
+</userfield>
+
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<texture id="video1" video="1" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text" height="2048" id="text_1" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="5 5" shadowradius="8" srcfield="@f_text" text="%1" textalign="center" textmargin="0" textsize="80" textvalign="top" typeface="asset:lato-bold.ttf" width="512" />
+    	
+    	
+<animatedvalue id="text_1_pos" timingfunction="linear">
+<keyframe value="360 -1224" />
+<keyframe value="360 1944" />
+</animatedvalue>
+    	
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.75"
+    near="0.01"
+    far="60000">
+<translate offset="-360 -480 -1158.82251">
+<rect bounds="0 960 720 0" texture="@video1" />
+<translate offset="@text_1_pos">
+<scale uniform="0.6">
+<rect bounds="-256 1024 256 -1024" texture="@text_1" />
+</scale>
+</translate>
+</translate>
+</projection>
+	
+</effect>

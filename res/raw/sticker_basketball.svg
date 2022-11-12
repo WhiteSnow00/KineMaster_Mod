@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="260px" height="253px" viewBox="0 0 260 253" enable-background="new 0 0 260 253" xml:space="preserve">
+<g>
+	
+		<radialGradient id="SVGID_1_" cx="130" cy="781.6094" r="121.25" fx="87.5033" fy="723.7512" gradientTransform="matrix(1 0 0 1 0 -655.1094)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#F37121"/>
+		<stop  offset="1" style="stop-color:#7A170A"/>
+	</radialGradient>
+	
+		<circle fill="url(#SVGID_1_)" stroke="#000000" stroke-width="2.126" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="130" cy="126.5" r="121.25"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="2.126" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M9.114,116.966c0,0,23.327-45.713,65.361-13.84c0,0,61.521,16.536,66.376,66.419c0,0-36.171,50.734,0,77.716"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="2.126" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M43.663,41.367c0,0,141.66,98.931,179.545,162.675"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="2.126" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M110.577,6.802c0,0-28.713,22.189,9.165,48.75c0,0,28.869,23.095,71.588,23.56c0,0,32.554-0.982,58.888,31.611"/>
+	
+		<path fill="none" stroke="#000000" stroke-width="2.126" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M57.716,223.861c0,0-36.733-23.203-11.641-73.149c0,0,50.231-101.511,104.614-116.409c0,0,33.33-11.857,51.488-5.231"/>
+</g>
+</svg>

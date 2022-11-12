@@ -1,0 +1,31 @@
+{
+  "ratios":["2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.retropastel",
+  "id": "com.nexstreaming.kinemaster.builtin3.2.25v1.retropastel",
+  "label": {
+    "en": "Retro Pastel Title",
+    "ar": "عنوان باستيل رجعي",
+    "ko": "복고풍 파스텔 타이틀",
+    "pt": "Título pastel retrô",
+    "ja": "古いパステル字幕",
+    "fr": "Titre Pastel Rétro",
+    "zh-CN": "复古粉彩标题",
+    "zh-TW": "復古型粉彩標題",
+    "zh-HK": "復古型粉彩標題",
+    "de": "Retro Pastell Titel",
+    "ru": "Название \u0027Ретро пастель\u0027",
+    "es": "Cuadros pastel retro",
+    "hi":"रेट्रो पेस्टल टाइटल",
+    "id":"Judul Retro Pastel",
+    "it":"Titolo Pastello Retro",
+    "ms":"Tajuk Retro Pastel",
+    "th":"ชื่อพาสเทลเรโทร",
+    "tr":"Retro Soluk Başlık",
+    "vi":"Ô màu Retro Pastel"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

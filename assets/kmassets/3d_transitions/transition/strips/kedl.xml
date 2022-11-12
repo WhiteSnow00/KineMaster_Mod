@@ -1,0 +1,294 @@
+<effect categorytitle="@string/category_3d_trans" effectoffset="100" icon="transition_strips.ea2b668280b6f6b5c593a1baa9eeb33fbea62a22.png" id="com.nexstreaming.kinemaster.builtin.transition.strips" maxduration="5000" minduration="1000" name="@string/trans_strips" type="transition" videooverlap="100">
+	
+<animatedvalue id="spin0"><keyframe time="0" value="0" /><keyframe time="0.5" value="180" /></animatedvalue>
+<animatedvalue id="spin1"><keyframe time="0.03125" value="0" /><keyframe time="0.53125" value="180" /></animatedvalue>
+<animatedvalue id="spin2"><keyframe time="0.0625" value="0" /><keyframe time="0.5625" value="180" /></animatedvalue>
+<animatedvalue id="spin3"><keyframe time="0.09375" value="0" /><keyframe time="0.59375" value="180" /></animatedvalue>
+<animatedvalue id="spin4"><keyframe time="0.125" value="0" /><keyframe time="0.625" value="180" /></animatedvalue>
+<animatedvalue id="spin5"><keyframe time="0.15625" value="0" /><keyframe time="0.65625" value="180" /></animatedvalue>
+<animatedvalue id="spin6"><keyframe time="0.1875" value="0" /><keyframe time="0.6875" value="180" /></animatedvalue>
+<animatedvalue id="spin7"><keyframe time="0.21875" value="0" /><keyframe time="0.71875" value="180" /></animatedvalue>
+<animatedvalue id="spin8"><keyframe time="0.25" value="0" /><keyframe time="0.75" value="180" /></animatedvalue>
+<animatedvalue id="spin9"><keyframe time="0.28125" value="0" /><keyframe time="0.78125" value="180" /></animatedvalue>
+<animatedvalue id="spin10"><keyframe time="0.3125" value="0" /><keyframe time="0.8125" value="180" /></animatedvalue>
+<animatedvalue id="spin11"><keyframe time="0.34375" value="0" /><keyframe time="0.84375" value="180" /></animatedvalue>
+<animatedvalue id="spin12"><keyframe time="0.375" value="0" /><keyframe time="0.875" value="180" /></animatedvalue>
+<animatedvalue id="spin13"><keyframe time="0.40625" value="0" /><keyframe time="0.90625" value="180" /></animatedvalue>
+<animatedvalue id="spin14"><keyframe time="0.4375" value="0" /><keyframe time="0.9375" value="180" /></animatedvalue>
+<animatedvalue id="spin15"><keyframe time="0.46875" value="0" /><keyframe time="0.96875" value="180" /></animatedvalue>
+
+<projection aspect="1.77777" far="100" fov="45" near="1" top="1" type="perspective">
+<translate offset="0 0 -4"><style antialias="on" depthmask="on" depthtest="on">
+		
+<scale uniform="1.661">
+		        
+<cull face="back">
+<rotate angle="@spin0" axis="1 0 0">
+
+<trianglestrip texture="@video_out">
+<point location="-1.77775 -1" texcoord="0 1" />
+<point location="-1.555528125 -1" texcoord="0.0625 1" />
+<point location="-1.77775 1" texcoord="0 0" />
+<point location="-1.555528125 1" texcoord="0.0625 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin1" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="-1.555528125 -1" texcoord="0.0625 1" />
+<point location="-1.33330625 -1" texcoord="0.125 1" />
+<point location="-1.555528125 1" texcoord="0.0625 0" />
+<point location="-1.33330625 1" texcoord="0.125 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin2" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="-1.33330625 -1" texcoord="0.125 1" />
+<point location="-1.111084375 -1" texcoord="0.1875 1" />
+<point location="-1.33330625 1" texcoord="0.125 0" />
+<point location="-1.111084375 1" texcoord="0.1875 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin3" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="-1.111084375 -1" texcoord="0.1875 1" />
+<point location="-0.8888625 -1" texcoord="0.25 1" />
+<point location="-1.111084375 1" texcoord="0.1875 0" />
+<point location="-0.8888625 1" texcoord="0.25 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin4" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="-0.8888625 -1" texcoord="0.25 1" />
+<point location="-0.666640625 -1" texcoord="0.3125 1" />
+<point location="-0.8888625 1" texcoord="0.25 0" />
+<point location="-0.666640625 1" texcoord="0.3125 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin5" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="-0.666640625 -1" texcoord="0.3125 1" />
+<point location="-0.44441875 -1" texcoord="0.375 1" />
+<point location="-0.666640625 1" texcoord="0.3125 0" />
+<point location="-0.44441875 1" texcoord="0.375 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin6" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="-0.44441875 -1" texcoord="0.375 1" />
+<point location="-0.222196875 -1" texcoord="0.4375 1" />
+<point location="-0.44441875 1" texcoord="0.375 0" />
+<point location="-0.222196875 1" texcoord="0.4375 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin7" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="-0.222196875 -1" texcoord="0.4375 1" />
+<point location="0.0000250000000001638 -1" texcoord="0.5 1" />
+<point location="-0.222196875 1" texcoord="0.4375 0" />
+<point location="0.0000250000000001638 1" texcoord="0.5 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin8" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="0.0000250000000001638 -1" texcoord="0.5 1" />
+<point location="0.222246875 -1" texcoord="0.5625 1" />
+<point location="0.0000250000000001638 1" texcoord="0.5 0" />
+<point location="0.222246875 1" texcoord="0.5625 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin9" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="0.222246875 -1" texcoord="0.5625 1" />
+<point location="0.44446875 -1" texcoord="0.625 1" />
+<point location="0.222246875 1" texcoord="0.5625 0" />
+<point location="0.44446875 1" texcoord="0.625 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin10" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="0.44446875 -1" texcoord="0.625 1" />
+<point location="0.666690625 -1" texcoord="0.6875 1" />
+<point location="0.44446875 1" texcoord="0.625 0" />
+<point location="0.666690625 1" texcoord="0.6875 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin11" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="0.666690625 -1" texcoord="0.6875 1" />
+<point location="0.8889125 -1" texcoord="0.75 1" />
+<point location="0.666690625 1" texcoord="0.6875 0" />
+<point location="0.8889125 1" texcoord="0.75 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin12" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="0.8889125 -1" texcoord="0.75 1" />
+<point location="1.111134375 -1" texcoord="0.8125 1" />
+<point location="0.8889125 1" texcoord="0.75 0" />
+<point location="1.111134375 1" texcoord="0.8125 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin13" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="1.111134375 -1" texcoord="0.8125 1" />
+<point location="1.33335625 -1" texcoord="0.875 1" />
+<point location="1.111134375 1" texcoord="0.8125 0" />
+<point location="1.33335625 1" texcoord="0.875 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin14" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="1.33335625 -1" texcoord="0.875 1" />
+<point location="1.555578125 -1" texcoord="0.9375 1" />
+<point location="1.33335625 1" texcoord="0.875 0" />
+<point location="1.555578125 1" texcoord="0.9375 0" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin15" axis="1 0 0">
+<trianglestrip texture="@video_out">
+<point location="1.555578125 -1" texcoord="0.9375 1" />
+<point location="1.7778 -1" texcoord="1 1" />
+<point location="1.555578125 1" texcoord="0.9375 0" />
+<point location="1.7778 1" texcoord="1 0" />
+</trianglestrip>
+</rotate>
+</cull>
+				
+<cull face="front">
+<rotate angle="@spin0" axis="1 0 0">
+
+<trianglestrip texture="@video_in">
+<point location="-1.77775 -1" texcoord="0 0" />
+<point location="-1.555528125 -1" texcoord="0.0625 0" />
+<point location="-1.77775 1" texcoord="0 1" />
+<point location="-1.555528125 1" texcoord="0.0625 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin1" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="-1.555528125 -1" texcoord="0.0625 0" />
+<point location="-1.33330625 -1" texcoord="0.125 0" />
+<point location="-1.555528125 1" texcoord="0.0625 1" />
+<point location="-1.33330625 1" texcoord="0.125 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin2" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="-1.33330625 -1" texcoord="0.125 0" />
+<point location="-1.111084375 -1" texcoord="0.1875 0" />
+<point location="-1.33330625 1" texcoord="0.125 1" />
+<point location="-1.111084375 1" texcoord="0.1875 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin3" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="-1.111084375 -1" texcoord="0.1875 0" />
+<point location="-0.8888625 -1" texcoord="0.25 0" />
+<point location="-1.111084375 1" texcoord="0.1875 1" />
+<point location="-0.8888625 1" texcoord="0.25 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin4" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="-0.8888625 -1" texcoord="0.25 0" />
+<point location="-0.666640625 -1" texcoord="0.3125 0" />
+<point location="-0.8888625 1" texcoord="0.25 1" />
+<point location="-0.666640625 1" texcoord="0.3125 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin5" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="-0.666640625 -1" texcoord="0.3125 0" />
+<point location="-0.44441875 -1" texcoord="0.375 0" />
+<point location="-0.666640625 1" texcoord="0.3125 1" />
+<point location="-0.44441875 1" texcoord="0.375 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin6" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="-0.44441875 -1" texcoord="0.375 0" />
+<point location="-0.222196875 -1" texcoord="0.4375 0" />
+<point location="-0.44441875 1" texcoord="0.375 1" />
+<point location="-0.222196875 1" texcoord="0.4375 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin7" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="-0.222196875 -1" texcoord="0.4375 0" />
+<point location="0.0000250000000001638 -1" texcoord="0.5 0" />
+<point location="-0.222196875 1" texcoord="0.4375 1" />
+<point location="0.0000250000000001638 1" texcoord="0.5 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin8" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="0.0000250000000001638 -1" texcoord="0.5 0" />
+<point location="0.222246875 -1" texcoord="0.5625 0" />
+<point location="0.0000250000000001638 1" texcoord="0.5 1" />
+<point location="0.222246875 1" texcoord="0.5625 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin9" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="0.222246875 -1" texcoord="0.5625 0" />
+<point location="0.44446875 -1" texcoord="0.625 0" />
+<point location="0.222246875 1" texcoord="0.5625 1" />
+<point location="0.44446875 1" texcoord="0.625 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin10" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="0.44446875 -1" texcoord="0.625 0" />
+<point location="0.666690625 -1" texcoord="0.6875 0" />
+<point location="0.44446875 1" texcoord="0.625 1" />
+<point location="0.666690625 1" texcoord="0.6875 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin11" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="0.666690625 -1" texcoord="0.6875 0" />
+<point location="0.8889125 -1" texcoord="0.75 0" />
+<point location="0.666690625 1" texcoord="0.6875 1" />
+<point location="0.8889125 1" texcoord="0.75 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin12" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="0.8889125 -1" texcoord="0.75 0" />
+<point location="1.111134375 -1" texcoord="0.8125 0" />
+<point location="0.8889125 1" texcoord="0.75 1" />
+<point location="1.111134375 1" texcoord="0.8125 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin13" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="1.111134375 -1" texcoord="0.8125 0" />
+<point location="1.33335625 -1" texcoord="0.875 0" />
+<point location="1.111134375 1" texcoord="0.8125 1" />
+<point location="1.33335625 1" texcoord="0.875 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin14" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="1.33335625 -1" texcoord="0.875 0" />
+<point location="1.555578125 -1" texcoord="0.9375 0" />
+<point location="1.33335625 1" texcoord="0.875 1" />
+<point location="1.555578125 1" texcoord="0.9375 1" />
+</trianglestrip>
+</rotate>
+<rotate angle="@spin15" axis="1 0 0">
+<trianglestrip texture="@video_in">
+<point location="1.555578125 -1" texcoord="0.9375 0" />
+<point location="1.7778 -1" texcoord="1 0" />
+<point location="1.555578125 1" texcoord="0.9375 1" />
+<point location="1.7778 1" texcoord="1 1" />
+</trianglestrip>
+</rotate>
+</cull>
+				
+</scale>
+		        
+</style></translate>
+</projection>
+	
+</effect>

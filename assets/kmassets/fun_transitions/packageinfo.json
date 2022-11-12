@@ -1,0 +1,64 @@
+{
+  "assetLevel":"7",
+  "assetName": {
+    "en": "Fun Transitions",
+    "ar": "تحويلات مرحة",
+    "ko": "재미있는 장면전환 효과",
+    "pt": "Transições divertidas",
+    "ja": "おもしろい転換",
+    "fr": "Transitions Sympas",
+    "zh-CN": "有趣的转场",
+    "zh-TW": "有趣的轉場",
+    "zh-HK": "有趣的轉場",
+    "de": "Fun Übergänge",
+    "ru": "Развлекательные переходы",
+    "es": "Transiciones divertidas",
+    "hi":"मज़ेदार ट्रांसिशन्स",
+    "id":"Transisi Menarik",
+    "it":"Transizioni Divertenti",
+    "ms":"Tansasi Menarik",
+    "th":"เปลี่ยนแบบสนุก",
+    "tr":"Eğlenceli Geçişler",
+    "vi":"Chuyển đoạn Thú vị"
+  },
+  "format": "com.kinemaster.assetpackage",
+  "itemRoots": [
+    "transition/1v1.circlewipe",
+    "transition/1v1.heartwipe",
+    "transition/1v1.manycircles",
+    "transition/1v1.starwipe",
+    "transition/9v16.circlewipe",
+    "transition/9v16.heartwipe",
+    "transition/9v16.manycircles",
+    "transition/9v16.starwipe",
+    "transition/16v9.circlewipe",
+    "transition/16v9.heartwipe",
+    "transition/16v9.manycircles",
+    "transition/16v9.starwipe",
+    
+    "transition/3v4.circlewipe",
+    "transition/3v4.heartwipe",
+    "transition/3v4.manycircles",
+    "transition/3v4.starwipe",
+
+    "transition/4v3.circlewipe",
+    "transition/4v3.heartwipe",
+    "transition/4v3.manycircles",
+    "transition/4v3.starwipe",
+
+    "transition/4v5.circlewipe",
+    "transition/4v5.heartwipe",
+    "transition/4v5.manycircles",
+    "transition/4v5.starwipe",
+
+    "transition/2.35v1.circlewipe",
+    "transition/2.35v1.heartwipe",
+    "transition/2.35v1.manycircles",
+    "transition/2.35v1.starwipe",
+
+    "transition/knockaside"
+  ],
+  "minVersionCode": 2,
+  "packageContentVersion": 2,
+  "targetVersionCode": 4
+}

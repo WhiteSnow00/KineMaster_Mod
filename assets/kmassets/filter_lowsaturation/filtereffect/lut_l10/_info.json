@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_l10.png",
+    "hidden": "False",
+    "filename": "lut_l10.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_l10.L10",
+    "label": {
+        "pt": "L10",
+        "ja": "L10",
+        "fr": "L10",
+        "zh-CN": "L10",
+        "ko": "L10",
+        "ar": "L10",
+        "zh-TW": "L10",
+        "en": "L10",
+        "zh-HK": "L10",
+        "de": "L10",
+        "ru": "L10",
+        "es": "L10",
+        "hi": "L10",
+        "id": "L10",
+        "it": "L10",
+        "ms": "L10",
+        "th": "L10",
+        "tr": "L10",
+        "vi": "L10"
+    }
+    }

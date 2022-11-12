@@ -1,0 +1,31 @@
+{
+  "ratios":["2.35:1"],
+  "kmcategory" : ["kmc.clipgraphics"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.bulletin",
+  "id": "com.nexstreaming.kinemaster.2.35v1.builtin.title.bulletin",
+  "label": {
+    "en": "Bulletin",
+    "ar": "نشرة",
+    "ko": "게시판",
+    "pt": "Boletim",
+    "ja": "掲示板",
+    "fr": "Bulletin",
+    "zh-CN": "告示板",
+    "zh-TW": "佈告欄",
+    "zh-HK": "佈告欄",
+    "de": "Nachrichtenblatt",
+    "ru": "Ведомость",
+    "es": "Boletín",
+    "hi":"बुलेटिन",
+    "id":"Buletin",
+    "it":"Bollettino",
+    "ms":"Buletin",
+    "th":"แถลงการณ์",
+    "tr":"Bülten",
+    "vi":"Bảng thông báo"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

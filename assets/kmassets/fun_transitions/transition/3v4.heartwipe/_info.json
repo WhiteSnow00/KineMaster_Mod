@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "3:4"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.heartwipe",
+  "id": "com.nexstreaming.kinemaster.builtin4.3v4.heartwipe",
+  "label": {
+    "en": "Heart Wipe",
+    "ar": "المسح القلبي",
+    "ko": "하트",
+    "pt": "Limpar coração",
+    "ja": "ハート　ワイプ",
+    "fr": "Balayage cœur",
+    "zh-CN": "爱心擦除",
+    "zh-TW": "心形抹去",
+    "zh-HK": "心形抹去",
+    "de": "Herz-Wischeffekt",
+    "ru": "Шторка \u0027Сердце\u0027",
+    "es": "Limpiar corazón",
+    "hi":"हार्ट वाइप",
+    "id":"Sekaan berbentuk hati",
+    "it":"Ripulire Cuore",
+    "ms":"Mengesat Berbentuk Hati",
+    "th":"หัวใจ",
+    "tr":"Kalp Silme",
+    "vi":"Xoá hình tim"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

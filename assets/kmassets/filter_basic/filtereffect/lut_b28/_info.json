@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b28.png",
+    "hidden": "False",
+    "filename": "lut_b28.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b28.B28",
+    "label": {
+        "pt": "B28",
+        "ja": "B28",
+        "fr": "B28",
+        "zh-CN": "B28",
+        "ko-KR": "B28",
+        "ar": "B28",
+        "zh-TW": "B28",
+        "en": "B28",
+        "zh-HK": "B28",
+        "de-DE": "B28",
+        "ru": "B28",
+        "es": "B28",
+        "hi": "B28",
+        "id": "B28",
+        "it": "B28",
+        "ms": "B28",
+        "th": "B28",
+        "tr-TR": "B28",
+        "vi-VN": "B28"
+    }
+}

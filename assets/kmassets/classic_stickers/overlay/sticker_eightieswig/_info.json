@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_eightieswig.svg",
+	"thumbnail":"sticker_eightieswig.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_eightieswig"
+}

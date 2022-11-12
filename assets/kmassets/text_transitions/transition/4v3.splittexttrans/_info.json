@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.splittexttrans",
+  "id": "com.nexstreaming.kinemaster.builtin3.4v3.splittexttrans",
+  "label": {
+    "en": "Split Title",
+    "ar": "تقسيم العنوان",
+    "ko": "분할 타이틀",
+    "pt": "Dividir título",
+    "ja": "分割タイトル",
+    "fr": "Titre divisé",
+    "zh-CN": "分割标题",
+    "zh-TW": "分離式標題",
+    "zh-HK": "分離式標題",
+    "de": "Geteilter Titel",
+    "ru": "Название в разделении",
+    "es": "Dividir título",
+    "hi":"स्प्लिट टाइटल",
+    "id":"Judul Terbagi",
+    "it":"Titolo Diviso",
+    "ms":"Tajuk Terbahagi",
+    "th":"แยกชื่อ",
+    "tr":"Başlığı Böl",
+    "vi":"Chia Ô"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_soccer.svg",
+	"thumbnail":"sticker_soccer.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_soccer"
+}

@@ -1,0 +1,66 @@
+<effect categorytitle="@string/category_basic_title" icon="fx_poem.f74c366a3c5812a5f833298a07b3f23682d6851e.png" id="com.nexstreaming.kinemaster.3v4.builtin6.title.poem" intime="1200" intimefirst="1200" name="@string/fx_poem" outtime="1200" outtimelast="1200" repeat="no" type="title">
+<animatedvalue id="anim_1" timingfunction="linear">
+<part type="in">
+<keyframe value="360 480" />
+<keyframe timingfunction="ease-in" value="360 480" />
+</part>
+<part type="mid">
+<keyframe value="360 480" />
+<keyframe timingfunction="linear" value="360 480" />
+</part>
+<part type="out">
+<keyframe value="360 480" />
+<keyframe timingfunction="ease-out" value="360 480" />
+</part>
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<part type="in">
+<keyframe value="0" />
+<keyframe timingfunction="ease-in" value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+<keyframe timingfunction="linear" value="1" />
+</part>
+<part type="out">
+<keyframe value="1" />
+<keyframe timingfunction="ease-out" value="0" />
+</part>
+</animatedvalue>
+<userfield id="f_text" maxlines="100" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+    
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<userfield default="1" editor="icontoggle" id="f_textalign" type="selection">
+<option icon="text_align_left.png" value="0" />
+<option icon="text_align_center.png" value="1" />
+<option icon="text_align_right.png" value="2" />
+</userfield>
+
+<texture id="video1" video="1" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text" height="616" id="text1" srcfield="@f_text" text="%1" textalign="@f_textalign" textsize="40" textvalign="center" typeface="asset:lato-bold.ttf" width="470" />
+
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.75"
+    near="0.01"
+    far="60000">
+<scale y="-1">
+<translate offset="-360 -480 -1158.82251">
+<translate offset="360 480">
+<rect bounds="-360 -480 360 480" texture="@video1" />
+</translate>
+<translate offset="@anim_1">
+<style alpha="@anim_2">
+<rect bounds="-235 -308 235 308" texture="@text1" />
+</style>
+</translate>
+</translate>
+</scale>
+</projection>
+</effect>

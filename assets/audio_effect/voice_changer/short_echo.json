@@ -1,0 +1,34 @@
+{
+   "NexSound" : [
+      {
+         "Processor::VoiceChanger" : {
+            "C00_VCConnection::Serial" : [
+               {
+                  "E00_VCEffect::Headroom" : {
+                     "P01_Headroom(dB)" : 0
+                  },
+                  "E01_VCEffect::Feedback" : {
+                     "P01_Trigger_Enable(1/0)" : 0,
+                     "P02_FeedBack_Gain(dB)" : -3,
+                     "P03_FeedBack_Time(3000ms)" : 700,
+                     "P04_Decay_Gain(dB)" : -9,
+                     "P05_Org_Gain(dB)" : 0,
+                     "P06_Delay1(ms)" : 200,
+                     "P07_Delay2(ms)" : 9.1999998092651367,
+                     "P08_Delay3(ms)" : 8.1000003814697266,
+                     "P09_Interval(ms)" : 0,
+                     "P10_Output_Volume(dB)" : 0
+                  }
+               },
+               {
+                  "E00_VCEffect::VoiceChanger" : {
+                     "Enable(0/1)" : 1,
+                     "Voice Type(0-4)" : 4
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
+

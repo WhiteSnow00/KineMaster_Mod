@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="editor_project_action_bars_height_weight">234</integer>
+    <integer name="editor_project_timeline_bars_height_weight">115</integer>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+</resources>

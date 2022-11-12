@@ -1,0 +1,56 @@
+<effect id="com.nexstreaming.kinemaster.travel.opening" intime="2500" intimefirst="2500" outtime="2000" outtimelast="0" theme="true" type="title">
+
+<texture id="videoframe" video="1" />
+<texture id="balloon" src="r6" />
+	
+<userfield id="f_text" maxlines="2" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+<texture fill="true" fillcolor="#FFFFFF" height="300" id="title_text" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="12" srcfield="@f_text" text="%1" textalign="center" textmargin="12" textsize="150" typeface="asset:goudy_stm_italic.ttf" width="1200" />
+	
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+	
+<animatedvalue id="by" noise="perlin-simplex" noisefunction="fractal" noiseoctaves="3" noisesamplebias="65" noisesamplescale="6" scope="whole" timingfunction="linear">
+<keyframe value="-30" />
+<keyframe value="30" />
+</animatedvalue>
+	
+<animatedvalue id="bx" noise="perlin-simplex" noisefunction="fractal" noiseoctaves="3" noisesamplebias="0" noisesamplescale="4" scope="whole" timingfunction="linear">
+<keyframe value="-40" />
+<keyframe value="40" />
+</animatedvalue>
+	
+<animatedvalue id="bslide" timingfunction="linear">
+<part type="in">
+<keyframe value="0 -600" />
+<keyframe timingfunction="ease-out" value="0 150" />
+</part>
+<part type="mid">
+<keyframe value="0 150" />
+</part>
+<part type="out">
+<keyframe value="0 150" />
+<keyframe timingfunction="ease-in" value="0 800" />
+</part>
+</animatedvalue>
+	
+<projection aspect="1.77777" far="40" fov="45" near="1" top="1" type="perspective">
+<translate offset="0 0 -21.69">
+<scale uniform="0.025">
+<translate offset="@bslide">
+<translate offset="@bx @by">
+						
+<scale uniform="0.8">
+<rect bounds="-132 189 132 -188" texture="@balloon" />
+</scale>
+											
+</translate>
+
+<rect anchor="top center" height="250" location="0 -200" scalemode="fit" texture="@title_text" width="1000" />
+					
+</translate>
+</scale>
+</translate>
+</projection>
+	
+</effect>

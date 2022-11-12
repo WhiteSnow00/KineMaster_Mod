@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "3:4"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.onstage.ending",
+  "id": "com.nexstreaming.kinemaster.3v4.onstage.ending",
+  "label": {
+    "en": "On-Stage - Ending",
+    "ar": "على المسرح - إنهاء",
+    "ko": "스테이지 - 마지막",
+    "pt": "No palco - Final",
+    "ja": "ステージ - 終わり",
+    "fr": "Sur scène - Fin",
+    "zh-CN": "舞台 - 结尾",
+    "zh-TW": "舞臺 - 最後",
+    "zh-HK": "舞臺 - 最後",
+    "de": "Auf der Bühne - Ende",
+    "ru": "На сцене - Завершение",
+    "es": "En escena - Final",
+    "hi":"ओन- स्टेज - अंत",
+    "id":"Di Atas Panggung - Akhir",
+    "it":"In-Scena - Finale",
+    "ms":"Pada Terakhir Pentas",
+    "th":"บนเวที - ตอนจบ",
+    "tr":"Sahnede - Bitiş",
+    "vi":"On-Stage - Kết thúc"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b35.png",
+    "hidden": "False",
+    "filename": "lut_b35.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b35.B35",
+    "label": {
+        "pt": "B35",
+        "ja": "B35",
+        "fr": "B35",
+        "zh-CN": "B35",
+        "ko-KR": "B35",
+        "ar": "B35",
+        "zh-TW": "B35",
+        "en": "B35",
+        "zh-HK": "B35",
+        "de-DE": "B35",
+        "ru": "B35",
+        "es": "B35",
+        "hi": "B35",
+        "id": "B35",
+        "it": "B35",
+        "ms": "B35",
+        "th": "B35",
+        "tr-TR": "B35",
+        "vi-VN": "B35"
+    }
+}

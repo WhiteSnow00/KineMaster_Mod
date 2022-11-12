@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="one">%d piste</item>
+        <item quantity="other">%d pistes</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="one">Dupliquer %s élément ?</item>
+        <item quantity="other">Dupliquer %s éléments ?</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="one">Mot de passe trop faible. Utilisez au moins %1$d caractères et des chiffres et des lettres</item>
+        <item quantity="other">Mot de passe trop faible. Utilisez au moins %1$d caractères et des chiffres et des lettres</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Avancer de %d seconde</item>
+        <item quantity="other">Avancer de %d secondes</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Revenir en arrière de %d seconde</item>
+        <item quantity="other">Revenir en arrière de %d secondes</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Le mot de passe n&apos;est pas assez sécurisé. Utilisez au moins %1$d caractère et une combinaison de chiffres et de lettres.</item>
+        <item quantity="other">Le mot de passe n&apos;est pas assez sécurisé. Utilisez au moins %1$d caractères et une combinaison de chiffres et de lettres.</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="one">Un fichier audio est manquant dans ce projet à %s.</item>
+        <item quantity="other">Les fichiers audio sont manquants de ce projet.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="one">Un fichier image est manquant dans ce projet à %s.</item>
+        <item quantity="other">Les fichiers d&apos;image sont manquants dans ce projet.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="one">Il est recommandé de remplacer le fichier média manquant avant l&apos;enregistrement.</item>
+        <item quantity="other">Il est recommandé de remplacer les fichiers média manquants avant l&apos;enregistrement.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="one">Un fichier vidéo est manquant de ce projet à %s.</item>
+        <item quantity="other">Les fichiers vidéo sont manquants de ce projet.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="one">%d Commentaire</item>
+        <item quantity="other">%d Commentaires</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="one">%d projet va être supprimé.</item>
+        <item quantity="other">%d projets vont être supprimés.</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="one">%d Projet Sélectionné</item>
+        <item quantity="other">%d Projets Sélectionnés</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="one">Utilisateur KineMaster Premium (%d jour restant)</item>
+        <item quantity="other">Utilisateur KineMaster Premium (%d jours restants)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="one">%s pendant %d mois!</item>
+        <item quantity="other">%s / mois pendant %d mois!</item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="one">%s pendant %d an!</item>
+        <item quantity="other">%s / an pendant %d ans!</item>
+    </plurals>
+</resources>

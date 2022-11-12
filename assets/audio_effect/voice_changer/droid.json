@@ -1,0 +1,64 @@
+{
+   "NexSound" : [
+      {
+         "Processor::VoiceChanger" : {
+            "C00_VCConnection::Serial" : [
+               {
+                  "E00_VCEffect::Headroom" : {
+                     "P01_Headroom(dB)" : -6
+                  },
+                  "E01_VCEffect::PassFilter" : {
+                     "P01_Order(1/2)" : 1,
+                     "P02_Frequency(Hz)" : 900,
+                     "P03_FilterType(0:LPF/1:HPF)" : 1,
+                     "P04_Q_Factor(1-20)" : 12
+                  },
+                  "E02_VCEffect::Chorus" : {
+                     "P01_Strength(0/6)" : 4,
+                     "P02_Bass(0/6)" : 0,
+                     "P03_Output_Volume(dB)" : 0
+                  },
+                  "E03_VCEffect::PitchControl" : {
+                     "P01_Index(-12/12)" : 2,
+                     "P02_Output_Volume(dB)" : 0
+                  },
+                  "E04_VCEffect::Flanger" : {
+                     "P01_Trigger_Enable(1/0)" : 0,
+                     "P02_LFO_Type(Sine/Sq/Tri/miss)" : 0,
+                     "P03_LFO_Freq(Hz)" : 0.40000000000000002,
+                     "P04_Max_Delay(ms)" : 2.2000000476837158,
+                     "P05_Depth(%)" : 100,
+                     "P05_Org_Gain(dB)" : 0,
+                     "P07_Flanger_Gain(dB)" : 0,
+                     "P08_LPF_Enable(1/0)" : 0,
+                     "P09_LPF_Freq(Hz)" : 16000,
+                     "P10_HPF_Enable(1/0)" : 0,
+                     "P11_HPF_Freq(Hz)" : 500,
+                     "P12_Output_Volume(dB)" : 0
+                  },
+                  "E05_VCEffect::MaxVolume" : {
+                     "P01_Strength(0/6)" : 2,
+                     "P02_Release(0/6)" : 3,
+                     "P03_Output_Volume(dB)" : 0
+                  },
+                  "E06_VCEffect::InsertFoley" : {
+                     "P01_Trigger_Enable(1/0)" : 1,
+                     "P02_Trigger_Standby(ms)" : 600,
+                     "P03_CoolTime(ms)" : 6000,
+                     "P04_Foley_Open" : "D:\\_VCFoley\\r4.wav",
+                     "P05_Foley_Gain(dB)" : -6,
+                     "P06_Output_Volume(dB)" : 0
+                  }
+               },
+               {
+                  "E00_VCEffect::VoiceChanger" : {
+                     "Enable(0/1)" : 1,
+                     "Voice Type(0-4)" : 4
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
+

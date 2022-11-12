@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_l12.png",
+    "hidden": "False",
+    "filename": "lut_l12.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_l12.L12",
+    "label": {
+        "pt": "L12",
+        "ja": "L12",
+        "fr": "L12",
+        "zh-CN": "L12",
+        "ko": "L12",
+        "ar": "L12",
+        "zh-TW": "L12",
+        "en": "L12",
+        "zh-HK": "L12",
+        "de": "L12",
+        "ru": "L12",
+        "es": "L12",
+        "hi": "L12",
+        "id": "L12",
+        "it": "L12",
+        "ms": "L12",
+        "th": "L12",
+        "tr": "L12",
+        "vi": "L12"
+    }
+    }

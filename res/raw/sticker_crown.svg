@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+<svg version="1.1" baseProfile="basic" id="Layer_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px"
+	 viewBox="0 0 300 300" xml:space="preserve">
+<rect x="59.72" y="95.455" transform="matrix(0.7071 0.7071 -0.7071 0.7071 124.2433 -30.5304)" fill="#CBB42D" width="78.511" height="78.51"/>
+<rect x="166.094" y="95.455" transform="matrix(0.7071 0.7071 -0.7071 0.7071 155.3997 -105.7485)" fill="#CBB42D" width="78.511" height="78.51"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="18.3389" y1="157.0781" x2="281.3291" y2="157.0781">
+	<stop  offset="0" style="stop-color:#F8E73E"/>
+	<stop  offset="0.3333" style="stop-color:#FFF1D3"/>
+	<stop  offset="1" style="stop-color:#F8E73E"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M281.329,75.768l-68.363,63.905l-63.903-63.905l-65.364,65.361L18.339,75.768l33.663,149.47
+	c29.15,8.408,62.128,13.152,97.061,13.152c33.12,0,64.487-4.266,92.496-11.877L281.329,75.768z"/>
+<circle fill="#00A9B8" cx="18.339" cy="75.768" r="13.533"/>
+<circle fill="#007875" cx="98.973" cy="75.768" r="13.533"/>
+<circle fill="#007875" cx="205.35" cy="75.768" r="13.533"/>
+<circle fill="#00A9B8" cx="281.329" cy="75.768" r="13.533"/>
+<circle fill="#00A9B8" cx="149.834" cy="75.768" r="13.533"/>
+<path fill="#00A9B8" d="M150.171,197.45c-38.212,0-74.133-4.871-105.539-13.406l2.32,10.303
+	c30.603,8.833,65.784,13.865,103.219,13.865c35.32,0,68.637-4.479,97.989-12.402l2.767-10.491
+	C220.681,193.064,186.451,197.45,150.171,197.45z"/>
+<polygon fill="#00A9B8" points="149.834,164.608 160.039,185.284 182.854,188.599 166.344,204.69 170.241,227.416 149.834,216.686 
+	129.426,227.416 133.324,204.69 116.813,188.599 139.629,185.284 "/>
+<polygon fill="#F8E73E" points="149.834,176.862 156.811,190.996 172.412,193.265 161.123,204.266 163.787,219.807 149.834,212.471 
+	135.88,219.807 138.545,204.266 127.255,193.265 142.857,190.996 "/>
+</svg>

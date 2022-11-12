@@ -1,0 +1,367 @@
+<effect categorytitle="@string/category_3d_trans" effectoffset="100" icon="transition_bouncy_box.ce0f7d4b90621c5257393e72ee6e7867d310b188.png" id="com.nexstreaming.kinemaster.builtin3.bouncebox" maxduration="10000" minduration="1000" name="@string/trans_bouncy_box" type="transition" videooverlap="100" >
+<const id="aspect_ratio_Camera_1" value="1.77778" />
+<const id="viewing_angle_Camera_1" value="28.84" />
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<animatedvalue id="aa">
+<keyframe time="0" value="1" />
+<keyframe time="0.2" value="0.2" />
+<keyframe time="0.8" value="0.2" />
+<keyframe time="1" value="1" />
+</animatedvalue>
+<animatedvalue id="loc_Cube_1" timingfunction="linear">
+<keyframe value="0.00 0.00 0.00" />
+<keyframe value="0.00 1.12 -0.41" />
+<keyframe value="0.00 1.64 -0.67" />
+<keyframe value="0.00 2.01 -0.92" />
+<keyframe value="0.00 2.29 -1.15" />
+<keyframe value="0.00 2.49 -1.37" />
+<keyframe value="0.00 2.63 -1.59" />
+<keyframe value="0.00 2.73 -1.80" />
+<keyframe value="0.00 2.78 -2.01" />
+<keyframe value="0.00 2.79 -2.22" />
+<keyframe value="0.00 2.78 -2.43" />
+<keyframe value="0.00 2.74 -2.63" />
+<keyframe value="0.00 2.66 -2.83" />
+<keyframe value="0.00 2.56 -3.03" />
+<keyframe value="0.00 2.41 -3.23" />
+<keyframe value="0.00 2.21 -3.43" />
+<keyframe value="0.00 1.95 -3.63" />
+<keyframe value="0.00 1.58 -3.83" />
+<keyframe value="0.00 1.06 -4.03" />
+<keyframe value="0.00 0.00 -4.22" />
+<keyframe value="0.00 0.95 -4.42" />
+<keyframe value="0.00 1.38 -4.61" />
+<keyframe value="0.00 1.68 -4.81" />
+<keyframe value="0.00 1.89 -5.00" />
+<keyframe value="0.00 2.04 -5.20" />
+<keyframe value="0.00 2.13 -5.39" />
+<keyframe value="0.00 2.19 -5.58" />
+<keyframe value="0.00 2.20 -5.78" />
+<keyframe value="0.00 2.18 -5.97" />
+<keyframe value="0.00 2.12 -6.16" />
+<keyframe value="0.00 2.00 -6.35" />
+<keyframe value="0.00 1.83 -6.55" />
+<keyframe value="0.00 1.59 -6.74" />
+<keyframe value="0.00 1.26 -6.93" />
+<keyframe value="0.00 0.80 -7.12" />
+<keyframe value="0.00 0.00 -7.31" />
+<keyframe value="0.00 0.67 -7.51" />
+<keyframe value="0.00 0.93 -7.70" />
+<keyframe value="0.00 1.08 -7.89" />
+<keyframe value="0.00 1.16 -8.08" />
+<keyframe value="0.00 1.20 -8.28" />
+<keyframe value="0.00 1.18 -8.47" />
+<keyframe value="0.00 1.09 -8.66" />
+<keyframe value="0.00 0.89 -8.85" />
+<keyframe value="0.00 0.58 -9.05" />
+<keyframe value="0.00 0.00 -9.24" />
+<keyframe value="0.00 0.43 -9.43" />
+<keyframe value="0.00 0.53 -9.63" />
+<keyframe value="0.00 0.56 -9.82" />
+<keyframe value="0.00 0.54 -10.02" />
+<keyframe value="0.00 0.43 -10.21" />
+<keyframe value="0.00 0.00 -10.41" />
+<keyframe value="0.00 0.27 -10.60" />
+<keyframe value="0.00 0.33 -10.80" />
+<keyframe value="0.00 0.27 -11.00" />
+<keyframe value="0.00 0.00 -11.20" />
+<keyframe value="0.00 0.18 -11.40" />
+<keyframe value="0.00 0.21 -11.60" />
+<keyframe value="0.00 0.18 -11.80" />
+<keyframe value="0.00 0.00 -12.00" />
+<keyframe value="0.00 0.00 -10.72" />
+<keyframe value="0.00 0.00 -9.33" />
+<keyframe value="0.00 0.00 -7.88" />
+<keyframe value="0.00 0.00 -6.40" />
+<keyframe value="0.00 0.00 -4.94" />
+<keyframe value="0.00 0.00 -3.55" />
+<keyframe value="0.00 0.00 -2.27" />
+<keyframe value="0.00 0.00 -1.16" />
+<keyframe value="0.00 0.00 -0.34" />
+<keyframe value="0.00 0.00 0.00" />
+</animatedvalue>
+<animatedvalue id="rotx_Cube_1" timingfunction="linear">
+<keyframe value="360" />
+<keyframe value="314.56" />
+<keyframe value="294.36" />
+<keyframe value="278.37" />
+<keyframe value="264.6" />
+<keyframe value="252.26" />
+<keyframe value="240.95" />
+<keyframe value="230.43" />
+<keyframe value="220.55" />
+<keyframe value="211.21" />
+<keyframe value="202.31" />
+<keyframe value="193.81" />
+<keyframe value="185.66" />
+<keyframe value="177.82" />
+<keyframe value="170.26" />
+<keyframe value="162.96" />
+<keyframe value="155.9" />
+<keyframe value="149.06" />
+<keyframe value="142.43" />
+<keyframe value="135.99" />
+<keyframe value="129.74" />
+<keyframe value="123.66" />
+<keyframe value="117.75" />
+<keyframe value="112" />
+<keyframe value="106.41" />
+<keyframe value="100.97" />
+<keyframe value="95.68" />
+<keyframe value="90.53" />
+<keyframe value="85.52" />
+<keyframe value="80.65" />
+<keyframe value="75.91" />
+<keyframe value="71.3" />
+<keyframe value="66.83" />
+<keyframe value="62.49" />
+<keyframe value="58.27" />
+<keyframe value="54.19" />
+<keyframe value="50.24" />
+<keyframe value="46.41" />
+<keyframe value="42.72" />
+<keyframe value="39.15" />
+<keyframe value="35.72" />
+<keyframe value="32.42" />
+<keyframe value="29.26" />
+<keyframe value="26.23" />
+<keyframe value="23.35" />
+<keyframe value="20.6" />
+<keyframe value="18.01" />
+<keyframe value="15.56" />
+<keyframe value="13.26" />
+<keyframe value="11.13" />
+<keyframe value="9.15" />
+<keyframe value="7.35" />
+<keyframe value="5.72" />
+<keyframe value="4.28" />
+<keyframe value="3.03" />
+<keyframe value="1.97" />
+<keyframe value="1.13" />
+<keyframe value="0.51" />
+<keyframe value="0.13" />
+<keyframe value="0" />
+</animatedvalue>
+<animatedvalue id="roty_Cube_1" timingfunction="linear">
+
+<keyframe value="360" />
+<keyframe value="356.97" />
+<keyframe value="352.91" />
+<keyframe value="348.78" />
+<keyframe value="344.66" />
+<keyframe value="340.54" />
+<keyframe value="336.42" />
+<keyframe value="332.30" />
+<keyframe value="328.18" />
+<keyframe value="324.06" />
+<keyframe value="319.94" />
+<keyframe value="315.82" />
+<keyframe value="311.70" />
+<keyframe value="307.58" />
+<keyframe value="303.46" />
+<keyframe value="299.34" />
+<keyframe value="295.22" />
+<keyframe value="291.10" />
+<keyframe value="286.98" />
+<keyframe value="282.86" />
+<keyframe value="278.74" />
+<keyframe value="274.62" />
+<keyframe value="270.50" />
+<keyframe value="266.38" />
+<keyframe value="262.26" />
+<keyframe value="258.14" />
+<keyframe value="254.02" />
+<keyframe value="249.9" />
+<keyframe value="246.35" />
+<keyframe value="242.87" />
+<keyframe value="239.44" />
+<keyframe value="236.08" />
+<keyframe value="232.78" />
+<keyframe value="229.56" />
+<keyframe value="226.4" />
+<keyframe value="223.31" />
+<keyframe value="220.3" />
+<keyframe value="217.37" />
+<keyframe value="214.51" />
+<keyframe value="211.74" />
+<keyframe value="209.05" />
+<keyframe value="206.45" />
+<keyframe value="203.94" />
+<keyframe value="201.53" />
+<keyframe value="199.21" />
+<keyframe value="197" />
+<keyframe value="194.9" />
+<keyframe value="192.9" />
+<keyframe value="191.02" />
+<keyframe value="189.27" />
+<keyframe value="187.64" />
+<keyframe value="186.15" />
+<keyframe value="184.8" />
+<keyframe value="183.59" />
+<keyframe value="182.54" />
+<keyframe value="181.66" />
+<keyframe value="180.95" />
+<keyframe value="180.43" />
+<keyframe value="180.11" />
+<keyframe value="180" />
+
+</animatedvalue>
+<animatedvalue id="rotz_Cube_1" timingfunction="linear">
+
+<keyframe value="-360" />
+<keyframe value="-353.17" />
+<keyframe value="-343.83" />
+<keyframe value="-333.9" />
+<keyframe value="-323.7" />
+<keyframe value="-313.35" />
+<keyframe value="-302.91" />
+<keyframe value="-292.43" />
+<keyframe value="-281.94" />
+<keyframe value="-271.45" />
+<keyframe value="-260.97" />
+<keyframe value="-250.51" />
+<keyframe value="-240.1" />
+<keyframe value="-229.73" />
+<keyframe value="-219.41" />
+<keyframe value="-209.15" />
+<keyframe value="-198.95" />
+<keyframe value="-188.83" />
+<keyframe value="-178.78" />
+<keyframe value="-168.82" />
+<keyframe value="-158.95" />
+<keyframe value="-149.17" />
+<keyframe value="-139.5" />
+<keyframe value="-129.93" />
+<keyframe value="-120.49" />
+<keyframe value="-111.17" />
+<keyframe value="-101.98" />
+<keyframe value="-92.94" />
+<keyframe value="-84.05" />
+<keyframe value="-75.33" />
+<keyframe value="-66.79" />
+<keyframe value="-58.45" />
+<keyframe value="-50.31" />
+<keyframe value="-42.41" />
+<keyframe value="-34.76" />
+<keyframe value="-27.39" />
+<keyframe value="-20.32" />
+<keyframe value="-13.6" />
+<keyframe value="-7.27" />
+<keyframe value="-1.38" />
+<keyframe value="4.01" />
+<keyframe value="8.81" />
+<keyframe value="12.91" />
+<keyframe value="16.17" />
+<keyframe value="18.37" />
+<keyframe value="19.2" />
+<keyframe value="17.64" />
+<keyframe value="13.12" />
+<keyframe value="6.62" />
+<keyframe value="0.12" />
+<keyframe value="-4.4" />
+<keyframe value="-5.95" />
+<keyframe value="-4.4" />
+<keyframe value="-0.33" />
+<keyframe value="3.73" />
+<keyframe value="5.29" />
+<keyframe value="4.56" />
+<keyframe value="2.64" />
+<keyframe value="0.73" />
+<keyframe value="0" />
+
+</animatedvalue>
+<projection aspect="@aspect_ratio_Camera_1" far="400" fov="@viewing_angle_Camera_1" near="0.1" type="perspective">
+  
+<translate offset="0.00 -1.5 -4.90">
+
+<sequence count="2" end="1" id="sl" start="-1">
+<rect bounds="-3 -3 3 3" color="0 0 0 0.8" />
+<scale y="@sl">
+<translate offset="0 1.5">
+<style depthtest="on">
+
+<translate offset="@loc_Cube_1">
+        
+<rotate angle="@rotz_Cube_1" axis="0 0 1">
+<rotate angle="@roty_Cube_1" axis="0 1 0">
+<rotate angle="@rotx_Cube_1" axis="1 0 0">
+<scale x="1.78">
+<style color="#CCCCCCFF">
+<trianglestrip type="triangles">
+<point color="#AAAAAA" location="1.00 -1.00 1.00" />
+<point color="#AAAAAA" location="-1.00 -1.00 1.00" />
+<point color="#CCCCCC" location="-1.00 -1.00 -1.00" />
+<point color="#AAAAAA" location="1.00 -1.00 -1.00" />
+<point color="#AAAAAA" location="1.00 -1.00 1.00" />
+<point color="#CCCCCC" location="-1.00 -1.00 -1.00" />
+
+<point color="#888888" location="1.00 1.00 1.00" />
+<point color="#888888" location="1.00 1.00 -1.00" />
+<point color="#AAAAAA" location="-1.00 1.00 1.00" />
+<point color="#888888" location="1.00 1.00 -1.00" />
+<point color="#888888" location="-1.00 1.00 -1.00" />
+<point color="#AAAAAA" location="-1.00 1.00 1.00" />
+
+<point color="#CCCCCC" location="-1.00 -1.00 -1.00" />
+<point color="#CCCCCC" location="-1.00 -1.00 1.00" />
+<point color="#DDDDDD" location="-1.00 1.00 -1.00" />
+<point color="#CCCCCC" location="-1.00 -1.00 1.00" />
+<point color="#CCCCCC" location="-1.00 1.00 1.00" />
+<point color="#DDDDDD" location="-1.00 1.00 -1.00" />
+
+<point color="#555555" location="1.00 1.00 -1.00" />
+<point color="#555555" location="1.00 1.00 1.00" />
+<point color="#888888" location="1.00 -1.00 -1.00" />
+<point color="#555555" location="1.00 1.00 1.00" />
+<point color="#555555" location="1.00 -1.00 1.00" />
+<point color="#888888" location="1.00 -1.00 -1.00" />
+</trianglestrip>
+</style>
+<translate offset="0.00 0.00 -1.00">
+<rotate angle="-180.00" axis="0 1 0">
+<scale x="1.12" y="2">
+<style alpha="@aa">
+<trianglestrip texture="@video2" type="triangles">
+<point location="-0.89 -0.50 0.00" texcoord="0.00 1.00" />
+<point location="0.89 -0.50 0.00" texcoord="1.00 1.00" />
+<point location="-0.89 0.50 0.00" texcoord="0.00 0.00" />
+<point location="0.89 -0.50 0.00" texcoord="1.00 1.00" />
+<point location="0.89 0.50 0.00" texcoord="1.00 0.00" />
+<point location="-0.89 0.50 0.00" texcoord="0.00 0.00" />
+</trianglestrip>
+</style>
+</scale>
+</rotate>
+</translate>
+<translate offset="0.00 0.00 1.01">
+<scale x="1.12" y="2">
+<style alpha="@aa">
+<trianglestrip texture="@video1" type="triangles">
+<point location="-0.89 -0.50 0.00" texcoord="0.00 1.00" />
+<point location="0.89 -0.50 0.00" texcoord="1.00 1.00" />
+<point location="-0.89 0.50 0.00" texcoord="0.00 0.00" />
+<point location="0.89 -0.50 0.00" texcoord="1.00 1.00" />
+<point location="0.89 0.50 0.00" texcoord="1.00 0.00" />
+<point location="-0.89 0.50 0.00" texcoord="0.00 0.00" />
+</trianglestrip>
+</style>
+</scale>
+</translate>
+</scale>
+</rotate>
+</rotate>
+</rotate>
+         
+</translate>
+        
+</style>
+</translate>
+</scale>
+</sequence>
+        
+        
+</translate>
+       
+</projection>
+</effect>

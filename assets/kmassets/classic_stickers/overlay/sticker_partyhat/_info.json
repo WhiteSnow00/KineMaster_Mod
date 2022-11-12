@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_partyhat.svg",
+	"thumbnail":"sticker_partyhat.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_partyhat"
+}

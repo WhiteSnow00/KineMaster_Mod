@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renderitem xmlns="http://schemas.kinemaster.com/km/renderitem" main="mainScript"
+            id="com.nexstreaming.csd.overlayeffect"
+            type="transition"
+            intime="1500"
+            outtime="0"
+            intimefirst="1500"
+            outtimelast="0"
+            repeat="no"
+            name="top_to_bottom">
+
+	<parameter id="f_block_size" type="range" default="5" minvalue="1" maxvalue="20">
+		<string name="label" lang="en">Block Size</string>
+		<string name="label" lang="ar">مقاس البلوك</string>
+		<string name="label" lang="ko">블록 크기</string>
+		<string name="label" lang="pt">Tamanho do Bloco</string>
+		<string name="label" lang="ja">ブロックサイズ</string>
+		<string name="label" lang="fr">Taille Bloc</string>
+		<string name="label" lang="zh-CN">方块大小</string>
+		<string name="label" lang="zh-TW">方塊大小</string>
+		<string name="label" lang="zh-HK">方塊大小</string>
+		<string name="label" lang="de">Block Größe</string>
+		<string name="label" lang="ru">Размер Блока</string>
+		<string name="label" lang="es">Tamaño de bloque</string>
+		<string name="label" lang="hi">ब्लॉक साइज</string>
+		<string name="label" lang="id">Ukuran blok</string>
+		<string name="label" lang="it">Misura Blocco</string>
+		<string name="label" lang="ms">Saiz Blok</string>
+		<string name="label" lang="th">ขนาดบล็อก</string>
+		<string name="label" lang="tr">Blok Boyutu</string>
+		<string name="label" lang="vi">Kích thước khối</string>
+	</parameter>
+
+	<script name="mainScript" language="lua"><![CDATA[
+
+		effect = {matrix = 0, left = 0, top = 0, right = 0, bottom = 0, alpha = 1}
+
+		function setMatrixRECT(matrix, left, top, right, bottom, alpha)
+
+			effect.matrix = matrix
+			effect.left = left
+			effect.top = top
+			effect.right = right
+			effect.bottom = bottom
+			effect.alpha = alpha
+		end
+
+		function main()
+			src_tex_id = kmGetScreenTexture(effect.matrix, effect.left, effect.top, effect.right, effect.bottom)
+
+			aspect_ratio = kmGetOutputWidth() / kmGetOutputHeight()
+			w = kmGetTexWidth(src_tex_id) * aspect_ratio * 720 / kmGetOutputWidth()
+			h = kmGetTexHeight(src_tex_id) * 720 / kmGetOutputHeight()
+			res_tex = kmSetRenderToTexture(w / (range.f_block_size * 2), h / (range.f_block_size * 2))
+			mvp_matrix = kmNewMatrix()
+			kmLoadIdentity(mvp_matrix)
+			kmDrawTexBox(src_tex_id, mvp_matrix, -1, 1, 1, -1)
+			kmSetRenderToDefault()
+			kmSetRenderDest(1, 0)
+			kmClear(GL_STENCIL_BUFFER_BIT)
+			kmDrawSolid(effect.matrix, effect.left, effect.top, effect.right, effect.bottom)
+			kmSetRenderDest(0, 1)
+			kmDrawRegionTexBox(res_tex, effect.matrix, effect.left, effect.top, effect.right, effect.bottom, 0, effect.alpha, 1)
+			kmSetRenderDest(0, 0)
+
+			kmReleaseTexture(src_tex_id)
+		end
+
+		]]></script>
+</renderitem>

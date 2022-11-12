@@ -1,0 +1,67 @@
+<effect id="com.nexstreaming.kinemaster.9v16.travel.middle" intime="0" intimefirst="0" outtime="0" outtimelast="0" theme="true" type="title">
+<texture id="videoframe" video="1" />
+<texture id="wheel" src="r0" />
+<texture id="engine" src="r1" />
+<texture id="car" src="r7" />
+	
+<userfield id="f_text" maxlines="1" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+<texture fill="true" fillcolor="#FFFFFF" height="150" id="title_text" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="0 0" shadowradius="9" srcfield="@f_text" text="%1" textalign="left" textmargin="10" textsize="120" typeface="asset:goudy_stm_italic.ttf" width="950" />
+	
+		
+	
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+	
+<animatedvalue id="wheelangle" timingfunction="linear">
+<keyframe value="5700" />
+<keyframe value="0" />
+</animatedvalue>
+	
+<animatedvalue id="trainmotion" timingfunction="linear">
+<keyframe value="1500" />
+<keyframe value="-1200" />
+</animatedvalue>
+	
+	
+<projection type="perspective" fov="45" aspect="0.5625" near="0.01" far="60000">
+<translate offset="0 0 -10.885">
+<translate offset="0 -4.45">
+<scale uniform="0.006">
+<translate offset="@trainmotion">
+					
+					
+<scale x="-0.7" y="0.7">
+<translate offset="0 29">
+<translate offset="50"><rotate angle="@wheelangle"><rect bounds="-48 47 48 -47" texture="@wheel" /></rotate></translate>
+<translate offset="198"><rotate angle="@wheelangle"><rect bounds="-48 47 48 -47" texture="@wheel" /></rotate></translate>
+<translate offset="318"><rotate angle="@wheelangle"><rect bounds="-48 47 48 -47" texture="@wheel" /></rotate></translate>
+<translate offset="403"><rotate angle="@wheelangle"><rect bounds="-48 47 48 -47" texture="@wheel" /></rotate></translate>
+<translate offset="523"><rotate angle="@wheelangle"><rect bounds="-48 47 48 -47" texture="@wheel" /></rotate></translate>
+<translate offset="606"><rotate angle="@wheelangle"><rect bounds="-48 47 48 -47" texture="@wheel" /></rotate></translate>
+</translate>
+						
+<rect bounds="0 223 712 0" texture="@engine" />
+										
+<translate offset="-266" repeat="4">
+<rect bounds="-266 138 0 0" texture="@car" />
+<translate offset="-266 29">
+<translate offset="52"><rotate angle="@wheelangle"><rect bounds="-48 47 48 -47" texture="@wheel" /></rotate></translate>
+<translate offset="200"><rotate angle="@wheelangle"><rect bounds="-48 47 48 -47" texture="@wheel" /></rotate></translate>
+</translate>
+</translate>
+</scale>
+					
+<translate offset="-195 -25">
+<scale x="1" y="1">
+<rect anchor="bottom left" height="150" location="25 104" scalemode="fit" texture="@title_text" width="950" />
+</scale>
+</translate>
+										
+</translate>
+</scale>
+</translate>
+</translate>
+</projection>
+
+</effect>

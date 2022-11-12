@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="shadow_1dp">4</integer>
+    <integer name="shadow_2dp">8</integer>
+    <integer name="shadow_3dp">24</integer>
+    <integer name="shadow_4dp">32</integer>
+    <integer name="shadow_5dp">40</integer>
+</resources>

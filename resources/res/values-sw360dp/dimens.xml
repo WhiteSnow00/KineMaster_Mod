@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="capa_info_ens_name_text_size">17.7dp</dimen>
+    <dimen name="capa_info_ens_res_text_size">22dp</dimen>
+    <dimen name="export_list_button_size">41dp</dimen>
+    <dimen name="export_list_item_min_height">42dp</dimen>
+    <dimen name="fui_auth_method_button_drawablePadding">20dp</dimen>
+    <dimen name="fui_auth_method_button_margin">12dp</dimen>
+    <dimen name="fui_auth_method_button_width">228dp</dimen>
+    <dimen name="fui_body_padding_bottom">16dp</dimen>
+    <dimen name="fui_field_padding_vert">24dp</dimen>
+    <dimen name="fui_heading_padding_bottom">16dp</dimen>
+    <dimen name="fui_wrapper_padding_horiz">24dp</dimen>
+    <dimen name="help_label_text_size">18dp</dimen>
+    <dimen name="mb_detailview_arrow_margin">4dp</dimen>
+    <dimen name="mb_detailview_space_width">30dp</dimen>
+    <dimen name="preference_list_item_margin">60dp</dimen>
+    <dimen name="preference_list_item_switch_margin">60dp</dimen>
+</resources>

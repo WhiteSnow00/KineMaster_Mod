@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renderitem xmlns="http://schemas.kinemaster.com/km/renderitem" main="mainScript"
+            id="com.nexstreaming.csd.4v5.crack_transition"
+            type="transition"
+            intime="1500"
+            outtime="0"
+            intimefirst="1500"
+            outtimelast="0"
+            repeat="no"
+			screentype="ALPHA|DEPTH"
+            name="3d_crack_transitioin">
+
+	<nexeffect name="crack" src="nexeffect/transition.cracked_glass.4v5.left.nef"/>
+	<script name="mainScript" language="lua"><![CDATA[
+
+		function main()
+
+			selected_effect = nexeffect.crack
+			kmDrawNexEffectEasy(selected_effect, system.play_percentage * kmGetFrameNexEffect(selected_effect))
+		end
+
+		]]></script>
+</renderitem>

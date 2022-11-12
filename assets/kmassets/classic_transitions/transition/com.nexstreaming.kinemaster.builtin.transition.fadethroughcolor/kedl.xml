@@ -1,0 +1,35 @@
+<effect categorytitle="@string/category_classic_trans" effectoffset="100" icon="transition_fade_through_color.6c6a08096a98479b4634cbb203593ad5b20fe497.png" id="com.nexstreaming.kinemaster.builtin.transition.fadethroughcolor" maxduration="5000" minduration="500" name="@string/trans_fade_through_color" type="transition" videooverlap="100">
+<animatedvalue id="fade_in_amount">
+<keyframe time="0.5" value="0" />
+<keyframe time="1.0" value="1" />
+</animatedvalue>
+	
+<animatedvalue id="fade_out_amount">
+<keyframe time="0.0" value="1" />
+<keyframe time="0.5" value="0" />
+</animatedvalue>
+	
+<userfield default="#000000" id="f_color" type="color">
+<fieldlabel locale="en" value="@string/userfld_fade_color" />
+</userfield>
+	
+<clear color="@f_color" />
+	
+<style alpha="@fade_in_amount">
+<trianglestrip texture="@video_in">
+<point location="-1 -1" texcoord="0 1" />
+<point location=" 1 -1" texcoord="1 1" />
+<point location="-1  1" texcoord="0 0" />
+<point location=" 1  1" texcoord="1 0" />
+</trianglestrip>
+</style>
+		
+<style alpha="@fade_out_amount">
+<trianglestrip texture="@video_out">
+<point location="-1 -1" texcoord="0 1" />
+<point location=" 1 -1" texcoord="1 1" />
+<point location="-1  1" texcoord="0 0" />
+<point location=" 1  1" texcoord="1 0" />
+</trianglestrip>
+</style>
+</effect>

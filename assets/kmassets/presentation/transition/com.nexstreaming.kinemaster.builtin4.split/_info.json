@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.split",
+  "id": "com.nexstreaming.kinemaster.builtin4.split",
+  "label": {
+    "en": "Split",
+    "ar": "تقسيم",
+    "ko": "나누기",
+    "pt": "Dividir",
+    "ja": "分割",
+    "fr": "Scission",
+    "zh-CN": "分割",
+    "zh-TW": "分割",
+    "zh-HK": "分割",
+    "de": "Teilen",
+    "ru": "Разделение",
+    "es": "Dividir",
+    "hi":"स्प्लिट",
+    "id":"Bagi",
+    "it":"Diviso",
+    "ms":"Bahagikan",
+    "th":"แยก",
+    "tr":"Bölme",
+    "vi":"Chia"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

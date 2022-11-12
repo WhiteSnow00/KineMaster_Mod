@@ -1,0 +1,31 @@
+{
+  "ratios": ["2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.comic",
+  "id": "com.nexstreaming.kinemaster.2.35v1.builtin.title.comic",
+  "label": {
+    "en": "Comic Book",
+    "ar": "كتاب فكاهي",
+    "ko": "만화",
+    "pt": "História em quadrinhos",
+    "ja": "漫画",
+    "fr": "Bande dessinée",
+    "zh-CN": "漫画",
+    "zh-TW": "漫畫書",
+    "zh-HK": "漫畫書",
+    "de": "Comic-Heft",
+    "ru": "Комиксы",
+    "es": "Libro de historietas",
+    "hi":"कॉमिक बुक",
+    "id":"Buku Komik",
+    "it":"Fumetto",
+    "ms":"Buku Komik",
+    "th":"หนังสือการ์ตูน",
+    "tr":"Çizgi Roman",
+    "vi":"Truyện tranh"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

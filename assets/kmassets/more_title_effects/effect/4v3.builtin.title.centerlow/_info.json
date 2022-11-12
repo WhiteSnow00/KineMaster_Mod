@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:3"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.centerlow",
+  "id": "com.nexstreaming.kinemaster.4v3.builtin.title.centerlow",
+  "label": {
+    "en": "Center Low",
+    "ar": "مركز منخفض",
+    "ko": "가운데 아래쪽",
+    "pt": "Central inferior",
+    "ja": "真ん中　下側",
+    "fr": "En bas au centre",
+    "zh-CN": "正下方",
+    "zh-TW": "中下方",
+    "zh-HK": "中下方",
+    "de": "Tief zentrieren",
+    "ru": "Снизу по центру",
+    "es": "Centro abajo",
+    "hi":"केंद्र नीचे",
+    "id":"Tengah Bawah",
+    "it":"Basso Centro",
+    "ms":"Tengah Bawah",
+    "th":"กลางต่ำ",
+    "tr":"Alçak Merkez",
+    "vi":"Chính giữa (Thấp)"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

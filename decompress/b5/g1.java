@@ -1,0 +1,22 @@
+// 
+// Decompiled by Procyon v0.6.0
+// 
+
+package b5;
+
+import com.google.internal.firebase.inappmessaging.v1.sdkserving.FetchEligibleCampaignsResponse;
+import com.google.firebase.inappmessaging.internal.InAppMessageStreamManager;
+import ba.e;
+
+public final class g1 implements e
+{
+    public final InAppMessageStreamManager a;
+    
+    public g1(final InAppMessageStreamManager a) {
+        this.a = a;
+    }
+    
+    public final void accept(final Object o) {
+        InAppMessageStreamManager.f(this.a, (FetchEligibleCampaignsResponse)o);
+    }
+}

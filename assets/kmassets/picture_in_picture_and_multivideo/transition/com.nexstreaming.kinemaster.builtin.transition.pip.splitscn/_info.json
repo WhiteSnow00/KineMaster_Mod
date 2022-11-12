@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.pip.splitscn",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.pip.splitscn",
+  "label": {
+    "en": "Split-screen",
+    "ar": "تقسيم الشاشة",
+    "ko": "스플릿 스크린",
+    "pt": "Dividir Tela",
+    "ja": "スプリットスクリーン",
+    "fr": "Multi-image",
+    "zh-CN": "分屏",
+    "zh-TW": "畫面分割",
+    "zh-HK": "畫面分割",
+    "de": "Geteilter Bildschirm",
+    "ru": "Разделение экрана",
+    "es": "Dividir pantalla",
+    "hi":"स्प्लिट - स्क्रीन",
+    "id":"Bagi-Layar",
+    "it":"Schermo Diviso",
+    "ms":"Pembahagian Skrin",
+    "th":"แยกหน้าจอ",
+    "tr":"Bölünmüş Ekran",
+    "vi":"Chia màn hình"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

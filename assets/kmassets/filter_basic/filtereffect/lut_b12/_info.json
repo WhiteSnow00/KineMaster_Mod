@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b12.png",
+    "hidden": "False",
+    "filename": "lut_heat.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b12.B12",
+    "label": {
+        "pt": "B12",
+        "ja": "B12",
+        "fr": "B12",
+        "zh-CN": "B12",
+        "ko": "B12",
+        "ar": "B12",
+        "zh-TW": "B12",
+        "en": "B12",
+        "zh-HK": "B12",
+        "de": "B12",
+        "ru": "B12",
+        "es": "B12",
+        "hi": "B12",
+        "id": "B12",
+        "it": "B12",
+        "ms": "B12",
+        "th": "B12",
+        "tr": "B12",
+        "vi": "B12"
+    }
+    }

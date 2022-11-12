@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b04.png",
+    "hidden": "False",
+    "filename": "lut_oldfilm.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b04.B04",
+    "label": {
+        "pt": "B04",
+        "ja": "B04",
+        "fr": "B04",
+        "zh-CN": "B04",
+        "ko": "B04",
+        "ar": "B04",
+        "zh-TW": "B04",
+        "en": "B04",
+        "zh-HK": "B04",
+        "de": "B04",
+        "ru": "B04",
+        "es": "B04",
+        "hi": "B04",
+        "id": "B04",
+        "it": "B04",
+        "ms": "B04",
+        "th": "B04",
+        "tr": "B04",
+        "vi": "B04"
+    }
+    }

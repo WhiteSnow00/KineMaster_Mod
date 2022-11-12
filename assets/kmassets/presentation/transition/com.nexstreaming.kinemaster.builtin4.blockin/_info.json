@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.blockin",
+  "id": "com.nexstreaming.kinemaster.builtin4.blockin",
+  "label": {
+    "en": "Block In",
+    "ar": "حظر داخلي",
+    "ko": "블록",
+    "pt": "Bloquear",
+    "ja": "ブロックイン効果",
+    "fr": "Bloc",
+    "zh-CN": "块状移入",
+    "zh-TW": "塊狀移入",
+    "zh-HK": "塊狀移入",
+    "de": "Kästchen auffüllen",
+    "ru": "Наложение блоков",
+    "es": "En bloques hacia adentro",
+    "hi":"ब्लॉक इन",
+    "id":"Merencanakan Garis Besar",
+    "it":"Bloccare Dentro",
+    "ms":"Merencanakan garisan Besar",
+    "th":"บล็อกเข้ามาข้างใน",
+    "tr":"İçi Karele",
+    "vi":"Chặn"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

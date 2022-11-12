@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "kmcategory" : ["kmc.transition"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.crossfade",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.crossfade",
+  "label": {
+    "en": "Crossfade",
+    "ar": "إبهات",
+    "ko": "겹침",
+    "pt": "Mixagem",
+    "ja": "重ねる",
+    "fr": "Crossfade",
+    "zh-CN": "交叉淡出",
+    "zh-TW": "交叉淡出",
+    "zh-HK": "交叉淡出",
+    "de": "Überblendung",
+    "ru": "Перекрёстное затухание",
+    "es": "Crossfade",
+    "hi":"क्रॉसफेड ",
+    "id":"Silang Memudar",
+    "it":"Crossfade",
+    "ms":"Saling Pudar",
+    "th":"Crossfade",
+    "tr":"Ses Geçişi",
+    "vi":"Hoà trộn"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

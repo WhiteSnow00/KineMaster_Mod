@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:5"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.onstage.transition",
+  "id": "com.nexstreaming.kinemaster.onstage.4v5.transition",
+  "label": {
+    "en": "On-Stage",
+    "ar": "على المسرح",
+    "ko": "스테이지",
+    "pt": "No palco",
+    "ja": "ステージ",
+    "fr": "Sur scène",
+    "zh-CN": "舞台",
+    "zh-TW": "舞臺",
+    "zh-HK": "舞臺",
+    "de": "Auf der Bühne",
+    "ru": "На сцене",
+    "es": "En escena",
+    "hi":"ओन - स्टेज",
+    "id":"Di atas panggung",
+    "it":"In-Scena",
+    "ms":"Atas Pentas",
+    "th":"บนเวที",
+    "tr":"Sahnede",
+    "vi":"On-Stage"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

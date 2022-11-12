@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b25.png",
+    "hidden": "False",
+    "filename": "lut_b25.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b25.B25",
+    "label": {
+        "pt": "B25",
+        "ja": "B25",
+        "fr": "B25",
+        "zh-CN": "B25",
+        "ko-KR": "B25",
+        "ar": "B25",
+        "zh-TW": "B25",
+        "en": "B25",
+        "zh-HK": "B25",
+        "de-DE": "B25",
+        "ru": "B25",
+        "es": "B25",
+        "hi": "B25",
+        "id": "B25",
+        "it": "B25",
+        "ms": "B25",
+        "th": "B25",
+        "tr-TR": "B25",
+        "vi-VN": "B25"
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Γρήγορη προώθηση κατά %d δευτερόλεπτο</item>
+        <item quantity="other">Γρήγορη προώθηση κατά %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Μετάβαση προς τα πίσω κατά %d δευτερόλεπτο</item>
+        <item quantity="other">Μετάβαση προς τα πίσω κατά %d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Ο κωδικός πρόσβασης δεν είναι αρκετά ισχυρός. Χρησιμοποιήστε τουλάχιστον %1$d χαρακτήρα και έναν συνδυασμό γραμμάτων και αριθμών</item>
+        <item quantity="other">Ο κωδικός πρόσβασης δεν είναι αρκετά ισχυρός. Χρησιμοποιήστε τουλάχιστον %1$d χαρακτήρες και έναν συνδυασμό γραμμάτων και αριθμών</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d νέα ειδοποίηση</item>
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+    </plurals>
+</resources>

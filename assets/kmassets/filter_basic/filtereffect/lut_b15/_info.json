@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b15.png",
+    "hidden": "False",
+    "filename": "lut_sherbert.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b15.B15",
+    "label": {
+        "pt": "B15",
+        "ja": "B15",
+        "fr": "B15",
+        "zh-CN": "B15",
+        "ko": "B15",
+        "ar": "B15",
+        "zh-TW": "B15",
+        "en": "B15",
+        "zh-HK": "B15",
+        "de": "B15",
+        "ru": "B15",
+        "es": "B15",
+        "hi": "B15",
+        "id": "B15",
+        "it": "B15",
+        "ms": "B15",
+        "th": "B15",
+        "tr": "B15",
+        "vi": "B15"
+    }
+    }

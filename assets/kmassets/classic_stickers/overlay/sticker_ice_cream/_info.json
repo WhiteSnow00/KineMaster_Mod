@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_ice_cream.svg",
+	"thumbnail":"sticker_ice_cream.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_ice_cream"
+}

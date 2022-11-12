@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.wipe",
+  "id": "com.nexstreaming.kinemaster.builtin4.wipe",
+  "label": {
+    "en": "Wipe",
+    "ar": "مسح",
+    "ko": "닦아내기",
+    "pt": "Limpar",
+    "ja": "ワイプ",
+    "fr": "Balayage",
+    "zh-CN": "擦除",
+    "zh-TW": "抹去",
+    "zh-HK": "抹去",
+    "de": "Wischen",
+    "ru": "Шторка",
+    "es": "Limpiar",
+    "hi":"वाइप",
+    "id":"Seka",
+    "it":"Pulire",
+    "ms":"Mengeset",
+    "th":"เช็ดออก",
+    "tr":"Silme",
+    "vi":"Xoá"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

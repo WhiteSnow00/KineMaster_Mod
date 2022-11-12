@@ -1,0 +1,28 @@
+{
+  "kmcategory" : ["kmc.effect"],
+  "filename": "renderitem.xml",
+  "thumbnail": "asset_icon.png",
+  "id": "com.nexstreaming.csd.blurall",
+  "label": {
+    "en": "Gaussian Blur",
+    "ar": "التمويه الضبابي",
+    "ko": "가우시안 블러",
+    "pt": "Desfoque Gaussiano",
+    "ja": "ガウシアンぼかし",
+    "fr": "Flou Gaussien",
+    "zh-CN": "高斯虚化",
+    "zh-TW": "高斯虛化",
+    "zh-HK": "高斯虛化",
+    "de": "Gaußscher Weichzeichner",
+    "ru": "Гауссова размытость",
+    "es": "Des. Gausiano",
+    "hi":"गोसियन दाग",
+    "id":"Keburaman Gauss",
+    "it":"Sfocatura gaussiana",
+    "ms":"Kabur Gaussian",
+    "th":"การเบลอภาพ",
+    "tr":"Gaus Blör",
+    "vi":"Làm mờ bằng hàm Gauss"
+  },
+  "type": "nex.renderitem"
+}

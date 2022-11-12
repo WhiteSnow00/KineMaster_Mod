@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.poem",
+  "id": "com.nexstreaming.kinemaster.builtin6.title.poem",
+  "label": {
+    "en": "Poem",
+    "ar": "قصيدة",
+    "ko": "시",
+    "pt": "Poema",
+    "ja": "ポエム",
+    "fr": "Poème",
+    "zh-CN": "诗歌",
+    "zh-TW": "詩篇特效",
+    "zh-HK": "詩篇特效",
+    "de": "Gedicht",
+    "ru": "Поэма",
+    "es": "Poem",
+    "hi":"कविता",
+    "id":"Puisi",
+    "it":"Poema",
+    "ms":"Puisi",
+    "th":"กลอน",
+    "tr":"Şiir",
+    "vi":"Thơ"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

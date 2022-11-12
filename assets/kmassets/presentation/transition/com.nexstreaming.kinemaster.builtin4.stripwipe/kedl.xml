@@ -1,0 +1,88 @@
+<effect categorytitle="@string/category_pres_trans" effectoffset="100" effectoverlap="100" icon="stripwipe.11529f90d15c92012dc135fcbfaa9a9b085de0d2.png" id="com.nexstreaming.kinemaster.builtin4.stripwipe" maxduration="3500" minduration="500" name="@string/trans_stripwipe" type="transition">
+
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<animatedvalue id="anim_1">
+<keyframe time="0.0" value="-639.063 314" />
+<keyframe time="1.0" value="640 314" />
+</animatedvalue>
+<animatedvalue id="anim_2">
+<keyframe time="0.0" value="1919 404" />
+<keyframe time="1.0" value="640.326 404" />
+</animatedvalue>
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<scale y="-1">
+<translate offset="-640 -360 -870">
+<translate offset="640 360">
+<rect bounds="-640 -360 640 360" texture="@video1" />
+</translate>
+<style dest="stencil">
+<translate offset="@anim_1">
+<translate offset="0 0">
+<scale x="0.999" y="0.999">
+				  
+<translate offset="-554.326 -269.839">
+<style alpha="0.500">
+<rect bounds="-86 -47 1194 47" color="1 1 1" />
+</style>
+</translate>
+<translate offset="-554.326 -89.839">
+<style alpha="0.500">
+<rect bounds="-86 -47 1194 47" color="1 1 1" />
+</style>
+</translate>
+<translate offset="-554.326 90.161">
+<style alpha="0.500">
+<rect bounds="-86 -47 1194 47" color="1 1 1" />
+</style>
+</translate>
+<translate offset="-553.674 269.839">
+<style alpha="0.500">
+<rect bounds="-86 -47 1194 47" color="1 1 1" />
+</style>
+</translate>
+				  
+</scale>
+</translate>
+</translate>
+</style>
+<style dest="stencil">
+<translate offset="@anim_2">
+<translate offset="0 0">
+<scale x="0.999" y="0.999">
+				  
+<translate offset="-554.326 -269.661">
+<style alpha="0.500">
+<rect bounds="-86 -47 1194 47" color="1 1 1" />
+</style>
+</translate>
+<translate offset="-554.326 -89.661">
+<style alpha="0.500">
+<rect bounds="-86 -47 1194 47" color="1 1 1" />
+</style>
+</translate>
+<translate offset="-553.674 90.210">
+<style alpha="0.500">
+<rect bounds="-86 -47 1194 47" color="1 1 1" />
+</style>
+</translate>
+<translate offset="-554.124 269.661">
+<style alpha="0.500">
+<rect bounds="-86 -47 1194 47" color="1 1 1" />
+</style>
+</translate>
+				  
+</scale>
+</translate>
+</translate>
+</style>
+<style rendertest="stencil">
+<translate offset="640 360">
+<rect bounds="-640 -360 640 360" texture="@video2" />
+</translate>
+</style>
+</translate>
+</scale>
+</projection>
+  
+</effect>

@@ -1,0 +1,31 @@
+<effect categorytitle="@string/category_pres_trans" effectoffset="100" icon="transition_zoomout_thenin.9164138734cf68ac3b809bf5dfd7ce385e525e9e.png" id="com.nexstreaming.kinemaster.builtin.transition.zoominout" name="@string/trans_zoom_out_in" type="transition" videooverlap="100">
+<animatedvalue id="scale_in_amount">
+<keyframe time="0.5" value="0 0" />
+<keyframe time="1.0" value="1 1" />
+</animatedvalue>
+	
+<animatedvalue id="scale_out_amount">
+<keyframe time="0.0" value="1 1" />
+<keyframe time="0.5" value="0 0" />
+</animatedvalue>
+	
+<clear color="0 0 0" />
+	
+<scale uniform="@scale_in_amount">
+<trianglestrip texture="@video_in">
+<point location="-1 -1" texcoord="0 1" />
+<point location=" 1 -1" texcoord="1 1" />
+<point location="-1  1" texcoord="0 0" />
+<point location=" 1  1" texcoord="1 0" />
+</trianglestrip>
+</scale>
+		
+<scale uniform="@scale_out_amount">
+<trianglestrip texture="@video_out">
+<point location="-1 -1" texcoord="0 1" />
+<point location=" 1 -1" texcoord="1 1" />
+<point location="-1  1" texcoord="0 0" />
+<point location=" 1  1" texcoord="1 0" />
+</trianglestrip>
+</scale>
+</effect>

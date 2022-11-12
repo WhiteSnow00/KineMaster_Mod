@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d首曲目</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="other">是否複製%s個已選對象？</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">快轉 %d 秒</item>
+        <item quantity="other">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">倒轉 %d 秒</item>
+        <item quantity="other">倒轉 %d 秒</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">密碼安全強度不足。請使用至少 %1$d 個字元並混用字母和數字</item>
+        <item quantity="other">密碼安全強度不足。請使用至少 %1$d 個字元並混用字母和數字</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">此項目在%s處缺少音頻文件。</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">此項目在%s處缺少圖像文件。</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">請在保存視頻前替換缺失的文件。</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">此項目在%s處缺少視頻文件。</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 則新通知</item>
+        <item quantity="other">%d 則新通知</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="other">%d條 評論</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="other">%d個項目將被刪除</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="other">已選擇%d個項目</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">巧影高級版用戶（剩餘時間%d天）</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="other">以 %s 的價格使用%d個月!</item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="other">以 %s 的價格使用%d年!</item>
+    </plurals>
+</resources>

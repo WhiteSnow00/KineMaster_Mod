@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="editor_project_action_bars_height_weight">440</integer>
+    <integer name="editor_project_timeline_bars_height_weight">348</integer>
+</resources>

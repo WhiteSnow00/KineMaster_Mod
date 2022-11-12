@@ -1,0 +1,108 @@
+<effect categorytitle="@string/category_text_transitions" defaultduration="4000" effectoffset="100" icon="transition_box_text.9a8231676494f40cacbf978a9491a4fb669eb667.png" id="com.nexstreaming.kinemaster.builtin3.4v5.boxtexttrans" maxduration="8000" minduration="500" name="@string/trans_square_title" type="transition" videooverlap="100">
+  
+<userfield id="f_text" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+  
+<userfield id="f_text2" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+  
+<userfield id="f_text3" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+  
+<userfield id="f_text4" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+  
+<animatedvalue id="anim_1" timingfunction="linear">
+<keyframe time="0.2" value="0" />
+<keyframe time="0.4" timingfunction="default" value="-90" />
+<keyframe time="0.6" timingfunction="default" value="-180" />
+<keyframe time="0.8" timingfunction="default" value="-270" />
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<keyframe time="0.0" value="0.200" />
+<keyframe time="0.2" timingfunction="default" value="1" />
+<keyframe time="0.8" value="1" />
+<keyframe time="0.95" timingfunction="default" value="5" />
+</animatedvalue>
+<animatedvalue id="anim_3" timingfunction="linear">
+<keyframe time="0.0" value="0" />
+<keyframe time="0.2" timingfunction="default" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_4" timingfunction="linear">
+<keyframe time="0.8" value="0" />
+<keyframe time="1.0" timingfunction="ease-in" value="1" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture autosize="false" fill="true" fillcolor="#ffffffff" height="69" id="text1" srcfield="@f_text" text="%1" textalign="center" textsize="50" textvalign="center" typeface="asset:lato-bold.ttf" width="300" />
+    
+    
+<texture autosize="false" fill="true" fillcolor="#ffffffff" height="69" id="text2" srcfield="@f_text2" text="%1" textalign="center" textsize="50" textvalign="center" typeface="asset:lato-bold.ttf" width="300" />
+<texture autosize="false" fill="true" fillcolor="#ffffffff" height="69" id="text3" srcfield="@f_text3" text="%1" textalign="center" textsize="50" textvalign="center" typeface="asset:lato-bold.ttf" width="300" />
+<texture autosize="false" fill="true" fillcolor="#ffffffff" height="69" id="text4" srcfield="@f_text4" text="%1" textalign="center" textsize="50" textvalign="center" typeface="asset:lato-bold.ttf" width="300" />
+<texture id="video2" video="2" />
+
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.80000"
+    near="0.01"
+    far="60000">
+  <scale y="-1">
+    <translate offset="-480 -600 -1448.52814">
+
+<translate offset="480 600">
+<rect bounds="-480 -600 480 600" texture="@video1" />
+</translate>
+<translate offset="480 600">
+<rotate angle="@anim_1" axis="0 0 1">
+<scale uniform="@anim_2">
+<style alpha="@anim_3">
+<translate offset="0 -36">
+<scale x="0.999" y="1.000">
+                    
+<translate offset="0.126 36.583">
+<rect bounds="-150 -150 150 150" color="1 1 1" />
+<style dest="stencil">
+<rect bounds="-150 -150 150 150" color="1 1 1" />
+</style>
+</translate>
+<translate offset="0.167 36.967">
+<rect bounds="-150 -223.550 150 -154.039" texture="@text1" />
+</translate>
+<translate offset="0.167 36.967">
+<rotate angle="90" axis="0 0 1">
+<rect bounds="-150 -223.550 150 -154.039" texture="@text2" />
+</rotate>
+</translate>
+<translate offset="-0.167 36.726">
+<rotate angle="180" axis="0 0 1">
+<rect bounds="-150 -222.500 150 -153.500" texture="@text3" />
+</rotate>
+</translate>
+<translate offset="-0.167 36.726">
+<rotate angle="270" axis="0 0 1">
+<rect bounds="-150 -222.500 150 -153.500" texture="@text4" />
+</rotate>
+</translate>
+                    
+</scale>
+</translate>
+</style>
+</scale>
+</rotate>
+</translate>
+<translate offset="480 600">
+<style alpha="@anim_4">
+<style rendertest="stencil">
+<rect bounds="-480 -600 480 600" texture="@video2" />
+</style>
+</style>
+</translate>
+</translate>
+</scale>
+</projection>
+</effect>

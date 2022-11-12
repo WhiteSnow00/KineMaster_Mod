@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="one">%d track</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="one">%s adet öğeyi kopyala?</item>
+        <item quantity="other">%s adet öğeyi kopyala?</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d saniye ileri sar</item>
+        <item quantity="other">%d saniye ileri sar</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d saniye geri sar</item>
+        <item quantity="other">%d saniye geri sar</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Şifre yeterince güçlü değil. En az %1$d karakter kullanın ve hem harf hem de rakam ekleyin</item>
+        <item quantity="other">Şifre yeterince güçlü değil. En az %1$d karakter kullanın ve hem harf hem de rakam ekleyin</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="one">Bu projede %s konumunda bir ses dosyası eksik.</item>
+        <item quantity="other">Bu projede ses dosyaları eksik.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="one">An Image file is missing from this project at %s.</item>
+        <item quantity="other">Image files are missing from this project.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="one">Kaydetmeden önce kayıp medya dosyasını değiştirmeniz önerilir.</item>
+        <item quantity="other">Kaydetmeden önce kayıp medya dosyalarını değiştirmeniz önerilir.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="one">A Video file is missing from this project at %s.</item>
+        <item quantity="other">Video files are missing from this project.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d yeni bildirim</item>
+        <item quantity="other">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="one">%d yorum</item>
+        <item quantity="other">%d yorum</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="one">%d projesi silinecektir.</item>
+        <item quantity="other">%d projeleri silinecektir.</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="one">%d Proje Seçildi</item>
+        <item quantity="other">%d Projeler Seçildi</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="one">KineMaster Premium Kullanıcı (%d day remaining)</item>
+        <item quantity="other">KineMaster Premium Kullanıcı (%d days remaining)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="one">%s için %d ay!</item>
+        <item quantity="other">%s /ay için %d aylar!</item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="one">%s için %d yıl!</item>
+        <item quantity="other">%s / yıl için %d yıllar!</item>
+    </plurals>
+</resources>

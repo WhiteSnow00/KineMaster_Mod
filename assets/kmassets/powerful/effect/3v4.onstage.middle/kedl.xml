@@ -1,0 +1,119 @@
+<effect id="com.nexstreaming.kinemaster.3v4.onstage.middle" intime="1500" intimefirst="0" outtime="1000" outtimelast="0" theme="true" type="title">
+
+<texture id="videoframe" video="1" />
+<texture id="starglow" src="r3" />
+	
+<userfield id="f_text" maxlines="1" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+<texture fill="true" fillcolor="#dcb11e" height="127" id="title_text" shadow="true" shadowcolor="0 0 0 0.8" shadowoffset="2 2" shadowradius="8" srcfield="@f_text" text="%1" textalign="left" textmargin="8" textsize="160" typeface="asset:bevan.ttf" width="1100" />
+					
+<animatedvalue id="slide_t">
+<part type="in">
+<keyframe value="0.8" />
+<keyframe value="0.6" />
+</part>
+<part type="mid">
+<keyframe value="0.6" />
+</part>
+<part type="out">
+<keyframe value="0.6" />
+<keyframe value="0.8" />
+</part>
+</animatedvalue>
+	
+<animatedvalue id="slide_b">
+<part type="in">
+<keyframe value="-0.4" />
+<keyframe value="-0" />
+</part>
+<part type="mid">
+<keyframe value="-0" />
+</part>
+<part type="out">
+<keyframe value="-0" />
+<keyframe value="-0.4" />
+</part>
+</animatedvalue>
+	
+<animatedvalue id="t" scope="whole" timingfunction="linear">
+<keyframe value="0" />
+<keyframe value="8" />
+</animatedvalue>
+	
+<function id="swingfuncb" inputbias="20 50 44" inputscale="1 1 0.18" outputscale="30" type="simplexpure" />
+<function id="glowfunc" octaves="4" outputbias="0.5" outputscale="0.5" type="simplexfractal" />
+	
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+<translate offset="0 @slide_b">
+<rect bounds="-1 -1 1 -0.6" color="0 0 0 0.9" />
+<style alpha="0.3">
+<translate textureoffset="0 @slide_t"><scale type="texture" x="1" y="0.2">
+<rect bounds="-1 -1 1 -0.6" texture="@videoframe" />
+</scale></translate>
+</style>
+</translate>
+	
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.75"
+    near="0.01"
+    far="60000">
+<translate offset="0 0 -21.69">
+
+<translate offset="0 @slide_b*18">
+<translate offset="0 -9">
+<sequence count="2" end="-1 0.3" id="s" start="1 1" type="linear"><scale x="1" y="@s.x"><style alpha="@s.y">
+					
+<sequence count="12" end="19 1.4 -12 1.5" id="r" seed="3472" start="-19 1 -6 1.5" type="randmix">
+<translate offset="@r.x @r.y @r.z">
+									
+<rotate angle="@swingfuncb(@r.x @r.y @t)" axis="0 1 0">
+<style alpha="@glowfunc(@r.x @r.y @t)">
+<scale uniform="0.6">
+<rect bounds="@r.w*-1 @r.w @r.w @r.w*-1" texture="@starglow" />
+</scale>
+</style>
+</rotate>
+								
+</translate>
+</sequence>
+	
+</style></scale></sequence>
+</translate>
+</translate>
+		
+<translate offset="0 @slide_b*8.5">
+
+<translate offset="5.5 -5.1 6">
+<sequence count="2" end="-1 0.3" id="s" start="1 1" type="linear"><scale x="1" y="@s.x"><style alpha="@s.y">
+<rect anchor="bottom left" height="4" location="-9.8 0" scalemode="fit" texture="@title_text" width="13" />
+</style></scale></sequence>
+</translate>
+</translate>
+		
+<translate offset="0 @slide_b*18">
+<translate offset="0 -9">
+<sequence count="2" end="-1 0.3" id="s" start="1 1" type="linear"><scale x="1" y="@s.x"><style alpha="@s.y">
+					
+<sequence count="5" end="19 1.4 -5 1.5" id="r" seed="563478" start="-19 1 1 1.5" type="randmix">
+<translate offset="@r.x @r.y @r.z">
+									
+<rotate angle="@swingfuncb(@r.x @r.y @t)" axis="0 1 0">
+<style alpha="@glowfunc(@r.x @r.y @t)">
+<rect bounds="@r.w*-1 @r.w @r.w @r.w*-1" texture="@starglow" />
+</style>
+</rotate>
+								
+</translate>
+</sequence>
+	
+</style></scale></sequence>
+</translate>
+</translate>
+		
+</translate>
+</projection>
+
+</effect>

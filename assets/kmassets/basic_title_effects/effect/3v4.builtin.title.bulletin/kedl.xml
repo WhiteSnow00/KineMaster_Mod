@@ -1,0 +1,60 @@
+<effect categorytitle="@string/category_basic_title" icon="fx_bulletin.0535d27612f020cbae3df9d2fa5fc9081a8278d9.png" id="com.nexstreaming.kinemaster.3v4.builtin.title.bulletin" intime="1000" intimefirst="1000" maxtitleduration="8000" name="@string/fx_bulletin" outtime="1000" outtimelast="1000" repeat="no" type="title">
+
+<userfield id="f_text" maxlines="1" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+
+<texture id="videoframe" video="1" />
+
+<userfield default="#FF0000" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_first_letter" />
+</userfield>
+	
+<userfield default="#FFFFFF" id="f_color_text2" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<texture fill="true" fillcolor="@f_color_text" height="150" id="title_text_s" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="2 2" shadowradius="8" srcfield="@f_text" text="%s1" textalign="right" textmargin="12" textsize="150" typeface="asset:bevan.ttf" userfield="@f_text" width="150" />
+	
+<texture fill="true" fillcolor="@f_color_text2" height="150" id="title_text_e" shadow="true" shadowcolor="0 0 0 0.75" shadowoffset="2 2" shadowradius="8" srcfield="@f_text" text="%!s1" textalign="left" textmargin="12" textsize="150" typeface="asset:bevan.ttf" width="640" />
+	
+<rect bounds="-1 1 1 -1" texture="@videoframe" />
+	
+<animatedvalue id="fade">
+<part type="in"><keyframe value="0" /><keyframe value="1" /></part>
+<part type="mid"><keyframe value="1" /></part>
+<part type="out"><keyframe value="1" /><keyframe value="0" /></part>
+</animatedvalue>
+	
+	
+<animatedvalue id="slide">
+<part type="in"><keyframe value="50" /><keyframe value="0" /></part>
+<part type="mid"><keyframe value="0" /></part>
+<part type="out"><keyframe value="0" /><keyframe value="-50" /></part>
+</animatedvalue>
+	
+	
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.75"
+    near="0.01"
+    far="60000">
+<translate offset="0 0 -10.885">
+
+<scale uniform="0.025">
+<translate offset="-90 0">
+<style alpha="@fade">
+<translate offset="15 @slide">
+<rect anchor="left center" height="40" location="-12 0" scalemode="fit" texture="@title_text_e" width="300" />
+</translate>
+<translate offset="0 @slide*-1">
+<rect anchor="right center" height="60" location="12 0" scalemode="fit" texture="@title_text_s" width="60" />
+</translate>
+</style>
+</translate>
+</scale>
+</translate>
+</projection>
+	
+</effect>

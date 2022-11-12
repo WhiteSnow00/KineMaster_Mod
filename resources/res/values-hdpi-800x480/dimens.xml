@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="capability_main_bottom">10dp</dimen>
+    <dimen name="capability_main_top">10dp</dimen>
+    <dimen name="capability_progress_bottom">5dp</dimen>
+    <dimen name="capability_sub_bottom">10dp</dimen>
+</resources>

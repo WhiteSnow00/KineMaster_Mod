@@ -1,0 +1,24 @@
+<effect categorytitle="@string/category_fun_trans" effectoffset="100" effectoverlap="100" icon="trans_manycircles.a454f32d55422d981d3552a77b2015bb90736a52.png" id="com.nexstreaming.kinemaster.builtin2.transition.9v16.manycircles" maxduration="5000" minduration="500" name="@string/trans_manycircles" type="transition">
+
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<animatedvalue id="r" timingfunction="ease-in">
+<keyframe value="-106" />
+<keyframe value="190" />
+</animatedvalue>
+<projection type="perspective" fov="45" aspect="0.5625" near="0.01" far="60000">
+<translate offset="-360 -640 -1545.09668">
+<rect bounds="0 1280 720 0" texture="@video1" />
+<sequence count="45" end="820 1280 @r+100" id="s" seed="2247564" start="-100 -100 @r" type="randmix">
+<circle center="@s.x @s.y" color="#FFFFFF" innerradius="@s.z-10" radius="@s.z+6" />
+<style dest="stencil">
+<circle center="@s.x @s.y" radius="@s.z" />
+</style>
+</sequence>
+<style rendertest="stencil">
+<rect bounds="0 1280 720 0" texture="@video2" />
+</style>
+</translate>
+</projection>
+
+</effect>

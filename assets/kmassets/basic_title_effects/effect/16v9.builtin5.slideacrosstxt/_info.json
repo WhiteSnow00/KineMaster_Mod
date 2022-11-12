@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.slideacrosstxt",
+  "id": "com.nexstreaming.kinemaster.builtin5.slideacrosstxt",
+  "label": {
+    "en": "Slide Across",
+    "ar": "تمرير عرضي",
+    "ko": "타이틀 교차",
+    "pt": "Deslizar cruzando",
+    "ja": "スライドアクロス",
+    "fr": "Faire glisser de l\u0027autre côté",
+    "zh-CN": "滑过",
+    "zh-TW": "推入穿越",
+    "zh-HK": "推入穿越",
+    "de": "Gleiten über",
+    "ru": "Скольжение от края до края",
+    "es": "Deslizar a través",
+    "hi":"स्लाइड अक्रॉस",
+    "id":"Melintas Geser",
+    "it":"Scorri di Traverso",
+    "ms":"Melentas Garis",
+    "th":"เลื่อนเข้า",
+    "tr":"Kaydır",
+    "vi":"Trượt qua"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

@@ -1,0 +1,103 @@
+<effect categorytitle="@string/category_more_title" icon="fx_floatingbraces.be1f133ffaf4885dd1cd8d75b94cde3ea02d2435.png" id="com.nexstreaming.kinemaster.4v5.builtin6.title.brackettitle" intime="1200" intimefirst="1200" name="@string/fx_floatingbraces" outtime="1200" outtimelast="1200" repeat="no" type="title">
+<animatedvalue id="anim_1" timingfunction="linear">
+<part type="in">
+<keyframe value="558 600" />
+<keyframe timingfunction="ease-in" value="769.821 600.107" />
+</part>
+<part type="mid">
+<keyframe value="769.821 600.107" />
+<keyframe timingfunction="linear" value="781.821 600.107" />
+</part>
+<part type="out">
+<keyframe value="781.821 600.107" />
+<keyframe timingfunction="ease-out" value="838 600" />
+</part>
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<part type="in">
+<keyframe value="0" />
+<keyframe timingfunction="ease-in" value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+<keyframe timingfunction="linear" value="1" />
+</part>
+<part type="out">
+<keyframe value="1" />
+<keyframe timingfunction="ease-out" value="0" />
+</part>
+</animatedvalue>
+<animatedvalue id="anim_3" timingfunction="linear">
+<part type="in">
+<keyframe value="432 600" />
+<keyframe timingfunction="ease-in" value="211.821 600.107" />
+</part>
+<part type="mid">
+<keyframe value="211.821 600.107" />
+<keyframe timingfunction="linear" value="189.821 600.107" />
+</part>
+<part type="out">
+<keyframe value="189.821 600.107" />
+<keyframe timingfunction="ease-out" value="133 600" />
+</part>
+</animatedvalue>
+<animatedvalue id="anim_4" timingfunction="linear">
+<part type="in">
+<keyframe value="0.100" />
+<keyframe timingfunction="ease-in" value="1" />
+</part>
+<part type="mid">
+<keyframe value="1" />
+<keyframe timingfunction="linear" value="1.050" />
+</part>
+<part type="out">
+<keyframe value="1.050" />
+<keyframe timingfunction="ease-out" value="1.300" />
+</part>
+</animatedvalue>
+<texture id="texture_1" src="r2" />
+<texture id="texture_2" src="r1" />
+<userfield id="f_text" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+    
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+<userfield default="#FFFFFF" id="f_color" type="color">
+<fieldlabel locale="en" value="@string/userfld_brace_color" />
+</userfield>
+<texture id="video1" video="1" />
+<rect bounds="-1 1 1 -1" texture="@video1" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text" height="180" id="text1" srcfield="@f_text" text="%1" textalign="center" textsize="100" textvalign="center" typeface="asset:lato-bold.ttf" width="420" />
+
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.80000"
+    near="0.01"
+    far="60000">
+<scale y="-1">
+<translate offset="-480 -600 -1448.52814">
+
+<translate offset="@anim_1">
+<style alpha="@anim_2">
+<rect bounds="-45.500 -150 45.500 150" color="@f_color" mask="@texture_1" />
+</style>
+</translate>
+<translate offset="@anim_3">
+<style alpha="@anim_2">
+<rect bounds="-45.500 -150 45.500 150" color="@f_color" mask="@texture_2" />
+</style>
+</translate>
+<translate offset="480 600">
+<scale uniform="@anim_4">
+<style alpha="@anim_2">
+<rect bounds="-210 -90 210 90" texture="@text1" />
+</style>
+</scale>
+</translate>
+</translate>
+</scale>
+</projection>
+</effect>

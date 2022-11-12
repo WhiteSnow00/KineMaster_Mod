@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "3:4"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.travel.middle",
+  "id": "com.nexstreaming.kinemaster.3v4.travel.middle",
+  "label": {
+    "en": "Travel - Middle",
+    "ar": "سفر - وسط",
+    "ko": "여행 - 중간",
+    "pt": "Viagem - Meio",
+    "ja": "旅行 - 中間",
+    "fr": "Voyage - Milieu",
+    "zh-CN": "旅行 - 中间",
+    "zh-TW": "旅行 - 中間",
+    "zh-HK": "旅行 - 中間",
+    "de": "Reisen - Mitte",
+    "ru": "Путешествие - Середина",
+    "es": "Viajes - Intermedio",
+    "hi":"यात्रा - मध्य",
+    "id":"Perjalanan - Tengah",
+    "it":"Viaggio - Intermedio",
+    "ms":"Perjalanan - Pertengahan",
+    "th":"การเดินทาง - ตอนกลาง",
+    "tr":"Gezi - Orta",
+    "vi":"Du lịch - Phần giữa"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

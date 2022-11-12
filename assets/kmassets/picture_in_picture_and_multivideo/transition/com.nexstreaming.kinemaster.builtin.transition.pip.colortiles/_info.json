@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.pip.colortiles",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.pip.colortiles",
+  "label": {
+    "en": "Color Tiles",
+    "ar": "بلاطات الألوان",
+    "ko": "컬러 타일스",
+    "pt": "Azulejos coloridos",
+    "ja": "カラータイルズ",
+    "fr": "Mosaïques de couleurs",
+    "zh-CN": "颜色标题",
+    "zh-TW": "色彩磚塊",
+    "zh-HK": "色彩磚塊",
+    "de": "Farbkacheln",
+    "ru": "Цветные плитки",
+    "es": "Cuadros de color",
+    "hi":"कलर टाइल्स",
+    "id":"Judul Warna",
+    "it":"Piastrelle colorate",
+    "ms":"Tajuk Warna",
+    "th":"กระเบื้องสี",
+    "tr":"Renk Başlıkları",
+    "vi":"Ô Màu"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

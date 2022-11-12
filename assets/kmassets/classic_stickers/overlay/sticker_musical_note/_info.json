@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_musical_note.svg",
+	"thumbnail":"sticker_musical_note.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_musical_note"
+}

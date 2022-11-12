@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "1:1"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.jpg",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.travel.accent",
+  "id": "com.nexstreaming.kinemaster.1v1.travel.accent",
+  "label": {
+    "en": "Travel - Accent",
+    "ar": "سفر - لهجة",
+    "ko": "여행 - 엑센트",
+    "pt": "Viagem - Enfatizado",
+    "ja": "旅行 - アクセント",
+    "fr": "Voyage - Accent",
+    "zh-CN": "旅行 - 强调",
+    "zh-TW": "旅行 - 強調",
+    "zh-HK": "旅行 - 強調",
+    "de": "Reisen - Akzent",
+    "ru": "Путешествие - Акцент",
+    "es": "Viajes - Énfasis",
+    "hi":"यात्रा - एक्सेंट",
+    "id":"Perjalanan - Pembuka",
+    "it":"Viaggio - Enfasi",
+    "ms":"Perjalanan - Aksen",
+    "th":"การเดินทาง - เน้น",
+    "tr":"Gezi - Aksan",
+    "vi":"Du lịch - Nhấn mạnh"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

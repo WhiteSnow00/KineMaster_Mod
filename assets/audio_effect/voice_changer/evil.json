@@ -1,0 +1,38 @@
+{
+   "NexSound" : [
+      {
+         "Processor::VoiceChanger" : {
+            "C00_VCConnection::Serial" : [
+               {
+                  "E00_VCEffect::Headroom" : {
+                     "P01_Headroom(dB)" : 0
+                  }
+               },
+               {
+                  "E00_VCEffect::VoiceChanger" : {
+                     "Enable(0/1)" : 1,
+                     "Voice Type(0-4)" : 4
+                  }
+               }
+            ],
+            "C01_VCConnection::Parallel" : [
+               {
+                  "E01_VCEffect::PitchControl" : {
+                     "P01_Index(-12/12)" : -6,
+                     "P02_Output_Volume(dB)" : 0
+                  }
+               }
+            ],
+            "C02_VCConnection::Parallel" : [
+               {
+                  "E02_VCEffect::PitchControl" : {
+                     "P01_Index(-12/12)" : -12,
+                     "P02_Output_Volume(dB)" : 0
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
+

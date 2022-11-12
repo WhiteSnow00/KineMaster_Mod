@@ -1,0 +1,93 @@
+<effect categorytitle="@string/category_pip_trans" effectoffset="100" icon="transition_split_screen.3bcb0b9fb7c5fc05d6f47a36695dc2fcb05cb080.png" id="com.nexstreaming.kinemaster.builtin.transition.pip.splitscn" maxduration="20000" minduration="2000" name="@string/trans_split_screen" type="transition" videooverlap="100">
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<animatedvalue id="vleft">
+<keyframe value="-1.00000 1.00000 1.00000 -1.00000" />
+        
+<keyframe value="-1.00000 1.00000 0.00000 -1.00000" />
+<keyframe value="-1.00000 1.00000 0.00000 -1.00000" />
+<keyframe value="-1.00000 1.00000 0.00000 -1.00000" />
+<keyframe value="-1.00000 1.00000 0.00000 -1.00000" />
+<keyframe value="-1.00000 1.00000 0.00000 -1.00000" />
+<keyframe value="-1.00000 1.00000 0.00000 -1.00000" />
+        
+<keyframe value="-2.00000 1.00000 -1.00000 -1.00000" />
+</animatedvalue>
+<animatedvalue id="vright">
+<keyframe value="1.00000 1.00000 2.00000 -1.00000" />
+        
+<keyframe value="0.00000 1.00000 1.00000 -1.00000" />
+<keyframe value="0.00000 1.00000 1.00000 -1.00000" />
+<keyframe value="0.00000 1.00000 1.00000 -1.00000" />
+<keyframe value="0.00000 1.00000 1.00000 -1.00000" />
+<keyframe value="0.00000 1.00000 1.00000 -1.00000" />
+<keyframe value="0.00000 1.00000 1.00000 -1.00000" />
+        
+<keyframe value="-1.00000 1.00000 1.00000 -1.00000" />
+</animatedvalue>
+    
+<animatedvalue id="sleft">
+<keyframe value="1" />
+
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+
+<keyframe value="0.5" />
+</animatedvalue>
+    
+<animatedvalue id="sright">
+<keyframe value="0.5" />
+
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+<keyframe value="0.5" />
+
+<keyframe value="1" />
+</animatedvalue>
+    
+<animatedvalue id="tleft">
+<keyframe value="0" />
+
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+
+<keyframe value="0.25" />
+</animatedvalue>
+    
+<animatedvalue id="tright">
+<keyframe value="0.25" />
+
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+<keyframe value="0.25" />
+
+<keyframe value="0" />
+</animatedvalue>
+    
+    
+<translate textureoffset="@tleft 0">
+<scale type="texture" x="@sleft">
+<rect bounds="@vleft" texture="@video1" />
+</scale>
+</translate>
+<translate textureoffset="@tright 0">
+<scale type="texture" x="@sright">
+<rect bounds="@vright" texture="@video2" />
+</scale>
+</translate>
+    
+</effect>

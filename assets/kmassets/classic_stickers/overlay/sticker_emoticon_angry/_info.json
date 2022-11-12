@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_emoticon_angry.svg",
+	"thumbnail":"sticker_emoticon_angry.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_emoticon_angry"
+}

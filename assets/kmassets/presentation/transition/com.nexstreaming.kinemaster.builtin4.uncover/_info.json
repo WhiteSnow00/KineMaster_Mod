@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.uncover",
+  "id": "com.nexstreaming.kinemaster.builtin4.uncover",
+  "label": {
+    "en": "Uncover",
+    "ar": "إزالة الغطاء",
+    "ko": "언커버",
+    "pt": "Descobrir",
+    "ja": "場面切替",
+    "fr": "Découvrir",
+    "zh-CN": "揭开",
+    "zh-TW": "揭開",
+    "zh-HK": "揭開",
+    "de": "Aufdecken",
+    "ru": "Открыть",
+    "es": "Descubrir",
+    "hi":"खोले",
+    "id":"Menemukan",
+    "it":"Scoprire",
+    "ms":"Mengemukaan",
+    "th":"เปิดออก",
+    "tr":"Ortaya Çıkar",
+    "vi":"Hé lộ"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

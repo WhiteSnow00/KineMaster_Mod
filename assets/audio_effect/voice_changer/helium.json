@@ -1,0 +1,32 @@
+{
+   "NexSound" : [
+      {
+         "Processor::VoiceChanger" : {
+            "C00_VCConnection::Serial" : [
+               {
+                  "E00_VCEffect::Headroom" : {
+                     "P01_Headroom(dB)" : 0
+                  },
+                  "E01_VCEffect::PitchControl" : {
+                     "P01_Index(-12/12)" : 10,
+                     "P02_Output_Volume(dB)" : 0
+                  },
+                  "E02_VCEffect::PassFilter" : {
+                     "P01_Order(1/2)" : 0,
+                     "P02_Frequency(Hz)" : 100,
+                     "P03_FilterType(0:LPF/1:HPF)" : 1,
+                     "P04_Q_Factor(1-20)" : 12
+                  }
+               },
+               {
+                  "E00_VCEffect::VoiceChanger" : {
+                     "Enable(0/1)" : 1,
+                     "Voice Type(0-4)" : 4
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
+

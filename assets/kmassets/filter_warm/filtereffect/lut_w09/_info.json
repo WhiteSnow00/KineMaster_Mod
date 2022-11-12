@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_w09.png",
+    "hidden": "False",
+    "filename": "lut_w09.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_w09.W09",
+    "label": {
+        "pt": "W09",
+        "ja": "W09",
+        "fr": "W09",
+        "zh-CN": "W09",
+        "ko": "W09",
+        "ar": "W09",
+        "zh-TW": "W09",
+        "en": "W09",
+        "zh-HK": "W09",
+        "de": "W09",
+        "ru": "W09",
+        "es": "W09",
+        "hi": "W09",
+        "id": "W09",
+        "it": "W09",
+        "ms": "W09",
+        "th": "W09",
+        "tr": "W09",
+        "vi": "W09"
+    }
+    }

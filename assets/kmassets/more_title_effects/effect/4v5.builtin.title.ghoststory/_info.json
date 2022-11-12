@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:5"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.ghoststory",
+  "id": "com.nexstreaming.kinemaster.4v5.builtin.title.ghoststory",
+  "label": {
+    "en": "Ghost Story",
+    "ar": "قصة الشبح",
+    "ko": "고스트",
+    "pt": "História de fantasmas",
+    "ja": "ゴースト",
+    "fr": "Histoire de fantôme",
+    "zh-CN": "幽灵",
+    "zh-TW": "鬼故事",
+    "zh-HK": "鬼故事",
+    "de": "Spukgeschichte",
+    "ru": "Ghost Story",
+    "es": "Historia de fantasmas",
+    "hi":"भूत की कहानी",
+    "id":"Cerita Hantu",
+    "it":"Storia di Fantasmi",
+    "ms":"Cerita Hantu",
+    "th":"เรื่องผี",
+    "tr":"Hayalet Hikayesi",
+    "vi":"Truyện ma"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

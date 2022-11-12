@@ -1,0 +1,22 @@
+{
+   "NexSound" : [
+      {
+		"Title" : "Robot",
+		"Category" : "VoiceChanger Preset",
+		"File Name" : "Robot.json",
+		"Data" : {
+			"Processor::VoiceChanger" : {
+				"C00_VCConnection::Serial" : [
+				   {
+					  "E00_VCEffect::VoiceChanger" : {
+						 "Enable(0/1)" : 1,
+						 "Voice Type(0-4)" : 1
+					  }
+				   }
+				]
+			 }
+		 }
+      }
+   ]
+}
+

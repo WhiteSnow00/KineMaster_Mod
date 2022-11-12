@@ -1,0 +1,128 @@
+<effect categorytitle="@string/category_text_transitions" defaultduration="4000" effectoffset="100" icon="transition_split_text.33d278315f1aba85f8653cfaa65dc6a7e60e2128.png" id="com.nexstreaming.kinemaster.builtin3.splittexttrans" maxduration="8000" minduration="500" name="@string/trans_split_title" type="transition" videooverlap="100">
+  
+<userfield id="f_text" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+  
+<userfield default="#FFFFFF" id="f_color_text" type="color">
+<fieldlabel locale="en" value="@string/userfld_text_color" />
+</userfield>
+
+<userfield default="#000000" id="f_color_bg" type="color">
+<fieldlabel locale="en" value="@string/userfld_bg_color" />
+</userfield>
+
+<userfield default="0.953 1 0.620" id="f_color_line" type="color">
+<fieldlabel locale="en" value="@string/userfld_line_color" />
+</userfield>
+  
+<animatedvalue id="anim_1" timingfunction="linear">
+<keyframe time="0.675" value="0.750" />
+<keyframe time="0.9" timingfunction="ease-in" value="0" />
+</animatedvalue>
+<animatedvalue id="anim_2" timingfunction="linear">
+<keyframe time="0.225" value="0.750" />
+<keyframe time="0.45" timingfunction="default" value="1" />
+<keyframe time="0.675" timingfunction="default" value="1" />
+<keyframe time="0.9" timingfunction="ease-in" value="1.400" />
+</animatedvalue>
+<animatedvalue id="anim_3" timingfunction="linear">
+<keyframe time="0.225" value="0.500" />
+<keyframe time="0.45" timingfunction="default" value="1" />
+<keyframe time="0.675" timingfunction="default" value="1" />
+<keyframe time="0.9" timingfunction="ease-in" value="0" />
+</animatedvalue>
+<animatedvalue id="anim_4" timingfunction="linear">
+<keyframe time="0.0" value="640 180.277" />
+<keyframe time="0.225" timingfunction="default" value="640 180.277" />
+<keyframe time="0.45" timingfunction="default" value="640 120.277" />
+<keyframe time="0.675" timingfunction="default" value="640 120.277" />
+<keyframe time="0.9" timingfunction="ease-in" value="640 -189.723" />
+</animatedvalue>
+<animatedvalue id="anim_5" timingfunction="linear">
+<keyframe time="0.0" value="640 540.277" />
+<keyframe time="0.225" timingfunction="default" value="640 540.277" />
+<keyframe time="0.45" timingfunction="default" value="640 600.277" />
+<keyframe time="0.675" timingfunction="default" value="640 600.277" />
+<keyframe time="0.9" timingfunction="ease-in" value="640 910.277" />
+</animatedvalue>
+<animatedvalue id="anim_6" timingfunction="linear">
+<keyframe time="0.225" value="640 360" />
+<keyframe time="0.45" timingfunction="default" value="640 420" />
+<keyframe time="0.675" timingfunction="default" value="640 420" />
+<keyframe time="0.9" timingfunction="ease-in" value="640 730" />
+</animatedvalue>
+<animatedvalue id="anim_7" timingfunction="linear">
+<keyframe time="0.0" value="0.010" />
+<keyframe time="0.225" timingfunction="default" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_8" timingfunction="linear">
+<keyframe time="0.0" value="1" />
+<keyframe time="0.225" timingfunction="default" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_9" timingfunction="linear">
+<keyframe time="0.0" value="0" />
+<keyframe time="0.06" value="1" />
+</animatedvalue>
+<animatedvalue id="anim_10" timingfunction="linear">
+<keyframe time="0.225" value="640 360" />
+<keyframe time="0.45" timingfunction="default" value="640 300" />
+<keyframe time="0.675" timingfunction="default" value="640 300" />
+<keyframe time="0.9" timingfunction="ease-in" value="640 -10" />
+</animatedvalue>
+<texture id="video2" video="2" />
+<texture autosize="false" fill="true" fillcolor="@f_color_text" height="91" id="text1" srcfield="@f_text" text="%1" textalign="center" textsize="50" textvalign="center" typeface="asset:lato-bold.ttf" width="1255" />
+    
+<texture id="video1" video="1" />
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<scale y="-1">
+<translate offset="-640 -360 -870">
+<translate offset="640 360">
+<rect bounds="-640 -360 640 360" texture="@video2" />
+</translate>
+<translate offset="640 360">
+<style alpha="@anim_1">
+<rect bounds="-640 -360 640 360" color="@f_color_bg" />
+</style>
+</translate>
+<translate offset="640 360">
+<scale uniform="@anim_2">
+<style alpha="@anim_3">
+<rect bounds="-627.500 -45.500 627.500 45.500" texture="@text1" />
+</style>
+</scale>
+</translate>
+<translate offset="@anim_4">
+<trianglestrip texture="@video1">
+<point location="-640 180" texcoord="0 0.500" />
+<point location="640 180" texcoord="1 0.500" />
+<point location="-640 -180" texcoord="0 0" />
+<point location="640 -180" texcoord="1 0" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_5">
+<trianglestrip texture="@video1">
+<point location="-640 180" texcoord="0 1" />
+<point location="640 180" texcoord="1 1" />
+<point location="-640 -180" texcoord="0 0.500" />
+<point location="640 -180" texcoord="1 0.500" />
+</trianglestrip>
+</translate>
+<translate offset="@anim_6">
+<scale x="@anim_7" y="@anim_8">
+<style alpha="@anim_9">
+<rect bounds="-640 -5 640 5" color="@f_color_line" />
+</style>
+</scale>
+</translate>
+<translate offset="@anim_10">
+<scale x="@anim_7" y="@anim_8">
+<style alpha="@anim_9">
+<rect bounds="-640 -5 640 5" color="@f_color_line" />
+</style>
+</scale>
+</translate>
+</translate>
+</scale>
+</projection>
+</effect>

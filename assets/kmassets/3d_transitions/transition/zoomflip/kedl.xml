@@ -1,0 +1,22 @@
+<effect categorytitle="@string/category_3d_trans" effectoffset="100" icon="transition_3d_zoom_flip.5f7465cc1aac04ea6d831c6e4133d721bf62f1d4.png" id="com.nexstreaming.kinemaster.builtin.transition.zoomflip" name="@string/trans_3dzoomflip" type="transition" videooverlap="100">
+<clear color="0 0 0" />
+<animatedvalue id="spin">
+<keyframe value="0" />
+<keyframe time="0.99" value="180" />
+</animatedvalue>
+<animatedvalue id="zoom">
+<keyframe value="0 0 -21.69" />
+<keyframe value="0 0 -100" />
+<keyframe value="0 0 -21.69" />
+</animatedvalue>
+<projection aspect="1.77777" far="150" fov="45" near="1" top="1" type="perspective">
+<cull face="front">
+<translate offset="@zoom">
+<rotate angle="@spin" axis="0 1 0">
+<rect bounds="-16 9 16 -9" texture="@video_out" />
+<rect bounds="16 9 -16 -9" texture="@video_in" />
+</rotate>
+</translate>
+</cull>
+</projection>
+</effect>

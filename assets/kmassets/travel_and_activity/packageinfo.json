@@ -1,0 +1,73 @@
+{
+  "assetLevel":"7",
+  "assetName": {
+    "en": "Travel and Activity",
+    "ar": "رحلات وأنشطة",
+    "ko": "여행 및 활동",
+    "pt": "Viagens e atividade",
+    "ja": "旅行とアクティビティ",
+    "fr": "Voyage et Activités",
+    "zh-CN": "旅游和活动",
+    "zh-TW": "旅遊和活動",
+    "zh-HK": "旅遊和活動",
+    "de": "Reisen und Aktivität",
+    "ru": "Путешествия и отдых",
+    "es": "Viajes y actividades",
+    "hi":"यात्रा ओर गतिविधि",
+    "id":"Perjalanan dan Kegiatan",
+    "it":"Viaggi e Attività",
+    "ms":"Perjalanan dan Aktiviti",
+    "th":"การเดินทางและกิจกรรม",
+    "tr":"Gezi ve Etkinlik",
+    "vi":"Du lịch và Hoạt động"
+  },
+  "format": "com.kinemaster.assetpackage",
+  "itemRoots": [
+    "effect/1v1.travel.accent",
+    "effect/1v1.travel.ending",
+    "effect/1v1.travel.middle",
+    "effect/1v1.travel.opening",
+    "effect/9v16.travel.accent",
+    "effect/9v16.travel.ending",
+    "effect/9v16.travel.middle",
+    "effect/9v16.travel.opening",
+    "effect/16v9.travel.accent",
+    "effect/16v9.travel.ending",
+    "effect/16v9.travel.middle",
+    "effect/16v9.travel.opening",
+    "transition/travel.1v1.transition",
+    "transition/travel.9v16.transition",
+    "transition/travel.16v9.transition",
+    
+    "transition/travel.3v4.transition",
+    
+    "transition/travel.4v3.transition",
+    
+    "transition/travel.4v5.transition",
+    
+    "transition/travel.2.35v1.transition",
+
+    "effect/3v4.travel.accent",
+    "effect/3v4.travel.ending",
+    "effect/3v4.travel.middle",
+    "effect/3v4.travel.opening",
+
+    "effect/4v3.travel.accent",
+    "effect/4v3.travel.ending",
+    "effect/4v3.travel.middle",
+    "effect/4v3.travel.opening",
+
+    "effect/4v5.travel.accent",
+    "effect/4v5.travel.ending",
+    "effect/4v5.travel.middle",
+    "effect/4v5.travel.opening",
+
+    "effect/2.35v1.travel.accent",
+    "effect/2.35v1.travel.ending",
+    "effect/2.35v1.travel.middle",
+    "effect/2.35v1.travel.opening"
+  ],
+  "minVersionCode": 2,
+  "packageContentVersion": 2,
+  "targetVersionCode": 4
+}

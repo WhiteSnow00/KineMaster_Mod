@@ -1,0 +1,30 @@
+{
+	"thumbnail":"thumb_lut_b18.png",
+    "hidden": "False",
+    "filename": "lut_moonlight.png",
+    "type": "nex.lut",
+    "priceType": "Free",
+    "kmcategory" : ["kmc.colorfilter"],
+    "id": "com.kinemaster.design1.kinemaster.lut.builtin.basic.lut_b18.B18",
+    "label": {
+        "pt": "B18",
+        "ja": "B18",
+        "fr": "B18",
+        "zh-CN": "B18",
+        "ko": "B18",
+        "ar": "B18",
+        "zh-TW": "B18",
+        "en": "B18",
+        "zh-HK": "B18",
+        "de": "B18",
+        "ru": "B18",
+        "es": "B18",
+        "hi": "B18",
+        "id": "B18",
+        "it": "B18",
+        "ms": "B18",
+        "th": "B18",
+        "tr": "B18",
+        "vi": "B18"
+    }
+    }

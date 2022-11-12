@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d seconde vooruitspoelen</item>
+        <item quantity="other">%d seconden vooruitspoelen</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d seconde terugspoelen</item>
+        <item quantity="other">%d seconden terugspoelen</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Uw wachtwoord is niet sterk genoeg. Gebruik ten minste %1$d teken en een combinatie van letters en cijfers.</item>
+        <item quantity="other">Uw wachtwoord is niet sterk genoeg. Gebruik ten minste %1$d tekens en een combinatie van letters en cijfers.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nieuwe melding</item>
+        <item quantity="other">%d nieuwe meldingen</item>
+    </plurals>
+</resources>

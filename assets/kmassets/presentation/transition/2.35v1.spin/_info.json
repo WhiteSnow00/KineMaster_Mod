@@ -1,0 +1,31 @@
+{
+  "ratios":["2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.spin",
+  "id": "com.nexstreaming.kinemaster.builtin4.2.35v1.spin",
+  "label": {
+    "en": "Spin",
+    "ar": "دوران",
+    "ko": "회전",
+    "pt": "Girar",
+    "ja": "スピン",
+    "fr": "Tourbillon",
+    "zh-CN": "旋转",
+    "zh-TW": "轉動",
+    "zh-HK": "轉動",
+    "de": "Drehen",
+    "ru": "Вращение",
+    "es": "Rotar",
+    "hi":"घुमाना",
+    "id":"Berputar",
+    "it":"Rotazione",
+    "ms":"Putar",
+    "th":"หมุน",
+    "tr":"Döndür",
+    "vi":"Xoay"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

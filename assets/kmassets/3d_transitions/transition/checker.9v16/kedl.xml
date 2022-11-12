@@ -1,0 +1,28 @@
+<effect categorytitle="@string/category_3d_trans" effectoffset="100" icon="transition_checker_flip.d1f704a0defbcfddd2a2d78f536caccf8a4b60df.png" id="com.nexstreaming.kinemaster.builtin.transition.9v16.checker" name="@string/trans_checkerflip" type="transition" videooverlap="100">
+<animatedvalue id="spin">
+	<keyframe value="0" />
+	<keyframe value="180" />
+</animatedvalue>
+
+<rect bounds="-1 1 1 -1" texture="@video_in" />
+
+<projection aspect="0.5625" fov="45" near="0.01"  far="60000" top="1" type="perspective">
+	<cull face="back">
+		<translate offset="-8 -15 -38.56">
+			<translate offset="0 2.0 0" repeat="16" textureoffset="0 -0.0625">
+				<translate offset="2.0 0 0" repeat="9" textureoffset="0.1111111111 0">
+					<rotate angle="@spin" axis="1 1 0">
+						<trianglestrip texture="@video_out">
+							<point location="-1 -1" texcoord="0 1" />
+							<point location=" 1 -1" texcoord="0.1111111111 1" />
+							<point location="-1  1" texcoord="0 0.9375" />
+							<point location=" 1  1" texcoord="0.1111111111 0.9375" />
+						</trianglestrip>
+					</rotate>
+				</translate>
+			</translate>
+		</translate>
+	</cull>
+		
+</projection>
+</effect>

@@ -1,0 +1,41 @@
+<effect categorytitle="@string/category_pip_trans" effectoffset="100" icon="transition_insert_video.f502f90a685af25dbc44773f48a583d385a15391.png" id="com.nexstreaming.kinemaster.builtin.transition.pip.inset" maxduration="20000" minduration="2000" name="@string/trans_inset_video" type="transition" videooverlap="100">
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<animatedvalue id="vrect">
+<keyframe value="-1.00000 1.00000 1.00000 -1.00000" />
+<keyframe value="0.09375 0.89259 0.91458 0.07407" />
+<keyframe value="0.09375 0.89259 0.91458 0.07407" />
+<keyframe value="0.09375 0.89259 0.91458 0.07407" />
+<keyframe value="0.09375 0.89259 0.91458 0.07407" />
+<keyframe value="0.09375 0.89259 0.91458 0.07407" />
+<keyframe value="0.09375 0.89259 0.91458 0.07407" />
+<keyframe value="0.09375 0.89259 0.91458 0.07407" />
+</animatedvalue>
+    
+<animatedvalue id="xrect">
+<keyframe value="-1.00000 1.00000 1.00000 -1.00000" />
+<keyframe value="0.07708 0.91852 0.93333 0.04444" />
+<keyframe value="0.07708 0.91852 0.93333 0.04444" />
+<keyframe value="0.07708 0.91852 0.93333 0.04444" />
+<keyframe value="0.07708 0.91852 0.93333 0.04444" />
+<keyframe value="0.07708 0.91852 0.93333 0.04444" />
+<keyframe value="0.07708 0.91852 0.93333 0.04444" />
+<keyframe value="0.07708 0.91852 0.93333 0.04444" />
+</animatedvalue>
+    
+<animatedvalue id="fade">
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="1" />
+<keyframe value="0" />
+</animatedvalue>
+<rect bounds="-1.00000 1.00000 1.00000 -1.00000" texture="@video2" />
+<style alpha="@fade">
+<rect bounds="@xrect" color="#000000" />
+<rect bounds="@vrect" texture="@video1" />
+</style>
+</effect>

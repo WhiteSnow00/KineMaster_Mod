@@ -1,0 +1,168 @@
+<effect id="com.nexstreaming.kinemaster.4v5.onstage.ending" intime="1500" intimefirst="0" outtime="4000" outtimelast="4000" theme="true" type="title">
+
+<clear color="0 0 0" />
+	
+<texture id="videoframe" video="1" />
+<texture id="star" src="r3" />
+<texture id="starglow" src="r0" />
+<texture id="curtain" src="r1" wraps="repeat" />
+<texture id="string" src="r2" />
+	
+<userfield id="f_text" maxlines="1" type="text">
+<fieldlabel locale="en" value="@string/userfld_title_text" />
+</userfield>
+<texture fill="true" fillcolor="#FFFFFF" height="127" id="title_text_a" shadowcolor="#FFFFFF" shadowoffset="0 0" shadowradius="5" srcfield="@f_text" text="%1" textalign="center" textmargin="5" textsize="127" typeface="asset:bevan.ttf" width="1100" />
+	
+	
+	
+<animatedvalue id="rotate">
+<keyframe value="0" />
+		
+</animatedvalue>
+	
+<animatedvalue id="zoom">
+<part type="in">
+<keyframe value="-10.885" />
+<keyframe value="-20" />
+</part>
+<part type="mid">
+<keyframe value="-20" />
+</part>
+<part type="out">
+<keyframe value="-20" />
+<keyframe time="0.63" value="-40" />
+</part>
+</animatedvalue>
+	
+<animatedvalue id="cslide">
+<part type="in">
+<keyframe value="30" />
+</part>
+<part type="mid">
+<keyframe value="30" />
+</part>
+<part type="out">
+<keyframe time="0.15" value="30" />
+<keyframe time="0.75" value="0" />
+</part>
+</animatedvalue>
+	
+<animatedvalue id="ftb">
+<part type="in">
+<keyframe value="0" />
+</part>
+<part type="mid">
+<keyframe value="0" />
+</part>
+<part type="out">
+<keyframe time="0.75" value="0" />
+<keyframe value="1" />
+</part>
+</animatedvalue>
+	
+<animatedvalue id="t" scope="whole" timingfunction="linear">
+<keyframe value="0" />
+<keyframe value="20" />
+</animatedvalue>
+	
+	
+	
+	
+<function id="glowfunc" octaves="4" outputbias="0.5" outputscale="0.5" type="simplexfractal" />
+<function id="swingfunc" inputbias="30 20 10" inputscale="1 1 0.2" outputscale="0.5" type="simplexpure" />
+<function id="swingfuncb" inputbias="20 50 44" inputscale="1 1 0.18" outputscale="30" type="simplexpure" />
+	
+<projection
+    type="perspective"
+    fov="45"
+    aspect="0.80000"
+    near="0.01"
+    far="60000">
+<translate offset="0 0 @zoom">
+					
+<scale type="texture" x="4" y="1">
+<translate offset="0 0 -45">
+<style alpha="0.6">
+<rect bounds="-60 40 60 0" texture="@curtain" />
+</style>
+<style alpha="0.2">
+<rect bounds="-60 -40 60 0" texture="@curtain" />
+</style>
+</translate>
+</scale>
+
+<translate offset="0 -4.5">
+<sequence count="2" end="-1 0.3" id="s" start="1 1" type="linear"><scale x="1" y="@s.x"><style alpha="@s.y">
+				
+<sequence count="18" end="75 15 -43 2.5" id="r" seed="3472" start="-75 1.5 -9 1.8" type="randmix">
+<rotate angle="@r.x" axis="0 1 0">
+<translate offset="0 @r.y @r.z">
+							
+<translate offset="0 100 0">
+<rotate angle="@swingfunc(@r.x @r.y @t)" axis="0 0 1">
+<translate offset="0 -100 0">
+									
+<rotate angle="@swingfuncb(@r.x @r.y @t)" axis="0 1 0">
+									
+<style alpha="@glowfunc(@r.x @r.y @t)">
+<scale uniform="0.6">
+<rect bounds="@r.w*-1 @r.w @r.w @r.w*-1" texture="@starglow" />
+</scale>
+</style>
+									
+</rotate>
+								
+</translate>
+</rotate>
+</translate>
+								
+</translate>
+</rotate>
+</sequence>
+
+</style></scale></sequence>
+</translate>
+			
+<rotate angle="@rotate" axis="0 1 0">
+<rect bounds="-3.65 4.5 3.65 -4.5" texture="@videoframe" />
+<rect bounds="-4.5 -13.5 4.5 -4.5" color="0 0 0 1" />
+<style alpha="0.2">
+<rect bounds="-3.65 -13.5 3.65 -4.5" texture="@videoframe" />
+</style>
+</rotate>
+			
+<translate offset="0 -4.5 6">
+<sequence count="2" end="-1 0.3" id="s" start="1 1" type="linear">
+<scale x="1" y="@s.x">
+<style alpha="@s.y">
+<rect anchor="bottom center" color="#dcb11e" height="4" location="0 0" mask="@title_text_a" scalemode="fit" width="10" />
+</style>
+</scale></sequence>
+</translate>
+			
+<part type="out">
+<scale type="texture" x="4" y="1">
+<translate offset="0 0 6">
+<style alpha="1">
+<translate offset="@cslide*-1 0">
+<rect bounds="-60 30 0 -30" texture="@curtain" />
+</translate>
+<translate offset="@cslide 0">
+<rect bounds="60 30 0 -30" texture="@curtain" />
+</translate>
+</style>
+</translate>
+</scale>
+</part>
+			
+			
+</translate>
+</projection>
+	
+<part type="out">
+<visibility end="1.0" start="0.75">
+<rect bounds="-1 -1 1 1" color="0 0 0 @ftb" />
+</visibility>
+</part>
+	
+</effect>

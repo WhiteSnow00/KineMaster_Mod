@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.slideright",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.slideright",
+  "label": {
+    "en": "Slide Right",
+    "ar": "تمرير لليمين",
+    "ko": "오른쪽 슬라이드",
+    "pt": "Deslizar para a direita",
+    "ja": "右側スライド",
+    "fr": "Glissement vers la droite",
+    "zh-CN": "右移",
+    "zh-TW": "右移",
+    "zh-HK": "右移",
+    "de": "Nach Rechts gleiten",
+    "ru": "Скольжение вправо",
+    "es": "Deslizar a la derecha",
+    "hi":"दाए  की और स्लाइड",
+    "id":"Geser ke Kanan",
+    "it":"Scorri a Destra",
+    "ms":"Luncur ke Kanan",
+    "th":"เลื่อนไปทางขวา",
+    "tr":"Sağa Kaydır",
+    "vi":"Trượt sang Phải"
+  },
+  "type": "nex.kedl",
+  "hidden": true
+}

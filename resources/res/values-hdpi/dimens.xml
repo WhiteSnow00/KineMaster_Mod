@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asset_detail_download_button_text_size">13dp</dimen>
+    <dimen name="frag_account_info_free_btn_holder_marginTop">3dp</dimen>
+    <dimen name="frag_account_info_marginLeftAndRight">43dp</dimen>
+    <dimen name="product_view_buy_button_height">31dp</dimen>
+    <dimen name="product_view_price_text_height">47dp</dimen>
+    <dimen name="product_view_price_text_width">119dp</dimen>
+    <dimen name="product_view_title_text_size">18dp</dimen>
+</resources>

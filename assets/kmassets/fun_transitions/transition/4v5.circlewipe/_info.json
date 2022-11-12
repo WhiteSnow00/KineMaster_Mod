@@ -1,0 +1,33 @@
+{
+    "ratios": [
+        "4:5"
+    ],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.circlewipe",
+  "id": "com.nexstreaming.kinemaster.builtin2.4v5.circlewipe",
+  "label": {
+    "en": "Circle Wipe",
+    "ar": "مسح دائري",
+    "ko": "원형",
+    "pt": "Limpar círculo",
+    "ja": "円を描く",
+    "fr": "Balayage en cercle",
+    "zh-CN": "圆形拭除",
+    "zh-TW": "圓形抹去",
+    "zh-HK": "圓形抹去",
+    "de": "Kreisförmiges Verwischen",
+    "ru": "Шторка \u0027Круг\u0027",
+    "es": "Limpiar en círculos",
+    "hi":"सर्किल वाइप",
+    "id":"Sekaan berbentuk lingkaran",
+    "it":"Ripulire in cerchio",
+    "ms":"Mengesat berbentuk Bulatan",
+    "th":"วงกลม",
+    "tr":"Daire Silme",
+    "vi":"Xoá hình tròn"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

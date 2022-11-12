@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_hourglass.svg",
+	"thumbnail":"sticker_hourglass.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_hourglass"
+}

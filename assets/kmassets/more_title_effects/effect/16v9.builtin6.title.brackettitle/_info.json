@@ -1,0 +1,31 @@
+{
+  "ratios": ["16:9"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.clipgraphics"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.title.brackettitle",
+  "id": "com.nexstreaming.kinemaster.builtin6.title.brackettitle",
+  "label": {
+    "en": "Floating Braces",
+    "ar": "الأقواس العائمة",
+    "ko": "괄호",
+    "pt": "Suportes Flutuantes",
+    "ja": "フローティングブレース",
+    "fr": "Accolades flottantes",
+    "zh-CN": "浮动括弧",
+    "zh-TW": "浮動括弧",
+    "zh-HK": "浮動括弧",
+    "de": "Fließende Klammern",
+    "ru": "Плавающие скобки",
+    "es": "Corchetes flotantes",
+    "hi":"हवा में उड़ रहा ब्रेसिज़",
+    "id":"Bingkai Apung",
+    "it":"Bretelle Galleggianti",
+    "ms":"Bingkai Terapung",
+    "th":"วงเล็บแบบลอย",
+    "tr":"Yüzen Parantez",
+    "vi":"Dấu ngoặc Nổi"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

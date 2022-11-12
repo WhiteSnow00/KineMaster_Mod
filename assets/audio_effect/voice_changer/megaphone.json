@@ -1,0 +1,69 @@
+{
+   "NexSound" : [
+      {
+         "Processor::VoiceChanger" : {
+            "C00_VCConnection::Serial" : [
+               {
+                  "E00_VCEffect::Headroom" : {
+                     "P01_Headroom(dB)" : 0
+                  },
+                  "E01_VCEffect::Distortion" : {
+                     "P01_Threshold(dB)" : -21,
+                     "P02_AttackTime(ms)" : 0.10000000149011612,
+                     "P03_ReleaseTime(ms)" : 6,
+                     "P04_LowPass_Enable" : 0,
+                     "P05_LowPass_Freq(Hz)" : 2000,
+                     "P06_HighPass_Enable" : 0,
+                     "P07_HighPass_Freq(Hz)" : 2000,
+                     "P08_Output_Volume(dB)" : 18
+                  },
+                  "E02_VCEffect::PassFilter" : {
+                     "P01_Order(1/2)" : 2,
+                     "P02_Frequency(Hz)" : 1000,
+                     "P03_FilterType(0:LPF/1:HPF)" : 1,
+                     "P04_Q_Factor(1-20)" : 8
+                  },
+                  "E03_VCEffect::PassFilter" : {
+                     "P01_Order(1/2)" : 2,
+                     "P02_Frequency(Hz)" : 2500,
+                     "P03_FilterType(0:LPF/1:HPF)" : 0,
+                     "P04_Q_Factor(1-20)" : 14
+                  }
+               },
+               {
+                  "E00_VCEffect::VoiceChanger" : {
+                     "Enable(0/1)" : 1,
+                     "Voice Type(0-4)" : 4
+                  }
+               }
+            ],
+            "C01_VCConnection::Parallel" : [
+               {
+                  "E04_VCEffect::Headroom" : {
+                     "P01_Headroom(dB)" : 0
+                  }
+               }
+            ],
+            "C02_VCConnection::Parallel" : [
+               {
+                  "E05_VCEffect::Reverb" : {
+                     "P01_Strength(0/6)" : 0,
+                     "P02_Bass(0/6)" : 0,
+                     "P03_Output_Volume(dB)" : -21
+                  }
+               }
+            ],
+            "C03_VCConnection::Serial" : [
+               {
+                  "E06_VCEffect::MaxVolume" : {
+                     "P01_Strength(0/6)" : 3,
+                     "P02_Release(0/6)" : 3,
+                     "P03_Output_Volume(dB)" : 0
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
+

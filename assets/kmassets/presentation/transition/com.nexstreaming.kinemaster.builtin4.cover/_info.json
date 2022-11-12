@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.cover",
+  "id": "com.nexstreaming.kinemaster.builtin4.cover",
+  "label": {
+    "en": "Cover",
+    "ar": "تغطية",
+    "ko": "커버",
+    "pt": "Cobrir",
+    "ja": "場面切替",
+    "fr": "Couvrir",
+    "zh-CN": "覆盖",
+    "zh-TW": "覆蓋",
+    "zh-HK": "覆蓋",
+    "de": "Abdecken",
+    "ru": "Охватить",
+    "es": "Cubrir",
+    "hi":"कवर",
+    "id":"Sampul",
+    "it":"Coprire",
+    "ms":"Melindungi",
+    "th":"ปก",
+    "tr":"Kapak",
+    "vi":"Phủ lên"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

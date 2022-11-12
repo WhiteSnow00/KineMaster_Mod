@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Премотајте %d секунду унапред</item>
+        <item quantity="few">Премотајте %d секунде унапред</item>
+        <item quantity="other">Премотајте %d секунди унапред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Премотајте %d секунду уназад</item>
+        <item quantity="few">Премотајте %d секунде уназад</item>
+        <item quantity="other">Премотајте %d секунди уназад</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Лозинка није довољно јака. Употребите бар %1$d знак, уз комбинацију бројева и слова</item>
+        <item quantity="few">Лозинка није довољно јака. Употребите бар %1$d знака, уз комбинацију бројева и слова</item>
+        <item quantity="other">Лозинка није довољно јака. Употребите бар %1$d знакова, уз комбинацију бројева и слова</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+        <item quantity="other">%d нових обавештења</item>
+    </plurals>
+</resources>

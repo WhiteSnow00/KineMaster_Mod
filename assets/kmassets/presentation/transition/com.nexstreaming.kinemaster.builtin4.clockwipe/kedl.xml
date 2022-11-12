@@ -1,0 +1,130 @@
+<effect categorytitle="@string/category_pres_trans" defaultduration="2000" effectoffset="100" icon="clockwipe.e90e3c2897960afa186249139e90febda81c4334.png" id="com.nexstreaming.kinemaster.builtin4.clockwipe" maxduration="10000" minduration="500" name="@string/trans_clockwipe" type="transition" videooverlap="100">
+  
+<userfield default="1.5" id="f_clockdir" type="selection">
+<option value="1.5">
+<fieldlabel locale="en" value="@string/userfld_direction_cw" />
+</option>
+<option value="2.5">
+<fieldlabel locale="en" value="@string/userfld_direction_ccw" />
+</option>
+</userfield>
+
+  
+<animatedvalue id="anim_angle" timingfunction="ease-in-out">
+<keyframe time="0.1" value="0" />
+<keyframe time="0.9" value="360" />
+</animatedvalue>
+<animatedvalue id="anim_angleccw" timingfunction="ease-in-out">
+<keyframe time="0.1" value="360" />
+<keyframe time="0.9" value="0" />
+</animatedvalue>
+<texture id="video1" video="1" />
+<texture id="video2" video="2" />
+<projection aspect="1.777777" far="60000" fov="45" near="0.01" type="perspective">
+<scale y="-1">
+<translate offset="-640 -360 -870">
+      
+<visibility check="@f_clockdir" end="1.9" start="1.0">
+
+<translate offset="640 360">
+<rect bounds="-640 -360 640 360" texture="@video1" />
+</translate>
+
+<translate offset="640 360">
+<rotate angle="@anim_angle" axis="0 0 1">
+<style dest="stencil">
+<rect bounds="-1206.500 -750.500 1206.500 0.500" color="1 0.392 0.196" />
+</style>
+</rotate>
+</translate>
+			
+<visibility check="@anim_angle" end="180" start="0">
+<translate offset="640 540.406">
+<style rendertest="stencil">
+<trianglestrip texture="@video2">
+<point location="-640 180" texcoord="0 1.001" />
+<point location="640 180" texcoord="1 1.001" />
+<point location="-640 -180" texcoord="0 0.501" />
+<point location="640 -180" texcoord="1 0.501" />
+</trianglestrip>
+</style>
+</translate>
+</visibility>
+			
+<visibility check="@anim_angle" end="360" start="180">
+<translate offset="640 180.406">
+<style rendertest="stencil">
+<trianglestrip texture="@video2">
+<point location="-640 180" texcoord="0 0.501" />
+<point location="640 180" texcoord="1 0.501" />
+<point location="-640 -180" texcoord="0 0.001" />
+<point location="640 -180" texcoord="1 0.001" />
+</trianglestrip>
+</style>
+</translate>
+<translate offset="640 540.406">
+<trianglestrip texture="@video2">
+<point location="-640 180" texcoord="0 1.001" />
+<point location="640 180" texcoord="1 1.001" />
+<point location="-640 -180" texcoord="0 0.501" />
+<point location="640 -180" texcoord="1 0.501" />
+</trianglestrip>
+</translate>
+</visibility>
+			
+</visibility>
+        
+<visibility check="@f_clockdir" end="2.9" start="2.0">
+
+<translate offset="640 360">
+<rect bounds="-640 -360 640 360" texture="@video2" />
+</translate>
+
+<translate offset="640 360">
+<rotate angle="@anim_angleccw" axis="0 0 1">
+<style dest="stencil">
+<rect bounds="-1206.500 -750.500 1206.500 0.500" color="1 0.392 0.196" />
+</style>
+</rotate>
+</translate>
+			
+<visibility check="@anim_angleccw" end="180" start="0">
+<translate offset="640 540.406">
+<style rendertest="stencil">
+<trianglestrip texture="@video1">
+<point location="-640 180" texcoord="0 1.001" />
+<point location="640 180" texcoord="1 1.001" />
+<point location="-640 -180" texcoord="0 0.501" />
+<point location="640 -180" texcoord="1 0.501" />
+</trianglestrip>
+</style>
+</translate>
+</visibility>
+			
+<visibility check="@anim_angleccw" end="360" start="180">
+<translate offset="640 180.406">
+<style rendertest="stencil">
+<trianglestrip texture="@video1">
+<point location="-640 180" texcoord="0 0.501" />
+<point location="640 180" texcoord="1 0.501" />
+<point location="-640 -180" texcoord="0 0.001" />
+<point location="640 -180" texcoord="1 0.001" />
+</trianglestrip>
+</style>
+</translate>
+<translate offset="640 540.406">
+<trianglestrip texture="@video1">
+<point location="-640 180" texcoord="0 1.001" />
+<point location="640 180" texcoord="1 1.001" />
+<point location="-640 -180" texcoord="0 0.501" />
+<point location="640 -180" texcoord="1 0.501" />
+</trianglestrip>
+</translate>
+</visibility>
+			
+</visibility>
+        
+</translate>
+</scale>
+</projection>
+</effect>

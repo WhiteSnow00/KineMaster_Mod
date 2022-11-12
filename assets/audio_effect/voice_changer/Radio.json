@@ -1,0 +1,65 @@
+{
+   "NexSound" : [
+      {
+         "Processor::VoiceChanger" : {
+            "C00_VCConnection::Serial" : [
+               {
+                  "E00_VCEffect::Distortion" : {
+                     "P01_Threshold(dB)" : -21,
+                     "P02_AttackTime(ms)" : 0.10000000149011612,
+                     "P03_ReleaseTime(ms)" : 2,
+                     "P04_LowPass_Enable" : 1,
+                     "P05_LowPass_Freq(Hz)" : 2000,
+                     "P06_HighPass_Enable" : 1,
+                     "P07_HighPass_Freq(Hz)" : 2500,
+                     "P08_Output_Volume(dB)" : 18
+                  },
+                  "E01_VCEffect::Sweep" : {
+                     "P01_Trigger_Enable(1/0)" : 0,
+                     "P02_Filter_Type(Bell/LPF)" : 0,
+                     "P03_Filter_Q(0.1/2)" : 2,
+                     "P04_Filter_Gain(dB)" : 6,
+                     "P05_LFO_Type(Sine/Tri/up/dn)" : 0,
+                     "P06_LFO_Scale(Linear/dB)" : 0,
+                     "P07_LFO_Freq(Hz)" : 3,
+                     "P08_Max_Freq(Hz)" : 5000,
+                     "P09_Min_Freq(Hz)" : 500,
+                     "P10_Output_Volume(dB)" : 0
+                  },
+                  "E02_VCEffect::Equalizer" : {
+                     "P01_Band[0]_BandIndex(0-4)-----" : 0,
+                     "P02_Band[0]_Type(0:SV/1:PK)" : 0,
+                     "P03_Band[0]_Center_Freq(Hz)" : 125,
+                     "P04_Band[0]_Q_Factor(1-20)" : 7,
+                     "P05_Band[0]_Gain(-12~12)" : 0,
+                     "P06_Band[1]_BandIndex(0-4)-----" : 1,
+                     "P07_Band[1]_Center_Freq(Hz)" : 250,
+                     "P08_Band[1]_Q_Factor(1-20)" : 7,
+                     "P09_Band[1]_Gain(-12~12)" : 0,
+                     "P10_Band[2]_BandIndex(0-4)-----" : 2,
+                     "P11_Band[2]_Center_Freq(Hz)" : 1000,
+                     "P12_Band[2]_Q_Factor(1-20)" : 7,
+                     "P13_Band[2]_Gain(-12~12)" : 0,
+                     "P14_Band[3]_BandIndex(0-4)-----" : 3,
+                     "P15_Band[3]_Center_Freq(Hz)" : 4000,
+                     "P16_Band[3]_Q_Factor(1-20)" : 7,
+                     "P17_Band[3]_Gain(-12~12)" : 0,
+                     "P18_Band[4]_BandIndex(0-4)-----" : 4,
+                     "P19_Band[4]_Type(0:SV/1:PK)" : 0,
+                     "P20_Band[4]_Center_Freq(Hz)" : 5000,
+                     "P21_Band[4]_Q_Factor(1-20)" : 16,
+                     "P22_Band[4]_Gain(-12~12)" : -12
+                  }
+               },
+               {
+                  "E00_VCEffect::VoiceChanger" : {
+                     "Enable(0/1)" : 1,
+                     "Voice Type(0-4)" : 4
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
+

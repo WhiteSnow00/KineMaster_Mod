@@ -1,0 +1,54 @@
+{
+  "assetLevel":"7",
+  "assetName": {
+    "en": "3D Transitions",
+    "ar": "تحويلات ثلاثية الأبعاد",
+    "ko": "3D 장면전환 효과",
+    "pt": "Transições 3D",
+    "ja": "３Ｄ場面転換効果",
+    "fr": "Transitions 3D",
+    "zh-CN": "3D 转场效果",
+    "zh-TW": "3D 場景轉換特效",
+    "zh-HK": "3D 場景轉換特效",
+    "de": "3D-Übergänge",
+    "ru": "3D-переходы",
+    "es": "Transiciones 3D",
+    "hi":"3D ट्रांजीशन",
+    "id":"Transisi 3D",
+    "it":"Transizioni 3D",
+    "ms":"Transasi 3D",
+    "th":"เปลี่ยนแบบ 3D",
+    "tr":"3D Geçişler",
+    "vi":"Chuyển đoạn 3D"
+  },
+  "format": "com.kinemaster.assetpackage",
+  "itemRoots": [
+    "transition/1v1.bouncebox",
+    "transition/1v1.crack_transition",
+    "transition/9v16.bouncebox",
+    "transition/9v16.crack_transition",
+    "transition/16v9.bouncebox",
+    "transition/16v9.crack_transition",
+    "transition/checker",
+    "transition/checker.1v1",
+    "transition/checker.9v16",
+
+    "transition/3v4.crack_transition",
+    "transition/checker.3v4",
+
+    "transition/4v3.crack_transition",
+    "transition/checker.4v3",
+
+    "transition/4v5.crack_transition",
+    "transition/checker.4v5",
+    
+    "transition/checker.2.35v1",
+
+    "transition/flip",
+    "transition/strips",
+    "transition/zoomflip"
+  ],
+  "minVersionCode": 2,
+  "packageContentVersion": 2,
+  "targetVersionCode": 4
+}

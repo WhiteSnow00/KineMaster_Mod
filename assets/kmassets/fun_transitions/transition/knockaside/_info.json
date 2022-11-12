@@ -1,0 +1,31 @@
+{
+  "ratios":["16:9","9:16","1:1","4:5","4:3","3:4","2.35:1"],
+  "filename": "kedl.xml",
+  "kmcategory" : ["kmc.transition"],
+  "icon": "asset_icon.png",
+  "ratioGroupId" : "com.kinemaster.rgroup.bundle.transition.knockaside",
+  "id": "com.nexstreaming.kinemaster.builtin3.knockaside",
+  "label": {
+    "en": "Knock Aside",
+    "ar": "طرق جانبًا",
+    "ko": "옆으로 밀어내기",
+    "pt": "Bater de lado",
+    "ja": "端へ押し出す",
+    "fr": "Basculement sur le côté",
+    "zh-CN": "敲除",
+    "zh-TW": "推敲",
+    "zh-HK": "推敲",
+    "de": "Knock Aside",
+    "ru": "Выбивание",
+    "es": "Empujar a un lado",
+    "hi":"बग़ल में धकेले",
+    "id":"Ketuk ke samping",
+    "it":"Colpo di Lato",
+    "ms":"Ketuk ke Sampingan",
+    "th":"เคาะไปข้างๆ",
+    "tr":"Bir Tarafa Darbe",
+    "vi":"Hất Sang bên"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

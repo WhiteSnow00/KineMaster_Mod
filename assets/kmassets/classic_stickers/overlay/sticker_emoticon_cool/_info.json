@@ -1,0 +1,7 @@
+{
+	"type":"nex.overlay",
+	"kmcategory" : ["kmc.overlay"],
+	"filename":"sticker_emoticon_cool.svg",
+	"thumbnail":"sticker_emoticon_cool.svg",
+	"id" : "com.kinemaster.design.builtin.overlay.sticker_emoticon_cool"
+}

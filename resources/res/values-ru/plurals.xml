@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="one">%d дорожка</item>
+        <item quantity="few">%d дорожки</item>
+        <item quantity="many">%d дорожек</item>
+    </plurals>
+    <plurals name="duplicate_item_msg">
+        <item quantity="one">Дублировать %s элемент?</item>
+        <item quantity="few">Дублировать %s элемента?</item>
+        <item quantity="many">Дублировать %s элементов?</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="one">Пароль недостаточно надежен. Используйте как минимум %1$d символ и сочетание букв и цифр</item>
+        <item quantity="few">Пароль недостаточно надежен. Используйте как минимум %1$d символа и сочетание букв и цифр</item>
+        <item quantity="many">Пароль недостаточно надежен. Используйте как минимум %1$d символов и сочетание букв и цифр</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду вперед</item>
+        <item quantity="few">Перемотать на %d секунды вперед</item>
+        <item quantity="many">Перемотать на %d секунд вперед</item>
+        <item quantity="other">Перемотать на %d секунды вперед</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду назад</item>
+        <item quantity="few">Перемотать на %d секунды назад</item>
+        <item quantity="many">Перемотать на %d секунд назад</item>
+        <item quantity="other">Перемотать на %d секунды назад</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Пароль должен состоять из букв и цифр и содержать не меньше %1$d символа.</item>
+        <item quantity="few">Пароль должен состоять из букв и цифр и содержать не меньше %1$d символов.</item>
+        <item quantity="many">Пароль должен состоять из букв и цифр и содержать не меньше %1$d символов.</item>
+        <item quantity="other">Пароль должен состоять из букв и цифр и содержать не меньше %1$d символа.</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="one">Аудио файл отсутствует в этом проекте в %s.</item>
+        <item quantity="few">Аудио файлы отсутствуют в этом проекте.</item>
+        <item quantity="many">В проекте отсутствуют файлы аудио.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="one">В проекте отсутствует файл изображения в %s.</item>
+        <item quantity="few">Файлы изображений отсутствуют в этом проекте.</item>
+        <item quantity="many">В проекте отсутствуют файлы изображений.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="one">Рекомендуется заменить отсутствующий медиа файл перед сохранением.</item>
+        <item quantity="few">Рекомендуется заменить отсутствующие медиа файлы перед сохранением.</item>
+        <item quantity="many">Рекомендуется заменить их перед экспортом.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="one">В проекте отсутствует файл Видео в %s.</item>
+        <item quantity="few">Видео файлы отсутствуют в этом проекте.</item>
+        <item quantity="many">В проекте отсутствуют файлы видео.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="project_comment_count_title">
+        <item quantity="one">%d комментарий</item>
+        <item quantity="few">%d комментария</item>
+        <item quantity="many">%d комментариев</item>
+    </plurals>
+    <plurals name="select_multiple_project_delete_popup">
+        <item quantity="one">%d проект будет удален.</item>
+        <item quantity="few">%d проекты будут удалены.</item>
+        <item quantity="many">%d проекты будут удалены.</item>
+    </plurals>
+    <plurals name="selected_multiple_project_title">
+        <item quantity="one">%d Проект выбран</item>
+        <item quantity="few">%d Проекты выбраны</item>
+        <item quantity="many">%d Проекты выбраны</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="one">Премиум Пользователь KineMaster (осталось %d дней)</item>
+        <item quantity="few">Премиум Пользователь KineMaster (осталось %d дней)</item>
+        <item quantity="many">Премиум Пользователь KineMaster (%d days remaining)</item>
+    </plurals>
+    <plurals name="sub_month_for_month">
+        <item quantity="one">%s за %d месяц</item>
+        <item quantity="few">%s / месяц за %d месяцев</item>
+        <item quantity="many">%s / месяц за %d месяцев</item>
+    </plurals>
+    <plurals name="sub_year_for_year">
+        <item quantity="one">%s за %d год</item>
+        <item quantity="few">%s / год за %d лет</item>
+        <item quantity="many">%s / год за %d лет</item>
+    </plurals>
+</resources>

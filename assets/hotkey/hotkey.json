@@ -1,0 +1,138 @@
+[
+  {"category": "edit", "keys": ["escape"], "description":"move to previous", "command": "backPressed"},
+
+  {"category": "edit", "keys": ["space"], "description":"play/stop", "command": "play/stop"},
+
+  {"category": "option", "keys": ["ctrl+,"], "description":"open setting", "command": "open", "param": "setting"},
+
+  {"category": "option", "keys": ["ctrl+enter"], "description":"open export", "command": "open", "param": "export"},
+  {"category": "option", "keys": ["shift+3"], "description":"open asset store", "command": "open", "param": "asset"},
+
+  {"category": "option", "keys": ["alt+m"], "description":"open media browser", "command": "open", "param": "mediaPrimary"},
+  {"category": "option", "keys": ["alt+l"], "description":"open media browser", "command": "open", "param": "mediaLayer"},
+  {"category": "option", "keys": ["alt+a"], "description":"open media browser", "command": "open", "param": "audio"},
+
+  {"category": "option", "keys": ["alt+r"], "description":"show voice recorder", "command": "open", "param": "voiceRecorder"},
+
+  {"category": "option", "keys": ["alt+p"], "description":"capture image", "command": "open", "param": "camera"},
+  {"category": "option", "keys": ["alt+v"], "description":"capture video", "command": "open", "param": "camcorder"},
+
+  {"category": "option", "keys": ["alt+e"], "description":"add effect", "command": "add", "param": "effect"},
+  {"category": "option", "keys": ["alt+s"], "description":"add sticker", "command": "add", "param": "sticker"},
+  {"category": "option", "keys": ["alt+t"], "description":"add text", "command": "add", "param": "text"},
+  {"category": "option", "keys": ["alt+h"], "description":"add handwriting", "command": "add", "param": "handwriting"},
+
+  {"category": "option", "keys": ["alt+y"], "description":"capture and save", "command": "add", "param": "save"},
+  {"category": "option", "keys": ["alt+u"], "description":"capture and add as clip", "command": "add", "param": "addClip"},
+  {"category": "option", "keys": ["alt+i"], "description":"capture and add as layer", "command": "add", "param": "addLayer"},
+
+  {"category": "edit", "keys": ["ctrl+z"], "description":"Undo", "command": "undo"},
+  {"category": "edit", "keys": ["ctrl+shift+z", "ctrl+y"], "description":"Redo", "command": "redo"},
+
+  {"category": "edit", "keys": ["g"], "description":"full screen mode", "command": "fullscreen"},
+  {"category": "edit", "keys": ["x"], "description":"expand timeline", "command": "expandTimeline"},
+  {"category": "edit", "keys": ["v"], "description":"zoom in timeline", "command": "zoomInTimeline"},
+  {"category": "edit", "keys": ["c"], "description":"zoom out timeline", "command": "zoomOutTimeline"},
+
+
+  {"category": "edit", "keys": ["ctrl+left"], "description":"move timeline", "command": "moveTimeline", "param": "-5000"},
+  {"category": "edit", "keys": ["ctrl+right"], "description":"move timeline", "command": "moveTimeline", "param": "5000"},
+  {"category": "edit", "keys": ["shift+left"], "description":"move timeline", "command": "moveTimeline", "param": "-100"},
+  {"category": "edit", "keys": ["shift+right"], "description":"move timeline", "command": "moveTimeline", "param": "100"},
+
+  {"category": "edit", "keys": ["ctrl+>", "ctrl+shift+."], "description":"move to timeline", "command": "moveTimeline", "param": "next"},
+  {"category": "edit", "keys": ["ctrl+<", "ctrl+shift+,"], "description":"move to timeline", "command": "moveTimeline", "param": "previous"},
+
+  {"category": "edit", "keys": ["home", "shift+,"], "description":"move timeline or clip start", "command": "moveTimeline", "param": "start"},
+  {"category": "edit", "keys": ["end", "shift+."], "description":"move timeline or clip end", "command": "moveTimeline", "param": "end"},
+
+  {"category": "edit", "keys": ["b"], "description":"add bookmark", "command": "bookmark", "param": "add/remove"},
+  {"category": "edit", "keys": ["alt+b"], "description":"move to bookmark", "command": "bookmark", "param": "next"},
+  {"category": "edit", "keys": ["alt+shift+b"], "description":"move to bookmark", "command": "bookmark", "param": "previous"},
+
+  {"category": "edit", "keys": ["d"], "description":"split", "command": "trim", "param": "center"},
+  {"category": "edit", "keys": ["s"], "description":"left trim", "command": "trim", "param": "left"},
+  {"category": "edit", "keys": ["f"], "description":"right trim", "command": "trim", "param": "right"},
+  {"category": "edit", "keys": ["w"], "description":"split and freeze frame", "command": "trim", "param": "addFreezeFrame"},
+
+  {"category": "edit", "keys": ["ctrl+f"], "description":"Horizontal flip(clip, layer)", "command": "flip", "param": "horizontal"},
+  {"category": "edit", "keys": ["ctrl+alt+f"], "description":"vertical flip(clip, layer)", "command": "flip", "param": "vertical"},
+
+  {"category": "edit", "keys": ["(", "shift+9"], "description":"rotate(layer)", "command": "rotate", "param": "-5"},
+  {"category": "edit", "keys": ["ctrl+(", "ctrl+shift+9"], "description":"rotate(layer)", "command": "rotate", "param": "-45"},
+  {"category": "edit", "keys": [")", "shift+0"], "description":"rotate(layer)", "command": "rotate", "param": "5"},
+  {"category": "edit", "keys": ["ctrl+)", "ctrl+shift+0"], "description":"rotate(layer)", "command": "rotate", "param": "45"},
+  {"category": "edit", "keys": ["ctrl+alt+)", "ctrl+alt+shift+9"], "description":"rotate(clip, layer)", "command": "rotate", "param": "-90"},
+  {"category": "edit", "keys": ["ctrl+alt+(", "ctrl+alt+shift+0"], "description":"rotate(clip, layer)", "command": "rotate", "param": "90"},
+
+  {"category": "edit", "keys": ["ctrl+up"], "description":"bring front", "command": "order","param": "forward"},
+  {"category": "edit", "keys": ["ctrl+shift+up"], "description":"bring to front", "command": "order","param": "front"},
+  {"category": "edit", "keys": ["ctrl+down"], "description":"send backward", "command": "order","param": "backward"},
+  {"category": "edit", "keys": ["ctrl+shift+down"], "description":"send to backward", "command": "order","param": "back"},
+
+  {"category": "edit", "keys": ["alt+left"], "description":"move left", "command": "moveH","param": "-1"},
+  {"category": "edit", "keys": ["alt+right"], "description":"move right", "command": "moveH","param": "1"},
+  {"category": "edit", "keys": ["alt+up", "pageup"], "description":"move up", "command": "moveV","param": "-1"},
+  {"category": "edit", "keys": ["alt+down", "pagedown"], "description":"move down", "command": "moveV","param": "1"},
+
+  {"category": "edit", "keys": ["alt+shift+left"], "description":"move left", "command": "moveH","param": "-10"},
+  {"category": "edit", "keys": ["alt+shift+right"], "description":"move right", "command": "moveH","param": "10"},
+  {"category": "edit", "keys": ["alt+shift+up", "shift+pageUp"], "description":"move up", "command": "moveV","param": "-10"},
+  {"category": "edit", "keys": ["alt+shift+down", "shift+pageDown"], "description":"move down", "command": "moveV","param": "10"},
+
+  {"category": "edit", "keys": ["minus", "shift+minus"], "description":"Scale of layer", "command": "scale", "param": "0.95f"},
+  {"category": "edit", "keys": ["plus", "shift+equal"], "description":"Scale of layer", "command": "scale", "param": "1.05"},
+
+  {"category": "edit", "keys": ["alt+0"], "description":"opacity", "command": "opacity","param": "100"},
+  {"category": "edit", "keys": ["alt+1"], "description":"opacity", "command": "opacity","param": "10"},
+  {"category": "edit", "keys": ["alt+2"], "description":"opacity", "command": "opacity","param": "20"},
+  {"category": "edit", "keys": ["alt+3"], "description":"opacity", "command": "opacity","param": "30"},
+  {"category": "edit", "keys": ["alt+4"], "description":"opacity", "command": "opacity","param": "40"},
+  {"category": "edit", "keys": ["alt+5"], "description":"opacity", "command": "opacity","param": "50"},
+  {"category": "edit", "keys": ["alt+6"], "description":"opacity", "command": "opacity","param": "60"},
+  {"category": "edit", "keys": ["alt+7"], "description":"opacity", "command": "opacity","param": "70"},
+  {"category": "edit", "keys": ["alt+8"], "description":"opacity", "command": "opacity","param": "80"},
+  {"category": "edit", "keys": ["alt+9"], "description":"opacity", "command": "opacity","param": "90"},
+
+  {"category": "edit", "keys": ["k"], "description":"add/remove keyframe", "command": "keyFrame", "param": "add/remove"},
+  {"category": "edit", "keys": ["alt+k"], "description":"add/remove keyframe", "command": "keyFrame", "param": "next"},
+  {"category": "edit", "keys": ["alt+shift+k"], "description":"add/remove keyframe", "command": "keyFrame", "param": "previous"},
+
+  {"category": "edit", "keys": ["ctrl+;"], "description":"speed control", "command": "speedControl", "param": "0.95"},
+  {"category": "edit", "keys": ["ctrl+'"], "description":"speed control", "command": "speedControl", "param": "1.05"},
+
+  {"category": "edit", "keys": ["ctrl+u"], "description":"underline", "command": "textOption", "param": "underline"},
+  {"category": "edit", "keys": ["ctrl+shift+l"], "description":"align left", "command": "textAlign", "param": "left"},
+  {"category": "edit", "keys": ["ctrl+shift+c"], "description":"align center", "command": "textAlign", "param": "center"},
+  {"category": "edit", "keys": ["ctrl+shift+r"], "description":"align right", "command": "textAlign", "param": "right"},
+  {"category": "edit", "keys": ["ctrl+shift+t"], "description":"align top", "command": "textAlign", "param": "top"},
+  {"category": "edit", "keys": ["ctrl+shift+m"], "description":"align middle", "command": "textAlign", "param": "middle"},
+  {"category": "edit", "keys": ["ctrl+shift+b"], "description":"align bottom", "command": "textAlign", "param": "bottom"},
+
+  {"category": "edit", "keys": ["ctrl+plus", "ctrl+equal", "ctrl+shift+equal"], "description":"letter spacing", "command": "letterSpace", "param": "0.05"},
+  {"category": "edit", "keys": ["ctrl+minus"], "description":"letter spacing", "command": "letterSpace", "param": "-0.05"},
+
+  {"category": "edit", "keys": ["ctrl+alt+plus", "ctrl+alt+equal", "ctrl+alt+shift+equal"], "description":"line spacing", "command": "lineSpace", "param": "0.05"},
+  {"category": "edit", "keys": ["ctrl+alt+minus"], "description":"lint spacing", "command": "lineSpace", "param": "-0.05"},
+
+  {"category": "optionMain", "keys": ["i"], "description":"information", "command": "information"},
+  {"category": "optionMain", "keys": ["a"], "description":"replace", "command": "replace"},
+  {"category": "optionMain", "keys": ["ctrl+e"], "description":"input text of text layer", "command": "input"},
+  {"category": "optionMain", "keys": ["ctrl+delete", "ctrl+backspace"], "description":"delete", "command": "delete"},
+  {"category": "optionMain", "keys": ["ctrl+d"], "description":"duplicate as clip", "command": "duplicate", "param": "clip"},
+  {"category": "optionMain", "keys": ["ctrl+shift+d"], "description":"duplicate as layer", "command": "duplicate", "param": "layer"},
+  {"category": "optionMain", "keys": ["ctrl+alt+s"], "description":"open setting menu of asset layer", "command": "open","param": "setting"},
+
+  {"category": "handwriting", "keys": ["p"], "description":"change pen", "command": "option", "param": "pen"},
+  {"category": "handwriting", "keys": ["e"], "description":"eraser", "command": "option", "param": "erase"},
+  {"category": "handwriting", "keys": ["ctrl+backspace", "ctrl+delete"], "description":"eraser", "command": "option", "param": "eraseAll"},
+
+  {"category": "handwriting", "keys": ["ctrl+plus", "ctrl+shift+equal", "ctrl+equal"], "description":"increase pen size", "command": "size", "param": "-1"},
+  {"category": "handwriting", "keys": ["ctrl+minus"], "description":"decrease pen size", "command": "size", "param": "1"},
+
+  {"category": "store", "keys": ["escape"], "description":"move to previous", "command": "backPressed"},
+  {"category": "store", "keys": ["ctrl+m"], "description":"my asset", "command": "myAsset"},
+  {"category": "store", "keys": ["space"], "description":"preview play/stop", "command": "space"},
+  {"category": "store", "keys": ["left"], "description":"previous preview", "command": "prev"},
+  {"category": "store", "keys": ["right"], "description":"next preview", "command": "next"}
+]
